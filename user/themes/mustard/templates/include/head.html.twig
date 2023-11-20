@@ -1,0 +1,41 @@
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Sibiyā" />
+<meta name="copyright" content="2023, Sibiyā" />
+<link rel="icon" type="image/x-icon" href="/assets/img/android-chrome-192x192.png">
+    <title>{% if page.title %}{{ page.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
+
+{% for meta in page.metadata %}
+    <meta {% if meta.name %}name="{{ meta.name|e }}" {% endif %}{% if meta.http_equiv %}http-equiv="{{ meta.http_equiv|e }}" {% endif %}{% if meta.charset %}charset="{{ meta.charset|e }}" {% endif %}{% if meta.property %}property="{{ meta.property|e }}" {% endif %}{% if meta.content %}content="{{ meta.content|raw }}" {% endif %}>
+{% endfor %}
+
+{% block stylesheets %}
+{% do assets.addCss('theme://css/mustard-ui.min.css') %}
+{% do assets.addCss('theme://css/custom.css') %}
+{% endblock %}
+
+
+{% block javascripts %}
+
+{% endblock %}
+
+<!--
+        % do assets.addJs('jquery', 101) %
+        % do assets.addJs('theme://js/matomo.js') %
+-->
+
+<!--
+<link rel="stylesheet" href="/assets/css/custom.css">
+<link rel="stylesheet" href="/assets/css/poem.css">
+<link rel="stylesheet" href="/assets/webfonts/fontawesome-free-5.15.2-web/css/all.css?ver=103" >
+-->
+
+
+{% block assets deferred %}
+        {{ assets.css()|raw }}
+        {{ assets.js()|raw }}
+{% endblock %}
+
+</head>

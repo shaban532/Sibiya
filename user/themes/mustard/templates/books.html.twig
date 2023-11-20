@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+{% block content %}
+
+<h2 class="alert alert-danger" style="color:black;"> {{ page.title }} </h2>
+</br>
+
+{% for post in page.collection.order('order', 'date', 'desc').slice(0, 5000)|reverse %}
+
+<a style="color:black;" href="{{ post.url }}">
+ <p class="alert alert-info"> {{ post.title }} </p></a>
+ <div style=" text-align: justify; text-justify: inter-word;">
+    {{ post.content|raw }}
+</div>
+
+
+{% endfor %}
+{% endblock %}

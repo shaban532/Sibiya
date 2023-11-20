@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="rtl">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>خطا در نمایش وب سایت</title>
+<style type="text/css" media="all">
+
+@font-face {
+  font-family: 'BLotus';
+  src: url('http://ParsPack.com/images/stories/chosting/usertemplate/BLotus.eot?#') format('eot'),  /* IE6–8 */
+       url('http://ParsPack.com/images/stories/chosting/usertemplate/BLotus.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('http://ParsPack.com/images/stories/chosting/usertemplate/BLotus.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+
+
+body {
+	background: #f6f6ec url(http://ParsPack.com/images/stories/chosting/usertemplate/bg.png) left top;
+}
+
+
+#container {
+	background: none repeat scroll 0 0 #FFFFFF;
+	box-shadow: 0 0 10px #CDCDC3;
+	font-size: 20px;
+	height: 280px;
+	margin: 200px auto 0;
+	position: relative;
+	width: 700px;
+	/* -webkit-border-radius: 12px;  Saf3-4, iOS 1-3.2, Android <1.6 */
+	/* -moz-border-radius: 12px;  FF1-3.6 */
+	/* border-radius: 12px;  Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
+	
+	
+	-webkit-box-shadow: 0px 0px 10px #cdcdc3; /* Saf3.0+, Chrome */
+	-moz-box-shadow: 0px 0px 10px #cdcdc3; /* FF3.5 - 3.6 */
+	box-shadow: 0px 0px 10px #cdcdc3; /* Opera 10.5, IE9, FF4+, Chrome 10+ */
+
+}
+
+#container div {
+	
+	-webkit-transition: background-color 0.3s ease-out;  /* Saf3.2+, Chrome */
+	-moz-transition: all 0.3s ease-out;  /* FF4+ */
+	-ms-transition: all 0.3s ease-out;  /* IE10? */
+	-o-transition: all 0.3s ease-out;  /* Opera 10.5+ */
+	transition: all 0.3s ease-out;
+	position: relative;  
+}
+	
+
+#container .error {
+background-color: #A7A791;
+color: #FFFFFF;
+font-family: tahoma;
+font-size: 12px;
+margin-top: 0;
+padding-bottom: 2px;
+padding-right: 5px;
+padding-top: 2px;
+}
+
+
+
+#container .error p {
+	margin: 0;
+}
+#container .deny {
+font-family: BLotus;
+font-size: 22px !important;
+margin-left: 15px;
+margin-right: 15px;
+margin-top: 70px;
+text-align: center;
+}
+
+
+
+
+.footer, .footer a:active, .footer a:hover, .footer a:visited, .footer a  {
+bottom: 5px;
+color: #CCCCCC;
+font-family: arial;
+font-size: 12px;
+	margin-left: auto;
+	text-align:center;
+	direction:ltr;
+	text-decoration:none;
+}
+
+.boxFooter {
+background-color: #333333;
+bottom: 0;
+box-shadow: 0 -2px 1px #000000;
+height: 20px;
+position: fixed;
+width: 100%;
+left:0;
+}
+.admin {
+color: #404033;
+font-family: tahoma;
+font-size: 11px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 3px;
+text-align: left;
+width: 700px;
+}
+
+</style>
+</head>
+
+<body>
+
+
+<div id="container">
+
+	<div class="error">خطای شماره 500</div>
+    <div class="deny">متاسفانه در حال حاضر دسترسی به این وب سایت میسر نمی باشد، <br>خواهشمند است دقایقی دیگر مجدد بررسی فرمائید.</div>
+
+
+</div>
+
+</div>
+<div class="admin">در این ارتباط می توانید با مسئول وب سایت تماس حاصل فرمائید.</div>
+
+<div class="boxFooter">
+<div class="container1">
+ <div class="footer"><a href="http://parspack.com/cloud-hosting">Copyright &copy; 2008-2012 &nbsp; ParsPack Cloud Computing Technology , &nbsp; All rights reserved.</a></div>
+ </div>
+ </div>
+
+
+
+</body>
+</html>

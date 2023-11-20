@@ -1,0 +1,242 @@
+@font-face {
+  font-family: 'Vazir';
+  src: url('../fonts/Vazirmatn[wght].woff2') format('woff2 supports variations'),
+       url('../fonts/Vazirmatn[wght].woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Mikhak';
+  src: url('../fonts/Mikhak[DSTY,KSHD,wght].woff2') format('woff2 supports variations'),
+       url('../fonts/Mikhak[DSTY,KSHD,wght].woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lalezar';
+  src: url('../fonts/Lalezar-Regular.woff2') format('woff2 supports variations'),
+       url('../fonts/Lalezar-Regular.woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+/*https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25*/
+--brand-color:              #bc6c25;
+--background-color:   #fefae0;
+--footer-color:             #dda15e;
+--text-color:                 #283618;
+--title-color:                 #606c38;
+
+
+/*https://coolors.co/palette/22223b-4a4e69-9a8c98-c9ada7-f2e9e4*/
+--brand-color:              #4a4e69;
+--background-color:   #f2e9e4;
+--footer-color:             #9a8c98;
+--text-color:                 #22223b;
+--title-color:                 #c9ada7;
+}
+
+
+
+body {
+  font-family: "awesome-b", "awesome-r", "awesome-s", "Vazir", "El Messiri", "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 300;
+  color: var(--text-color); }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lalezar", " Vazir", "El Messiri", "Open Sans", sans-serif;
+  font-weight: 900;
+  color: var(--text-color);
+  margin: 0 0 10px;
+  text-align: center;
+  }
+ 
+ navv{
+   font-family: "awesome-b", "awesome-r", "awesome-s", "Mikhak", "El Messiri", "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 38px;
+  color: var(--background-color);
+ }
+h1{
+  font-family: "awesome-b", "awesome-r", "awesome-s", "Lalezar", "El Messiri", "Open Sans", sans-serif;
+}  
+
+ button{
+  font-family: "Vazir", "El Messiri", "Open Sans", sans-serif;
+   font-size: 18px;
+  line-height: 1.6;
+  font-weight: 500;
+} 
+
+.button-brand{background-color:var(--brand-color);color:#fff;border-color:var(--brand-color);}
+.button-brand-outlined{background-color:#fff;color:var(--brand-color);border-color:var(--brand-color);}
+.button-brand-text{color:var(--brand-color);border-color:transparent}
+
+
+.button-background{background-color:var(--background-color);color:#000;border-color:var(--background-color);}
+.button-background-outlined{background-color:#000;color:var(--background-color);border-color:var(--background-color);}
+.button-background-text{color:var(--background-color);border-color:transparent}
+
+.button-footer{background-color:var(--footer-color);color:#000;border-color:var(--footer-color);}
+.button-footer-outlined{background-color:#000;color:var(--footer-color);border-color:var(--footer-color);}
+.button-footer-text{color:var(--footer-color);border-color:transparent}
+
+input[type="color"],input[type="date"],input[type="datetime-local"],input[type="email"],input[type="month"],input[type="number"],input[type="range"],input[type="search"],input[type="tel"],input[type="time"],input[type="url"],input[type="week"],input[type="text"],input[type="password"],select{-webkit-appearance:none;-moz-appearance:none;appearance:none;display:block;width:100%;padding:10px;line-height:20px;font-size:16px;font-weight:inherit;background:#fff;border-radius:5px;border:1px solid #bdbdbd;
+  font-family: "Vazir", "El Messiri", "Open Sans", sans-serif;
+   font-size: 18px;
+  line-height: 1.6;
+  font-weight: 500;
+  }
+input::-webkit-input-placeholder,select::-webkit-input-placeholder,fieldset::-webkit-input-placeholder{color:#9e9e9e;
+  font-family: "Vazir", "El Messiri", "Open Sans", sans-serif;
+   font-size: 18px;
+  line-height: 1.6;
+  font-weight: 500;
+  }
+input:-ms-input-placeholder,select:-ms-input-placeholder,fieldset:-ms-input-placeholder{color:#9e9e9e;
+  font-family: "Vazir", "El Messiri", "Open Sans", sans-serif;
+   font-size: 18px;
+  line-height: 1.6;
+  font-weight: 500;
+  }
+input::-ms-input-placeholder,select::-ms-input-placeholder,fieldset::-ms-input-placeholder{color:#9e9e9e;
+  font-family: "Vazir", "El Messiri", "Open Sans", sans-serif;
+   font-size: 18px;
+  line-height: 1.6;
+  font-weight: 500;
+  }
+  input::placeholder,select::placeholder,fieldset::placeholder{color:#9e9e9e;
+  font-family: "Vazir", "El Messiri", "Open Sans", sans-serif;
+   font-size: 18px;
+  line-height: 1.6;
+  font-weight: 500;
+  }
+textarea::placeholder{color:#9e9e9e;
+  font-family: "Vazir", "El Messiri", "Open Sans", sans-serif;
+   font-size: 18px;
+  line-height: 1.6;
+  font-weight: 500;
+  }
+  
+  .form-control-group .form-control{flex:1;padding-left:15px; padding-right:0}
+
+  
+  p {
+  margin-bottom: 15px; }
+  p.magnify {
+    font-size: 17.6px;
+    line-height: 1.8; }
+    strong,
+b {
+  font-weight: 600; }
+  
+footer {
+  background: #fffd61; }
+
+.footer-text p {
+  color: #000000; }
+
+footer .copyright {
+  color: #000000; }
+
+blockquote {
+  display: block;
+  margin: 15px 15px 30px;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  border-right: 4px solid var(--brand-color);
+  border-left: 0px solid var(--brand-color);
+  /*
+  border-top: 4px solid #27c47d;
+  border-bottom: 4px solid #27c47d;
+  */
+  background: #ffffff; }
+  blockquote :last-child {
+    margin-bottom: 0; }
+    
+a {
+  text-decoration: none;
+  color: #27c47d;
+  font-weight: 500;
+  transition: opacity .1s ease-out; }
+  a:focus, a:hover {
+    opacity: 0.75; }
+  a:active {
+    opacity: 1; }
+
+hr.mima {
+  border-style: none; }
+
+hr.mima:after {
+  content: "\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863\f863";
+  width: 100%;
+  overflow: hidden;
+  display: block;
+  font-size: 50px;
+  white-space: nowrap; }
+
+/*
+  CSS Styles Provided by Mustard UI
+  https://mustard-ui.com
+*/
+
+.breadcrumbs-alt li {
+  padding: 10px 15px;
+  background: #eeeeee;
+}
+
+.breadcrumbs-alt li::after {
+  padding-right: 30px;
+  content: '>>';
+}
+
+.alert{margin:15px 0;padding-bottom:5px;padding-top:5px;border-radius:5px}
+
+/*
+.alert{margin:15px 0;padding-bottom:20px;padding-top:0px;border-radius:5px;line-height:0px}
+*/
+
+.section-primary{background: var(--brand-color);}
+.section-secondary{background: var(--background-color);}
+.section-tertiary{background: var(--background-color);}
+.footer,footer{background: var(--footer-color);}
+.alert-title {background: var(--title-color);}
+
+.section,section{padding-bottom:0px;padding-top:10px}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+  max-height: 80vh;
+}
+/*
+These line Removed From mustard-min.css:
+
+panel-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;padding:10px 15px;background:#fafafa}.panel-head .panel-title{font-size:28px}
+
+#e9ecef
+*/
+
+.panel-head{
+    display:block;
+    background:var(--title-color);
+}
+.panel-footer{
+    display:block;
+    background:var(--title-color);
+}
+
+.panel-head .panel-title{font-size:14px}
