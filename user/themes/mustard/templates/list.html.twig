@@ -56,11 +56,11 @@
 <div class="panel-body" style=" text-align: justify; text-justify: inter-word;">
 {{ post.summary|raw }}
          {% for tag in post.taxonomy.tag %}
-    <button class="button-footer"  style="color:white;" onclick="window.location.href='/tags/{{ tag }}';">{{ tag }}</button>
+    <button class="button-footer button-small"  style="color:white;" onclick="window.location.href='/tags/{{ tag }}';">{{ tag }}</button>
 {% endfor %}
 </div>
 <div class="panel-footer">
-<a href="{{ post.url }}" class="button button-brand">خواندن</a>
+<a href="{{ post.url }}" class="button-brand">خواندن</a>
 </div>
 </div>
 </div>
