@@ -34,7 +34,7 @@
 
 <div class="row" >
 {% for post in page.collection.order('order', 'date', 'desc').slice(0, 5000)%}
-<div class="col col-md-6">
+<div class="col col-md-12">
 <div class="panel" >
   <div class="panel-head align-right">
   <h2 class="alert alert-title" style="color:black;"> {{ post.title }} </h2>
