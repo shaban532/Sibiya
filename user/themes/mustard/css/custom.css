@@ -240,3 +240,8 @@ panel-head{display:flex;align-items:center;justify-content:space-between;margin-
 }
 
 .panel-head .panel-title{font-size:14px}
+
+
+/* arze container-small nesbat be male inja (https://rastikerdar.blog.ir/1395/05/22/سریال-های-قدیمی-یا-مدرسه-تربیت-و-اخلاق) bishtar bud. hes kardam kam konam behtar beshe */
+
+.container-small{max-width:568px}
