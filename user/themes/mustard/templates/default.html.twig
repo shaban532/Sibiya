@@ -1,19 +1,13 @@
 {% extends 'base.html.twig' %}
 {% block content %}
 
-          <h1 class="alert alert-title" style="color:black;"> {{ page.title }} </h1>
+         
 
   <div class="panel">
     <div class="panel-head align-right">
-      {% if page.header.author %}
-  نویسنده: {{page.header.author|e}}
-         {% else %}
-      نویسنده: {{site.author.name|e}}
-       {% endif %}
-           <br>
-تاریخ انتشار:     {{page.header.pdate|e}}
-
-    </div>
+         <h1 class="alert alert-title" style="color:black;"> {{ page.title }} </h1>
+     </div>
+    
     <div class="panel-body" style=" text-align: justify; text-justify: inter-word;">
         {{ page.content|raw }}
          {% for p in page.taxonomy.tag %}
@@ -21,7 +15,14 @@
 {% endfor %}
     </div>
     <div class="panel-footer align-right ">
-        </br>
+         {% if page.header.author %}
+  نویسنده: {{page.header.author|e}}
+         {% else %}
+      نویسنده: {{site.author.name|e}}
+       {% endif %}
+           <br>
+تاریخ انتشار:     {{page.header.pdate|e}}
+    
     </div>
 </div>  
     
