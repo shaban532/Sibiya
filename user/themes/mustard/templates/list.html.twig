@@ -44,26 +44,24 @@
     </div>
 <div class="panel-body" style=" text-align: justify; text-justify: inter-word;">
 {{ post.summary|raw }}
+<div class="align-center">
+<a href="{{ post.url }}" class="button button-brand">خواندن</a>
+</div>
+
          {% for tag in post.taxonomy.tag %}
     <button class="button-footer button-small"  style="color:white;" onclick="window.location.href='/tags/{{ tag }}';">{{ tag }}</button>
 {% endfor %}
-<a href="{{ post.url }}" class="button button-brand">خواندن</a>
 
 </div>
-<div class="panel-footer">
- <div class="row" >
-  <div class="col col-md-12">
+<div class="panel-footer align-right">
   {% if post.header.author %}
   نویسنده: {{post.header.author|e}}
          {% else %}
       نویسنده: {{site.author.name|e}}
        {% endif %}
-          </div>
-  <div class="col col-md-12">
 تاریخ انتشار:     {{post.header.pdate|e}}
-           </div>
 </div>
-</div>
+
 </div>
 </div>
 {% endfor %}
