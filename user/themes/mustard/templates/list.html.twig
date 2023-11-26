@@ -45,21 +45,23 @@
 <div class="panel-body" style=" text-align: justify; text-justify: inter-word;">
 {{ post.summary|raw }}
 <div class="align-center">
-<a href="{{ post.url }}" class="button button-brand">خواندن</a>
+<a href="{{ post.url }}" class="button button-brand">ادامهٔ مطلب ... </a>
 </div>
-
+</br>
          {% for tag in post.taxonomy.tag %}
     <button class="button-footer button-small"  style="color:white;" onclick="window.location.href='/tags/{{ tag }}';">{{ tag }}</button>
 {% endfor %}
 
 </div>
 <div class="panel-footer align-right">
+نوشته شده توسط
   {% if post.header.author %}
-  نویسنده: {{post.header.author|e}}
+{{post.header.author|e}}
          {% else %}
-      نویسنده: {{site.author.name|e}}
+{{site.author.name|e}}
        {% endif %}
-تاریخ انتشار:     {{post.header.pdate|e}}
+در
+ {{post.header.pdate|e}}
 </div>
 
 </div>

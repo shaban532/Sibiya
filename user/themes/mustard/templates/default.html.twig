@@ -15,13 +15,14 @@
 {% endfor %}
     </div>
     <div class="panel-footer align-right ">
+    نوشته شده توسط
          {% if page.header.author %}
-  نویسنده: {{page.header.author|e}}
+{{page.header.author|e}}
          {% else %}
-      نویسنده: {{site.author.name|e}}
+{{site.author.name|e}}
        {% endif %}
-           <br>
-تاریخ انتشار:     {{page.header.pdate|e}}
+در
+ {{page.header.pdate|e}}
     
     </div>
 </div>  
