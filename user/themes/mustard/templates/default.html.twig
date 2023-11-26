@@ -1,9 +1,6 @@
 {% extends 'base.html.twig' %}
 {% block content %}
-
-         
-
-  <div class="panel">
+<div class="panel">
     <div class="panel-head align-right">
          <h1 class="alert alert-title" style="color:black;"> {{ page.title }} </h1>
      </div>
@@ -11,63 +8,18 @@
     <div class="panel-body" style=" text-align: justify; text-justify: inter-word;">
         {{ page.content|raw }}
          {% for p in page.taxonomy.tag %}
-    <button class="button-footer button-small"  style="color:white;" onclick="window.location.href='/tags/{{p}}';">{{ p }}</button>
-{% endfor %}
+            <button class="button-footer button-small"  style="color:white;" onclick="window.location.href='/tags/{{p}}';">{{ p }}</button>
+         {% endfor %}
     </div>
     <div class="panel-footer align-right ">
-    نوشته شده توسط
+        نوشته شده توسط
          {% if page.header.author %}
-{{page.header.author|e}}
+            {{page.header.author|e}}
          {% else %}
-{{site.author.name|e}}
-       {% endif %}
+            {{site.author.name|e}}
+         {% endif %}
 در
- {{page.header.pdate|e}}
-    
+         {{page.header.pdate|e}}
     </div>
 </div>  
-    
-    
-    
-  {#  
- <div class="align-center">
-{% for p in page.taxonomy.tag %}
-    <button class="button-brand" onclick="window.location.href='/tags/{{p}}';">{{ p }}</button>
-{% endfor %}
-</div>
-
-
-{% if not page.isFirst %}
-<a style="color:black;" href="{{ page.nextSibling.url }}">
- <p class="alert alert-info">قبلی : {{ page.nextSibling.title }} </p></a>
-{% endif %}
-
-{% if not page.isLast %}
-<a style="color:black;" href="{{ page.prevSibling.url }}">
- <p class="alert alert-info">بعدی : {{ page.prevSibling.title }} </p></a>
- {% endif %}
- 
- <section class="align-center">
- <ul class="pagination align-center">
-        {% if not page.isFirst %}
-    <li calss="align-center"><a href="{{ page.nextSibling.url }}">قبلی : {{ page.nextSibling.title }}</a></li>
- {% endif %}
-    {% if not page.isLast %}
-    <li><a href="{{ page.prevSibling.url }}">بعدی : {{ page.prevSibling.title }}</a></li>
- {% endif %}
-</ul>
- </section>
- 
-  <div class="align-center">
-    {% if not page.isFirst %}
-    <button class="button-primary-outlined" onclick="window.location.href='{{ page.nextSibling.url }}';">قبلی : {{ page.nextSibling.title }}</button>
- {% endif %}
-    {% if not page.isLast %}
-    <button class="button-primary-outlined" onclick="window.location.href='{{ page.prevSibling.url }}';">بعدی : {{ page.prevSibling.title }}</button>
-    {% endif %}
-</div>
-#}
-
-
-</div>
 {% endblock %}

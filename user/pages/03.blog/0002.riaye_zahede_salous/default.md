@@ -1,5 +1,11 @@
 ---
 title: ریای زاهد سالوس 
+metadata:
+    description:  
+pdate: سه شنبه ۴ مهر ۱۴۰۲    
+author: Sibiāā
+taxonomy:
+    tag: [ درد , بیمارستان , زندگی ]
 ---
 ![ریای زاهد سالوس](riaye_zahede_salous.jpg?classes=center)
 

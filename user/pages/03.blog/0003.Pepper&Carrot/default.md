@@ -1,7 +1,13 @@
 ---
 title: فلفل و هویج
+metadata:
+    description: 
+pdate: چهار شنبه ۵ مهر ۱۴۰۲    
+author: Sibiāā
+taxonomy:
+    tag: [ درد , بیمارستان , زندگی ]
 ---
-![ریای زاهد سالوس](Pepper_and_Carrot.png?classes=center)
+![لوگوی فلفل و هویچ](Pepper_and_Carrot.png?classes=center)
 
 امروز می‌خواهم کمیکی را معرفی کنم که تا به حال ۳۸ قسمت از آن منتشر شده است. 
 

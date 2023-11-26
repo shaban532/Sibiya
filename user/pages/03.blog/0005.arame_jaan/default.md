@@ -1,5 +1,11 @@
 ---
 title: آرام جان
+metadata:
+    description: 
+pdate: پنج شنبه ۱۲ آبان ۱۴۰۲    
+author: Sibiāā
+taxonomy:
+    tag: [ درد , بیمارستان , زندگی ]
 ---
 ![آرام جان](arame_jaan.jpg?classes=center)
 

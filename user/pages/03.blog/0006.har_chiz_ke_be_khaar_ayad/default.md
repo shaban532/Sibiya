@@ -1,5 +1,11 @@
 ---
 title: هر چیز که خوار آید
+metadata:
+    description:  
+pdate: یک شنبه ۳۰ مهر ۱۴۰۲    
+author: Sibiāā
+taxonomy:
+    tag: [ درد , بیمارستان , زندگی ]
 ---
 ![هر چیز که خوار آید](old-rusty-junk-garbage-steel_1150-10992.jpg?classes=center)
 

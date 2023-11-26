@@ -1,155 +1,37 @@
 {% extends 'base.html.twig' %}
 {% block content %}
- <h1 class="alert alert-title" style="color:black;"> {{ site.fa_title|e('html') }} </h1>
-{#
-{% for p in page.collection %}
-<h2>{{ p.title|e }}</h2>
-{{ p.summary|raw }}
-
-{% endfor %}
-{% for post in page.collection.order('order', 'date', 'desc').slice(0, 5000)|reverse %}
-
-
-{% for post in page.collection.order('order', 'date', 'desc').slice(0, 5000)%}
-{% if loop.index % 4 == 0 and post.published == true %}
-<a style="color:black;" href="{{ post.url }}">
- <p class="alert alert-title"> {{ post.title }} </p></a>
-{% endif %}
-{% if loop.index % 4 == 1 and post.published == true %}
-<a style="color:black;" href="{{ post.url }}">
- <p class="alert alert-title"> {{ post.title }} </p></a>
-{% endif %}
-{% if loop.index % 4 == 2 and post.published == true %}
-<a style="color:black;" href="{{ post.url }}">
- <p class="alert alert-title"> {{ post.title }} </p></a>
-{% endif %}
-{% if loop.index % 4 == 3  and post.published == true %}
-<a style="color:black;" href="{{ post.url }}">
- <p class="alert alert-title"> {{ post.title }} </p></a>
-{% endif %}
-{% endfor %}
-#}
-
-
-
-<div class="row" >
-{% for post in page.collection.order('order', 'date', 'desc').slice(0, 5000)%}
-<div class="col col-md-12">
-<div class="panel" >
-  <div class="panel-head align-right">
-  <h2 class="alert alert-title" style="color:black;"> {{ post.title }} </h2>
-  <p class="panel-title">
- 
-    </p>
-    </div>
-<div class="panel-body" style=" text-align: justify; text-justify: inter-word;">
-{{ post.summary|raw }}
-<div class="align-center">
-<a href="{{ post.url }}" class="button button-brand">ادامهٔ مطلب ... </a>
-</div>
-</br>
-         {% for tag in post.taxonomy.tag %}
-    <button class="button-footer button-small"  style="color:white;" onclick="window.location.href='/tags/{{ tag }}';">{{ tag }}</button>
-{% endfor %}
-
-</div>
-<div class="panel-footer align-right">
+    <h1 class="alert alert-title" style="color:black;"> {{ site.fa_title|e('html') }} </h1>
+    <div class="row" >
+        {% for post in page.collection.order('order', 'date', 'desc').slice(0, 5000)%}
+            <div class="col col-md-12">
+                <div class="panel" >
+                    <div class="panel-head align-right">
+                        <h2 class="alert alert-title" style="color:black;"> {{ post.title }} </h2>
+                        <p class="panel-title">
+                        </p>
+                    </div>
+                    <div class="panel-body" style=" text-align: justify; text-justify: inter-word;">
+                        {{ post.summary|raw }}
+                        <div class="align-center">
+                            <a href="{{ post.url }}" class="button button-brand">ادامهٔ مطلب ... </a>
+                        </div>
+                        </br>
+                        {% for tag in post.taxonomy.tag %}
+                            <button class="button-footer button-small"  style="color:white;" onclick="window.location.href='/tags/{{ tag }}';">{{ tag }}</button>
+                        {% endfor %}
+                    </div>
+                    <div class="panel-footer align-right">
 نوشته شده توسط
-  {% if post.header.author %}
-{{post.header.author|e}}
-         {% else %}
-{{site.author.name|e}}
-       {% endif %}
+                        {% if post.header.author %}
+                            {{post.header.author|e}}
+                        {% else %}
+                            {{site.author.name|e}}
+                        {% endif %}
 در
- {{post.header.pdate|e}}
-</div>
-
-</div>
-</div>
-{% endfor %}
-</div>
-
-
-
-
-
-
-{#
-<div class="row" >
-<div class="col col-md-6">
-{% for post in page.collection.order('order', 'date', 'desc').slice(0, 5000)%}
-{% if (loop.index is odd) %}
-<div class="panel" >
-  <div class="panel-head align-right">
-  </br>
-  <h2 class="alert alert-title" style="color:black;"> {{ post.title }} </h2>
-  <p class="panel-title">
-  <div class="row" >
-  <div class="col col-md-6">
-  {% if post.header.author %}
-  نویسنده: {{post.header.author|e}}
-         {% else %}
-      نویسنده: {{site.author.name|e}}
-       {% endif %}
-          </div>
-  <div class="col col-md-6">
-تاریخ انتشار:     {{post.header.pdate|e}}
-           </div>
-</div>
-    </p>
+                        {{post.header.pdate|e}}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
     </div>
-<div class="panel-body" style=" text-align: justify; text-justify: inter-word;">
-{{ post.summary|raw }}
-         {% for tag in post.taxonomy.tag %}
-    <button class="button-footer"  style="color:white;" onclick="window.location.href='/tags/{{ tag }}';">{{ tag }}</button>
-{% endfor %}
-</div>
-<div class="panel-footer">
-<a href="{{ post.url }}" class="button button-brand">خواندن</a>
-</div>
-</div>
-{% endif %}
-{% endfor %}
-</div>
-
-<div class="col col-md-6">
-{% for post in page.collection.order('order', 'date', 'desc').slice(0, 1000)%}
-{% if (loop.index is even) %}
-<div class="panel" >
-  <div class="panel-head align-right">
-  </br>
-  <h2 class="alert alert-title" style="color:black;"> {{ post.title }} </h2>
-  <p class="panel-title">
-  <div class="row" >
-  <div class="col col-md-6">
-  {% if post.header.author %}
-  نویسنده: {{post.header.author|e}}
-         {% else %}
-      نویسنده: {{site.author.name|e}}
-       {% endif %}
-          </div>
-  <div class="col col-md-6">
-تاریخ انتشار:     {{post.header.pdate|e}}
-           </div>
-</div>
-    </p>
-    </div>
-<div class="panel-body" style=" text-align: justify; text-justify: inter-word;">
-{{ post.summary|raw }}
-         {% for tag in post.taxonomy.tag %}
-    <button class="button-footer"  style="color:white;" onclick="window.location.href='/tags/{{ tag }}';">{{ tag }}</button>
-{% endfor %}
-</div>
-<div class="panel-footer">
-<a href="{{ post.url }}" class="button button-brand">خواندن</a>
-</div>
-</div>
-{% endif %}
-{% endfor %}
-</div>
-</div>
-#}
-
-
-
 {% endblock %}

@@ -1,5 +1,11 @@
 ---
 title: پدیده‌ای شبیه به شکست
+metadata:
+    description:  
+pdate: چهار شنبه ۱۲ مهر ۱۴۰۲    
+author: Sibiāā
+taxonomy:
+    tag: [ درد , بیمارستان , زندگی ]
 ---
 ![شکست](padide_I_shabih_be_shekast.jpg?classes=center)
 
