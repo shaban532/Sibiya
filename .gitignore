@@ -1,0 +1,13 @@
+cache/
+.DS_Store
+.DS_Store
+assets/.DS_Store
+cache/.DS_Store
+system/.DS_Store
+user/.DS_Store
+user/plugins/.DS_Store
+user/themes/.DS_Store
+user/themes/mustard/.DS_Store
+user/themes/mustard/templates/.DS_Store
+user/themes/quark/.DS_Store
+vendor/.DS_Store
