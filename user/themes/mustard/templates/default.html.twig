@@ -4,7 +4,7 @@
     <div class="panel-head align-right">
          <h1 class="alert alert-title" style="color:black;"> {{ page.title }} </h1>
      </div>
-    
+
     <div class="panel-body" style=" text-align: justify; text-justify: inter-word;">
         {{ page.content|raw }}
          {% for p in page.taxonomy.tag %}
@@ -19,7 +19,13 @@
             {{site.author.name|e}}
          {% endif %}
 در
+         {{page.header.pdate|e}}. ویرایش شده در
+         {% if page.header.edate %}
+         {{page.header.edate|e}}
+         {% else %}
          {{page.header.pdate|e}}
+         {% endif %}
+
     </div>
-</div>  
+</div>
 {% endblock %}
