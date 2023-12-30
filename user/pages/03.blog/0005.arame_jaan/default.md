@@ -2,7 +2,7 @@
 title: آرام جان
 metadata:
     description: 
-pdate: پنج شنبه ۱۲ آبان ۱۴۰۲    
+pdate: پنج شنبه ۱۳ مهر ۱۴۰۲    
 author: Sibiāā
 taxonomy:
     tag: [ درد , بیمارستان , زندگی ]
