@@ -5,7 +5,7 @@ metadata:
 pdate: یکشنبه ۲۱ آبان ۱۴۰۲    
 author: Sibiāā
 taxonomy:
-    tag:[ داستان ]
+    tag: [ داستان ]
 ---
 ![من و امیر](friendship-day-background-with-friends_23-2147837909.jpg?classes=center)
 

@@ -5,7 +5,7 @@ metadata:
 pdate: یکشنبه ۳۰ مهر ۱۴۰۲    
 author: Sibiāā
 taxonomy:
-    tag: [داستان, سلطان]
+    tag: [ داستان , سلطان ]
 ---
 ![سلطان](timeless-nostalgic-vintage-photographs-that-capture-precious-family_853677-22404.jpg?classes=center)
 
