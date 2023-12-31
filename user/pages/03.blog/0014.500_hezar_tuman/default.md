@@ -1,7 +1,7 @@
 ---
 title: ۵۰۰ هزار تومان!
 metadata:
-    description: حکایت روز تولد محمدرضا و دوستی ما
+    description: خاطره‌ای از هدایای نقدی در دوران مدرسه
 pdate: پنج شنبه ۷ دی ۱۴۰۲
 edate: یک شنبه ۱۰ دی ۱۴۰۲    
 author: Sibiāā
