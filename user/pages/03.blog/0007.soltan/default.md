@@ -7,8 +7,10 @@ author: Sibiāā
 taxonomy:
     tag: [ داستان , سلطان ]
 ---
-![سلطان](timeless-nostalgic-vintage-photographs-that-capture-precious-family_853677-22404.jpg?classes=center)
-
+![سلطان](poor-people-living-cardboard-box-outdoor-begging-money-flat-banner-with-homeless-men_1284-32215.jpg?classes=center)
+<div class="align-center">
+<a href="https://www.freepik.com/free-vector/poor-people-living-cardboard-box-outdoor-begging-money-flat-banner-with-homeless-men_7379258.htm#query=poor%20man%20sleep&position=1&from_view=search&track=ais&uuid=a5136845-8372-421c-8544-cf2309f8118b">Image by macrovector</a> on Freepik
+</div>
 >
 یکی دو روز که نیست. سال‌هاست پای چپ سلطان درد می‌کنه. پای راست و کمرش هم درد می‌کنه. ولی اون چیزی که بیشتر آزارش میده پای چپشه. شب تا صبح زانوش را با دست می‌ماله و ناله می‌کنه. نه خودش می‌خوابه و نه اجازه می‌ده من بخوابم. حالا سه چهار سالی می‌شه که من و سلطان نخوابیدیم. خلاصه حواست باشه. اگه میخوای  پیشمون بمونی بدون که اینجا خواب نداریم.   
 بچه بودم پدرم تا بوق سگ کار می‌کرد و هنوز صبح نشده در هوایی که سگ از لونه‌اش بیرون نمی‌اومد از خونه میزد بیرون. براش خیلی ناراحت بودم. می‌ترسیدم از کم خوابیدن مریض بشه. چون مامانی همیشه بهم می‌گفت که اگه خوب نخوابم مریض میشم.  

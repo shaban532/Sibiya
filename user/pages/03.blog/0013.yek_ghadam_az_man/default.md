@@ -9,6 +9,9 @@ taxonomy:
     tag: [ خدمت , سربازی , تولد , خاطره ]
 ---
 ![شکلات کاکائویی به شکل قلب و روکش فویل قرمز](heart-chocolate-wooden-table_23-2147591176.jpg?classes=center)
+<div class="align-center">
+Image by <a href="https://www.freepik.com/free-photo/heart-chocolate-wooden-table_1011523.htm#query=heart-chocolate-wooden-table_23-2147591176&position=0&from_view=search&track=ais&uuid=b4be9b5c-6ea8-4360-9919-a4d9a7f2bb14">Freepik</a>
+</div>
 
 دیروز تولد محمدرضا بود. نه این که برایش تولد بگیریم. فقط روز تولدش بود. همین. بعد از ظهر داشتم از کنارش رد می‌شدم که مهدی که همیشه سر به سرش می‌گذارد با خنده رو کرد به من:
 
