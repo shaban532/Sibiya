@@ -8,7 +8,7 @@ author: Sibiāā
 taxonomy:
     tag: [  دانشگاه  ]
 ---
-![ دختر عموی قشنگم ](4.jpg?classes=center)
+![ دختر عموی قشنگم ](4.webp?classes=center)
 <div class="align-center">
 Image by <a href="/">Minator</a>
 </div>
