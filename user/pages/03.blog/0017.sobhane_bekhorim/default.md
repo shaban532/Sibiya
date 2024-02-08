@@ -8,7 +8,7 @@ author: Sibiāā
 taxonomy:
     tag: [ داستان  ]
 ---
-![ نیمرو ](fried-eggs-frying-pan.jpg?classes=center)
+![ نیمرو ](fried-eggs-frying-pan.webp?classes=center)
 <div class="align-center">
 <a href="https://www.freepik.com/free-vector/fried-eggs-frying-pan-top-view-isolated_9396083.htm#query=Fried%20egg&position=9&from_view=search&track=ais&uuid=527d51f4-5c41-424f-92de-db202e428908">Image by upklyak</a> on Freepik
 </div>

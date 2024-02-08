@@ -7,7 +7,7 @@ author: Sibiāā
 taxonomy:
     tag: [ درد , بیمارستان , زندگی ]
 ---
-![آرام جان](arame_jaan.jpg?classes=center)
+![آرام جان](arame_jaan.webp?classes=center)
 
 مدتی پیش خیلی اتفاقی یک قطعه موسیقی را گوش کردم: تصنیفی از استاد محمدرضا شجریان که با قطعهٔ alice enters از Ólafur Arnalds ایسلندی ریمیکس شده بود:
 

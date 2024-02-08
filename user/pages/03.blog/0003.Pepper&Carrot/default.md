@@ -7,7 +7,7 @@ author: Sibiāā
 taxonomy:
     tag: [ درد , بیمارستان , زندگی ]
 ---
-![لوگوی فلفل و هویچ](Pepper_and_Carrot.png?classes=center)
+![لوگوی فلفل و هویچ](Pepper_and_Carrot.webp?classes=center)
 
 امروز می‌خواهم کمیکی را معرفی کنم که تا به حال ۳۸ قسمت از آن منتشر شده است. 
 

@@ -8,7 +8,7 @@ author: Sibiāā
 taxonomy: 
     tag: [  ]
 ---
-![ خداحافظ! ](note-paper-background-with-hole-punches_78370-2344.jpg?classes=center)
+![ خداحافظ! ](note-paper-background-with-hole-punches_78370-2344.webp?classes=center)
 <div class="align-center">
 </div>
 

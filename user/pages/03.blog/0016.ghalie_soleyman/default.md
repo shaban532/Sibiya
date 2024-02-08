@@ -8,7 +8,7 @@ author: Sibiāā
 taxonomy:
     tag: [ داستان  ]
 ---
-![قالی سلیمان](flat-design-prayer-mat.jpg?classes=center)
+![قالی سلیمان](flat-design-prayer-mat.webp?classes=center)
 <div class="align-center">
 Image by <a href="https://www.freepik.com/free-vector/flat-design-prayer-mat-illustration_22869993.htm#query=magic%20carpet&position=22&from_view=search&track=ais&uuid=570e9c20-8baa-42d4-ae1c-efd56a05e15e">Freepik</a>
 </div>

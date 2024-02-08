@@ -7,7 +7,7 @@ author: Sibiāā
 taxonomy:
     tag: [launchdeck.io, launchdeck, Git, GitHub, Server, Open Source]
 ---
-![launchdeck.io](launchdeck_io.png?classes=center)
+![launchdeck.io](launchdeck_io.webp?classes=center)
 
 این یک مقالهٔ آموزش Git نیست. اگر می‌خواهید بدانید Git و GitHub چیست و چگونه باید از آن استفاده کنید باید جای دیگری را بررسی کنید. 
 

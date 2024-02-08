@@ -7,7 +7,7 @@ author: Sibiāā
 taxonomy:
     tag: [ خدمت , سربازی , احترام , خاطره ]
 ---
-![سلام عزیزم](soldier_1308-83676.jpg?classes=center)
+![سلام عزیزم](soldier_1308-83676.webp?classes=center)
 <div class="align-center">
 <a href="https://www.freepik.com/free-vector/soldier_23717706.htm">Image by brgfx</a> on Freepik
 </div>

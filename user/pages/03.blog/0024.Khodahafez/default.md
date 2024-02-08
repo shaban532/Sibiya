@@ -8,7 +8,7 @@ author: Sibiāā
 taxonomy: 
     tag: [  ]
 ---
-![ خداحافظ! ](back-backpacker-simple-character_1308-106503.jpg?classes=center)
+![ خداحافظ! ](back-backpacker-simple-character_1308-106503.webp?classes=center)
 <div class="align-center">
 <a href="https://www.freepik.com/free-vector/back-backpacker-simple-character_27175378.htm#page=2&query=bye%20from%20back&position=12&from_view=search&track=ais&uuid=a022f20f-78a1-46ed-b6e3-1dd220f96043">Image by brgfx</a> on Freepik</div>
 
