@@ -30,7 +30,11 @@
 
 <p class="copyright align-center" dir="ltr" > Made by Me. </p>
 
+{% block javascripts %}
+    {%  do assets.addJs('theme://js/lazysizes.min.js') %}
+{% endblock %}
 
+      
 <!-- Matomo -->
 <script>
   var _paq = window._paq = window._paq || [];
