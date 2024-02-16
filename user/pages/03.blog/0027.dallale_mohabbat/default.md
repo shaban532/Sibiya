@@ -10,7 +10,7 @@ taxonomy:
 ---
 ![ من هنوز تو را دوست دارم ](joyful-young-couple-showing-heart-sign_23-2148215596.webp?classes=center)
 <div class="align-center">
-Image by <a href="#">Sibiya</a>
+Image by <a href="https://www.freepik.com/free-photo/joyful-young-couple-showing-heart-sign_4989716.htm#page=2&query=distance%20love&position=0&from_view=search&track=ais&uuid=21b757ec-6422-4b08-8914-140b1c27840c">Freepik</a>
 </div>
 
 پرسه زدن در شهر شده است کار هر روز‌ام. کفش‌های بیخودم را عوض نیم‌بوت‌هایم به پا می‌کنم و خیابان‌ها را متر می‌کنم. دیگر مثل قبل کوله به دوش ندارم. کاپشنم را می‌اندازم روی دوشم. جنس خوبی دارد. آدم را خوب گرم می‌کند همان طور که تو! مایهٔ آرامش من است. با او دیگر از چیزی نمی‌ترسم. همان گونه که با تو از چیزی نمی‌ترسیدم...
