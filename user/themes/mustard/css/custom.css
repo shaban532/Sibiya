@@ -168,6 +168,7 @@ blockquote {
 a {
   text-decoration: none;
   color: #1B8957;
+  color: var(--brand-color);
   font-weight: 500;
   transition: opacity .1s ease-out; }
   a:focus, a:hover {
