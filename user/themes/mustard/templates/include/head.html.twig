@@ -19,9 +19,18 @@
 {% do assets.addCss('theme://css/custom.css') %}
 {% endblock %}
 
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
 
 {% block javascripts %}
         {%  do assets.addJs('theme://js/lazysizes.min.js') %}
+        {%  do assets.addJs('theme://js/polyfill.min') %}
+        {%  do assets.addJs('theme://js/tex-mml-chtml.js') %}
 {% endblock %}
 
 <!--
