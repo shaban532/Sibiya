@@ -7,8 +7,9 @@ edate: دوشنبه  ۳۰ بهمن ۱۴۰۲
 author: Sibiāā
 taxonomy: 
     tag: [  ]
+published: false
 ---
-![ جوانی که به خواستگاری رفته است ](wedding-love-concept_23-2147924925.webp?classes=center)
+![ رزبری پای ۵ ](wedding-love-concept_23-2147924925.webp?classes=center)
 <div class="align-center">
 Image by <a href="https://www.freepik.com/free-vector/wedding-love-concept_2967629.htm#query=Marriage%20classic%20problem&position=24&from_view=search&track=ais&uuid=9686064c-da31-4b2b-91ff-153b1c031539">Freepik</a>
 </div>
