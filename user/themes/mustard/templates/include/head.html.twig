@@ -16,7 +16,7 @@
 
 {% block stylesheets %}
 {% do assets.addCss('theme://css/mustard-ui.min.css') %}
-{% do assets.addCss('theme://css/custom.css') %}
+{% do assets.addCss('theme://css/custom.css?=101') %}
 {% endblock %}
 
 <script>
@@ -31,6 +31,7 @@ MathJax = {
         {%  do assets.addJs('theme://js/lazysizes.min.js') %}
         {%  do assets.addJs('theme://js/polyfill.min') %}
         {%  do assets.addJs('theme://js/tex-mml-chtml.js') %}
+        {%  do assets.addJs('theme://js/progress-bar.js') %}
 {% endblock %}
 
 <!--
