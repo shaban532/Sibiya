@@ -1,8 +1,8 @@
-{% extends 'base.html.twig' %}
+{% extends 'base_for_list.html.twig' %}
 {% block content %}
     <h1 class="alert alert-title" style="color:black;"> {{ site.fa_title|e('html') }} </h1>
     <div class="row" >
-        {% for post in page.collection.order('order', 'date', 'desc').slice(0, 5000)%}
+        {% for post in page.collection.order('order', 'date', 'desc').slice(0, 10)%}
             <div class="col col-md-12">
                 <div class="panel" >
                     <div class="panel-head align-right">
@@ -45,5 +45,21 @@
                 </div>
             </div>
         {% endfor %}
+{# pagination plugin #}
+{% set collection = page.collection() %}
+
+{# Render the list of blog posts (automatically filtered when using pagination) #}
+{#
+{% for child in collection %}
+   ...
+{% endfor %}
+#}
+{# Render the pagination list #}
+{% if config.plugins.pagination.enabled and collection.params.pagination %}
+<div style="text-align:center;">
+    {% include 'partials/pagination.html.twig' with {'base_url':page.url, 'pagination':collection.params.pagination} %}
+</div>
+{% endif %}
+{# END pagination plugin #}
     </div>
 {% endblock %}

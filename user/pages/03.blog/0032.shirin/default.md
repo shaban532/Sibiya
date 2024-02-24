@@ -2,8 +2,8 @@
 title: شیرین!
 metadata: 
     description: 
-pdate: جمعه ۴ بهمن ۱۴۰۲
-edate: جمعه ۴ بهمن ۱۴۰۲    
+pdate: جمعه ۴ اسفند ۱۴۰۲
+edate: جمعه ۴ اسفند ۱۴۰۲    
 author: Sibiāā
 taxonomy:
     tag: [  داستان  ]
