@@ -8,6 +8,8 @@
                     <div class="panel-head align-right">
                         <h2 class="alert alert-title" style="color:black;"> <a href="{{ post.url }}" style="color:black">{{ post.title }}</a> </h2>
                         <p class="panel-title">
+	زمان مطالعه: 
+{{ post.content|readingtime({'format': '{minutes_short_count} {minutes_text} و {seconds_short_count} {seconds_text}', 'minutes_label': 'دقیقه', 'minute_label': 'دقیقه', 'seconds_label': 'ثانیه', 'second_label': 'ثانیه', }) }}
                         </p>
                     </div>
                     <div class="panel-body" style=" text-align: justify; text-justify: inter-word;">
