@@ -2,6 +2,7 @@
 title: سیبیا اینجا بود!
 metadata: 
     description: 
+progress_bar: 1
 pdate: سه‌شنبه ۲۶ دی ۱۴۰۲
 edate: سه‌شنبه ۲۶ دی ۱۴۰۲    
 author: Sibiāā

@@ -2,6 +2,7 @@
 title: مسئله کلاسیک ازدواج
 metadata: 
     description: 
+progress_bar: 1
 pdate: دوشنبه ۳۰ بهمن ۱۴۰۲
 edate: دوشنبه  ۳۰ بهمن ۱۴۰۲    
 author: Sibiāā

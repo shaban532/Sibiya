@@ -2,6 +2,7 @@
 title: رأی نمی‌دهم من؟
 metadata: 
     description: نگاهی عمیق‌تر به مسئله انتخابات در جمهوری اسلامی ایران
+progress_bar: 1
 pdate: دوشنبه ۷ اسفند ۱۴۰۲
 author: Sibiāā
 taxonomy:

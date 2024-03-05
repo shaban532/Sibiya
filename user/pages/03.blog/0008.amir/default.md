@@ -2,6 +2,7 @@
 title: من و امیر
 metadata:
     description: 
+progress_bar: 1
 pdate: یکشنبه ۲۱ آبان ۱۴۰۲    
 edate: یک‌شنبه ۸ بهمن ۱۴۰۲    
 author: Sibiāā

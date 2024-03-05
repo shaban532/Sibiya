@@ -2,6 +2,7 @@
 title: کار خیر
 metadata: 
     description: 
+progress_bar: 1
 pdate: پنجشنبه ۱۹ بهمن ۱۴۰۲
 edate: پنجشنبه ۱۹ بهمن ۱۴۰۲    
 author: Sibiāā

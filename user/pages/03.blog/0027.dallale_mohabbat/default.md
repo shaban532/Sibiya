@@ -2,6 +2,7 @@
 title: دلال محبت
 metadata: 
     description: 
+progress_bar: 1
 pdate: جمعه ۲۷ بهمن ۱۴۰۲
 edate: جمعه  ۲۷ بهمن ۱۴۰۲    
 author: Sibiāā

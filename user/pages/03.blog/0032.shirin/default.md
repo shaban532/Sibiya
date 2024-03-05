@@ -2,6 +2,7 @@
 title: شیرین!
 metadata: 
     description: 
+progress_bar: 1
 pdate: جمعه ۴ اسفند ۱۴۰۲
 edate: جمعه ۴ اسفند ۱۴۰۲    
 author: Sibiāā

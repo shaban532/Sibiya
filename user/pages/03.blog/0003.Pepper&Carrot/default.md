@@ -2,6 +2,7 @@
 title: فلفل و هویج
 metadata:
     description: 
+progress_bar: 1
 pdate: چهار شنبه ۵ مهر ۱۴۰۲    
 author: Sibiāā
 taxonomy:

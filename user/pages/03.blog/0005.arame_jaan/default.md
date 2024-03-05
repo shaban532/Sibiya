@@ -2,6 +2,7 @@
 title: آرام جان
 metadata:
     description: 
+progress_bar: 1
 pdate: پنج شنبه ۱۳ مهر ۱۴۰۲    
 author: Sibiāā
 taxonomy:

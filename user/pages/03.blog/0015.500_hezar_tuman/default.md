@@ -2,6 +2,7 @@
 title: ۵۰۰ هزار تومان!
 metadata:
     description: خاطره‌ای از هدایای نقدی در دوران مدرسه
+progress_bar: 1
 pdate: پنج شنبه ۷ دی ۱۴۰۲
 edate: یک شنبه ۱۰ دی ۱۴۰۲    
 author: Sibiāā

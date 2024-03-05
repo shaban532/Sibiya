@@ -2,12 +2,12 @@
 title: من یزید!؟
 metadata: 
     description: 
+progress_bar: 1
 pdate: چهارشنبه ۲ اسفند ۱۴۰۲
 edate: چهارشنبه  ۲ اسفند ۱۴۰۲    
 author: Sibiāā
 taxonomy: 
     tag: [  ]
-
 ---
 ![ مزایده در بازار ](auction-concept-illustration_114360-6961.webp?classes=center)
 <div class="align-center">

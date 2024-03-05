@@ -2,6 +2,7 @@
 title: خداحافظ
 metadata: 
     description: 
+progress_bar: 1
 pdate: جمعه ۱۳ بهمن ۱۴۰۲
 edate: جمعه ۱۳ بهمن ۱۴۰۲    
 author: Sibiāā

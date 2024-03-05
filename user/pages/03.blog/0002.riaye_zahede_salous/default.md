@@ -2,6 +2,7 @@
 title: ریای زاهد سالوس 
 metadata:
     description:  
+progress_bar: 1
 pdate: سه شنبه ۴ مهر ۱۴۰۲    
 author: Sibiāā
 taxonomy:

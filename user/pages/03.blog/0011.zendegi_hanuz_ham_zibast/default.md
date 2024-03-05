@@ -2,6 +2,7 @@
 title: زندگی هنوز هم زیباست
 metadata:
     description:  به مشکلاتت بخند و بدون که خدا دوستت داره. باید ادامه بدی چون این داستان ادامه داره.
+progress_bar: 1
 pdate: سه شنبه ۳۰ آبان ۱۴۰۲    
 author: Sibiāā
 taxonomy:

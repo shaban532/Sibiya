@@ -2,6 +2,7 @@
 title: گل برای تو!
 metadata: 
     description: 
+progress_bar: 1
 pdate: پنجشنبه ۵ بهمن ۱۴۰۲
 edate: پنجشنبه ۵ بهمن ۱۴۰۲    
 author: Sibiāā

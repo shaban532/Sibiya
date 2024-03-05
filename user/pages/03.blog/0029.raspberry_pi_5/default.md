@@ -2,6 +2,7 @@
 title: رزبری پای
 metadata: 
     description: 
+progress_bar: 1
 pdate: یکشنبه ۲۹ بهمن ۱۴۰۲
 edate: یکشنبه  ۲۹ بهمن ۱۴۰۲    
 author: Sibiāā

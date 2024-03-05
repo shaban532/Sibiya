@@ -2,6 +2,7 @@
 title: پدیده‌ای شبیه به شکست
 metadata:
     description:  
+progress_bar: 1
 pdate: چهار شنبه ۱۲ مهر ۱۴۰۲    
 author: Sibiāā
 taxonomy:

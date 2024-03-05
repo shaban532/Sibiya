@@ -2,6 +2,7 @@
 title: میثم
 metadata:
     description: بریده‌ای از کتاب خداحافظ کرخه نوشته داوود امیریان
+progress_bar: 1
 pdate: دوشنبه ۱۸ دی ۱۴۰۲
 edate: دوشنبه ۱۸ دی ۱۴۰۲    
 author: Sibiāā

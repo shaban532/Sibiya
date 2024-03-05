@@ -4,11 +4,16 @@
 <body>
 <div class="main">
 {% include 'include/nav.html.twig' %}
+
+{% if page.header.progress_bar  %}
+
 <div id="progress-bar"></div>
+{% endif %}
+
 
 <section class="section-tertiary key-points align-center">
 <div class="container container-small">
- {# 
+ {#
 <ul class="breadcrumbs breadcrumbs-alt">  
 <li><a href="/">خانه</a></li>
 {% if page.parent.parent.parent.parent and  page.parent.parent.parent.parent.title != "Pages" %}

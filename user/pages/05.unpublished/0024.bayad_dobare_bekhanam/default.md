@@ -48,3 +48,23 @@ title: باید دوباره بخوانم
 
 <!-- -->
 >  چشم استوار!
+
+
+<div class="b" id="bn1"><div class="m1"><p>ز گریه مَردُمِ چشمم نشسته در خون است</p></div>
+<div class="m2"><p>ببین که در طلبت حالِ مَردُمان چون است</p></div></div>
+<div class="b" id="bn2"><div class="m1"><p>به یادِ لعلِ تو و چشمِ مستِ میگونت</p></div>
+<div class="m2"><p>ز جامِ غم، می لعلی که می‌خورم خون است</p></div></div>
+<div class="b" id="bn3"><div class="m1"><p>ز مشرقِ سرِ کو آفتابِ طلعتِ تو</p></div>
+<div class="m2"><p>اگر طلوع کند، طالعم همایون است</p></div></div>
+<div class="b" id="bn4"><div class="m1"><p>حکایتِ لبِ شیرین، کلام فرهاد است</p></div>
+<div class="m2"><p>شِکَنجِ طُرِّهٔ لیلی مقام مجنون است</p></div></div>
+<div class="b" id="bn5"><div class="m1"><p>دلم بجو که قدت همچو سرو دلجوی است</p></div>
+<div class="m2"><p>سخن بگو که کلامت لطیف و موزون است</p></div></div>
+<div class="b" id="bn6"><div class="m1"><p>ز دورِ باده به جان، راحتی رسان ساقی</p></div>
+<div class="m2"><p>که رنجِ خاطرم از جورِ دورِ گردون است</p></div></div>
+<div class="b" id="bn7"><div class="m1"><p>از آن دمی که ز چشمم برفت رودِ عزیز</p></div>
+<div class="m2"><p>کنارِ دامنِ من همچو رودِ جیحون است</p></div></div>
+<div class="b" id="bn8"><div class="m1"><p>چگونه شاد شود اندرونِ غمگینم؟</p></div>
+<div class="m2"><p>به اختیار، که از اختیار بیرون است</p></div></div>
+<div class="b" id="bn9"><div class="m1"><p>ز بیخودی طلبِ یار می‌کند حافظ</p></div>
+<div class="m2"><p>چو مفلسی که طلبکارِ گنجِ قارون است</p></div></div>

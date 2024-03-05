@@ -2,6 +2,7 @@
 title: صبحونه بخوریم!
 metadata:
     description: یک نیمروی خوشمزه در آخرین روزهای خدمت
+progress_bar: 1
 pdate: دو‌شنبه ۲۵ دی ۱۴۰۲
 edate: سه‌شنبه ۲۶ دی ۱۴۰۲    
 author: Sibiāā

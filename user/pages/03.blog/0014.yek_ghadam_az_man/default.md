@@ -2,6 +2,7 @@
 title: یک قدم از من ...
 metadata:
     description: حکایت روز تولد محمدرضا و دوستی ما
+progress_bar: 1
 pdate: پنج شنبه ۷ دی ۱۴۰۲
 edate: شنبه ۹ دی ۱۴۰۲    
 author: Sibiāā

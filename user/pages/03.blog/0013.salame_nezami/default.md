@@ -2,6 +2,7 @@
 title: سلام عزیزم!
 metadata:
     description: داستانی از احترام نظامی در دوران خدمت
+progress_bar: 1
 pdate: یک شنبه ۳ دی ۱۴۰۲    
 author: Sibiāā
 taxonomy:

@@ -2,6 +2,7 @@
 title: خانهٔ‌مان کوچک است
 metadata:
     description:  
+progress_bar: 1
 pdate: جمعه  ۳۱ شهریور ۱۴۰۲  
 edate: یکشنبه ۵ اسفند ۱۴۰۲      
 author: Sibiāā

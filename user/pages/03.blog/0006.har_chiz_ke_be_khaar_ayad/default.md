@@ -2,6 +2,7 @@
 title: هر چیز که خوار آید
 metadata:
     description:  
+progress_bar: 1
 pdate: یک شنبه ۳۰ مهر ۱۴۰۲    
 author: Sibiāā
 taxonomy:

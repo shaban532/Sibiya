@@ -2,6 +2,7 @@
 title: بهانه!
 metadata: 
     description: 
+progress_bar: 1
 pdate: جمعه ۲۹ دی ۱۴۰۲
 edate: جمعه ۲۹ دی ۱۴۰۲    
 author: Sibiāā

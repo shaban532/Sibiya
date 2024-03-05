@@ -2,6 +2,7 @@
 title: شهر زیبا
 metadata: 
     description: 
+progress_bar: 1
 pdate: دوشنبه ۷ اسفند ۱۴۰۲
 author: Sibiāā
 taxonomy:

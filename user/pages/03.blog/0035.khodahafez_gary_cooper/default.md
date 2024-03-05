@@ -2,6 +2,7 @@
 title: خداحافظ گاری کوپر
 metadata: 
     description: نقد و بررسی کتاب خداحافظ گاری کوپر نوشتهٔ رومن گاری و ترجمهٔ فارسی آن توسط سروش حبیبی
+progress_bar: 1
 pdate: جمعه ۱۱ اسفند ۱۴۰۲
 author: Sibiāā
 taxonomy:

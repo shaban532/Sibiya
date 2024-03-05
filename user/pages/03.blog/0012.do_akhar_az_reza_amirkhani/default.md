@@ -2,6 +2,7 @@
 title: دو آخر از رضا امیر خانی
 metadata:
     description: حکایت آشنایی من با رضا امیرخانی و سیر من در مطالعه کتاب‌های او
+progress_bar: 1
 pdate: یک شنبه ۳ دی ۱۴۰۲    
 author: Sibiāā
 taxonomy:

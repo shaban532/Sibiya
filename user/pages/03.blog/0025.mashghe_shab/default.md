@@ -2,6 +2,7 @@
 title: مشق شب
 metadata: 
     description: 
+progress_bar: 1
 pdate: دوشنبه ۱۶ بهمن ۱۴۰۲
 edate: دوشنبه ۱۶ بهمن ۱۴۰۲    
 author: Sibiāā

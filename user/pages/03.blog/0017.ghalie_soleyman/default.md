@@ -2,6 +2,7 @@
 title: قالی سلیمان
 metadata:
     description: حکایت فرش خریدن ما بعد از بیست و چند سال
+progress_bar: 1
 pdate: سه‌شنبه ۷ آذر ۱۴۰۲
 edate: دوشنبه ۲۵ دی ۱۴۰۲    
 author: Sibiāā

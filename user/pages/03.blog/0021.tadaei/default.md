@@ -2,6 +2,7 @@
 title: تداعی!
 metadata: 
     description: 
+progress_bar: 1
 pdate: یک‌شنبه ۱ بهمن ۱۴۰۲
 edate: یک‌شنبه ۱ بهمن ۱۴۰۲    
 author: Sibiāā
