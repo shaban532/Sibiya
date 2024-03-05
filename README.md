@@ -15,5 +15,5 @@ Take the following steps to make your own website:
   3. Sign up in [launchdeck](http://launchdeck.io)
   4. Create a new project in launchdeck. Launchdeck build and upload your github Repository to your server! 
   5. delete _user/pages/03.blog/* contents  (you can use them as template)
-  6. Edit user/config/site/yaml 
+  6. Edit _user/config/site.yaml
   7. Write your awesome stories :heart:
