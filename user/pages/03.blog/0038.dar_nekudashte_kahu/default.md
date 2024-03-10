@@ -8,7 +8,7 @@ author: Sibiāā
 taxonomy:
     tag: [ المپیاد , کامپیوتر   ]
 ---
-![ لوگوی کاهو وبگاه پرسش و پاسخ المپیاد کامپیوتر ](kahu.webp?classes=center)
+![ لوگوی کاهو وبگاه پرسش و پاسخ المپیاد کامپیوتر ](kahu.webp?classes=center?loading=lazy)
 <div class="align-center">
 </div>
 <div class="align-left" dir="ltr" >

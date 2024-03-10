@@ -28,15 +28,15 @@ MathJax = {
 </script>
 
 {% block javascripts %}
-        {%  do assets.addJs('theme://js/lazysizes.min.js') %}
-        {%  do assets.addJs('theme://js/polyfill.min') %}
-        {%  do assets.addJs('theme://js/tex-mml-chtml.js') %}
-        {%  do assets.addJs('theme://js/progress-bar.js') %}
+        {%  do assets.addJs('theme://js/polyfill.min' , { group: 'bottom' }) %}
+        {%  do assets.addJs('theme://js/tex-mml-chtml.js' , { group: 'bottom' }) %}
+        {%  do assets.addJs('theme://js/progress-bar.js' , { group: 'bottom' }) %}
 {% endblock %}
 
 <!--
         % do assets.addJs('jquery', 101) %
         % do assets.addJs('theme://js/matomo.js') %
+        {%  do assets.addJs('theme://js/lazysizes.min.js' , { group: 'bottom' }) %}
 -->
 
 <!--
@@ -46,6 +46,7 @@ MathJax = {
 -->
 {% block assets deferred %}
         {{ assets.css()|raw }}
+        {{ assets.js()|raw }}
 {% endblock %}
 
 
