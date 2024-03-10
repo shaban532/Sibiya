@@ -8,6 +8,6 @@ author: Sibiāā
 taxonomy:
     tag: [ درد , بیمارستان , زندگی ]
 ---
-![بدون شرح](zendegi.webp?classes=center)
+![بدون شرح](zendegi.webp?classes=center&loading=lazy)
 
 امروز برای زانو درد رفتم بیمارستان؛ ظهر توی نمازخانه با این صحنه مواجه شدم!

@@ -8,7 +8,7 @@ author: Sibiāā
 taxonomy:
     tag: [ درد , بیمارستان , زندگی ]
 ---
-![هر چیز که خوار آید](old-rusty-junk-garbage-steel_1150-10992.webp?classes=center)
+![هر چیز که خوار آید](old-rusty-junk-garbage-steel_1150-10992.webp?classes=center&loading=lazy)
 
 <div class="align-center">
 <a href="https://www.freepik.com/free-photo/old-rusty-junk-garbage-steel_4693988.htm">Image by jcomp</a> on Freepik

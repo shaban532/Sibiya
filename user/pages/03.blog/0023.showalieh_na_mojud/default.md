@@ -9,7 +9,7 @@ author: Sibiāā
 taxonomy:
     tag: [ داستان , کتاب ,   ]
 ---
-![ شوالیهٔ ناموجود ](hand-drawn-knight-cartoon-illustration_52683-118933.webp?classes=center)
+![ شوالیهٔ ناموجود ](hand-drawn-knight-cartoon-illustration_52683-118933.webp?classes=center&loading=lazy)
 <div class="align-center">
 <a href="https://www.freepik.com/free-vector/hand-drawn-knight-cartoon-illustration_45156998.htm#query=The%20Nonexistent%20Knight&position=1&from_view=search&track=ais&uuid=05ebf83d-1900-4beb-ba45-ec3df54d246c">Image by pikisuperstar</a> on Freepik</div>
 

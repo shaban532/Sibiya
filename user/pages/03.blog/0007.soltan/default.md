@@ -8,7 +8,7 @@ author: Sibiāā
 taxonomy:
     tag: [ داستان , سلطان ]
 ---
-![سلطان](poor-people-living-cardboard-box-outdoor-begging-money-flat-banner-with-homeless-men_1284-32215.webp?classes=center)
+![سلطان](poor-people-living-cardboard-box-outdoor-begging-money-flat-banner-with-homeless-men_1284-32215.webp?classes=center&loading=lazy)
 <div class="align-center">
 <a href="https://www.freepik.com/free-vector/poor-people-living-cardboard-box-outdoor-begging-money-flat-banner-with-homeless-men_7379258.htm#query=poor%20man%20sleep&position=1&from_view=search&track=ais&uuid=a5136845-8372-421c-8544-cf2309f8118b">Image by macrovector</a> on Freepik
 </div>

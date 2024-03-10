@@ -9,7 +9,7 @@ author: Sibiāā
 taxonomy:
     tag: [ داستان ]
 ---
-![من و امیر](friendship-day-background-with-friends_23-2147837909.webp?classes=center)
+![من و امیر](friendship-day-background-with-friends_23-2147837909.webp?classes=center&loading=lazy)
 <div class="align-center">
 Image by <a href="https://www.freepik.com/free-vector/friendship-day-background-with-friends_2411094.htm">Freepik</a>
 </div>

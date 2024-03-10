@@ -8,7 +8,7 @@ author: Sibiāā
 taxonomy:
     tag: [ درد , بیمارستان , زندگی ]
 ---
-![شکست](padide_I_shabih_be_shekast.webp?classes=center)
+![شکست](padide_I_shabih_be_shekast.webp?classes=center&loading=lazy)
 
 مدتی است که یک 
 [تارنگار ](https://Sibiya.ir)

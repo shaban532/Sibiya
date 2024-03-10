@@ -9,7 +9,7 @@ author: Sibiāā
 taxonomy: 
     tag: [  ]
 ---
-![ رسید پرداخت پول به خیریه ](resid.webp?classes=center)
+![ رسید پرداخت پول به خیریه ](resid.webp?classes=center&loading=lazy)
 <div class="align-center">
 Image by <a href="#">Sibiya</a>
 </div>

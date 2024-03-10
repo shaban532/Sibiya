@@ -8,7 +8,7 @@ author: Sibiāā
 taxonomy:
     tag: [ درد , بیمارستان , زندگی ]
 ---
-![آرام جان](arame_jaan.webp?classes=center)
+![آرام جان](arame_jaan.webp?classes=center&loading=lazy)
 
 مدتی پیش خیلی اتفاقی یک قطعه موسیقی را گوش کردم: تصنیفی از استاد محمدرضا شجریان که با قطعهٔ alice enters از Ólafur Arnalds ایسلندی ریمیکس شده بود:
 
@@ -29,7 +29,7 @@ taxonomy:
 
 ##### [۱- تو کافر دل](https://soundcloud.com/thesepanta/to-kafardel)
 
-![تو کافر دل](1.jpg?classes=center)
+![تو کافر دل](1.jpg?classes=center&loading=lazy)
 
 خواننده: استاد شجریان  
 موسیقی: Ólafur Arnalds: قطعهٔ Lynn's Theme از آلبوم  Another Happy Day   
@@ -50,7 +50,7 @@ taxonomy:
 
 ##### [۲- ز مژگان سیه تو](https://soundcloud.com/thesepanta/ze-mojgane-siahe-to)
 
-![ز مژگان سیه تو](2.jpg?classes=center)
+![ز مژگان سیه تو](2.jpg?classes=center&loading=lazy)
 
 
 خواننده: استاد شجریان  
@@ -72,7 +72,7 @@ taxonomy:
 
 ##### [۳- سر در کمند](https://soundcloud.com/thesepanta/sardarkamand)
 
-![سر در کمند](3.jpg?classes=center)
+![سر در کمند](3.jpg?classes=center&loading=lazy)
 
 
 خواننده: استاد بنان  
@@ -92,7 +92,7 @@ taxonomy:
 
 ##### [۴- دیدی دلا](https://soundcloud.com/thesepanta/didi-dela?)
 
-![دیدی دلا](4.jpg?classes=center)
+![دیدی دلا](4.jpg?classes=center&loading=lazy)
 
 
 
@@ -114,7 +114,7 @@ taxonomy:
 
 ##### [۵- رستگاران](https://soundcloud.com/thesepanta/rastgaran?)
 
-![رستگاران](5.jpg?classes=center)
+![رستگاران](5.jpg?classes=center&loading=lazy)
 
 
 

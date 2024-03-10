@@ -9,7 +9,7 @@ author: Sibiāā
 taxonomy:
     tag: [  نامه  ]
 ---
-![ گل برای تو ](cute-flower-pot-cartoon-vector-icon-illustration-nature-object-icon-concept-isolated-flat-vector_138676-9485.webp?classes=center)
+![ گل برای تو ](cute-flower-pot-cartoon-vector-icon-illustration-nature-object-icon-concept-isolated-flat-vector_138676-9485.webp?classes=center&loading=lazy)
 <div class="align-center">
 <a href="https://www.freepik.com/free-vector/cute-flower-pot-cartoon-vector-icon-illustration-nature-object-icon-concept-isolated-flat-vector_65309436.htm#query=a%20flower&position=15&from_view=search&track=ais&uuid=098bd04d-5b1d-4a7d-937c-feeb30e0fa74">Image by catalyststuff</a> on Freepik
 </div>

@@ -9,7 +9,7 @@ author: Sibiāā
 taxonomy:
     tag: [ خدمت , سربازی , تولد , خاطره ]
 ---
-![شکلات کاکائویی به شکل قلب و روکش فویل قرمز](heart-chocolate-wooden-table_23-2147591176.webp?classes=center)
+![شکلات کاکائویی به شکل قلب و روکش فویل قرمز](heart-chocolate-wooden-table_23-2147591176.webp?classes=center&loading=lazy)
 <div class="align-center">
 Image by <a href="https://www.freepik.com/free-photo/heart-chocolate-wooden-table_1011523.htm#query=heart-chocolate-wooden-table_23-2147591176&position=0&from_view=search&track=ais&uuid=b4be9b5c-6ea8-4360-9919-a4d9a7f2bb14">Freepik</a>
 </div>

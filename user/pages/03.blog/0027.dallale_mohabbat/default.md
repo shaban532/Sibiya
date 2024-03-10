@@ -9,7 +9,7 @@ author: Sibiāā
 taxonomy: 
     tag: [  ]
 ---
-![ من هنوز تو را دوست دارم ](joyful-young-couple-showing-heart-sign_23-2148215596.webp?classes=center)
+![ من هنوز تو را دوست دارم ](joyful-young-couple-showing-heart-sign_23-2148215596.webp?classes=center&loading=lazy)
 <div class="align-center">
 Image by <a href="https://www.freepik.com/free-photo/joyful-young-couple-showing-heart-sign_4989716.htm#page=2&query=distance%20love&position=0&from_view=search&track=ais&uuid=21b757ec-6422-4b08-8914-140b1c27840c">Freepik</a>
 </div>

@@ -9,7 +9,7 @@ author: Sibiāā
 taxonomy:
     tag: [  تولد  ]
 ---
-![ تولدت مبارک! ](colorful-birthday-composition-with-lovely-style_23-2147831067.webp?classes=center)
+![ تولدت مبارک! ](colorful-birthday-composition-with-lovely-style_23-2147831067.webp?classes=center&loading=lazy)
 <div class="align-center">
 Image by <a href="https://www.freepik.com/free-vector/colorful-birthday-composition-with-lovely-style_3336002.htm">Freepik</a>
 </div>

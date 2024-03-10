@@ -9,7 +9,7 @@ author: Sibiāā
 taxonomy: 
     tag: [  ]
 ---
-![ من هنوز تو را دوست دارم ](halloween-element-illustration_23-2150619065.webp?classes=center)
+![ من هنوز تو را دوست دارم ](halloween-element-illustration_23-2150619065.webp?classes=center&loading=lazy)
 <div class="align-center">
 Image by <a href="https://www.freepik.com/free-psd/halloween-element-illustration_53061455.htm#query=eye%20blood&position=0&from_view=search&track=ais&uuid=3fd72ace-81fe-47ad-8dfc-1782af650ec9">Freepik</a>
 </div>
