@@ -8,6 +8,7 @@ edate: دوشنبه  ۳۰ بهمن ۱۴۰۲
 author: Sibiāā
 taxonomy: 
     tag: [  ]
+mathjax: 1
 ---
 ![ جوانی که به خواستگاری رفته است ](wedding-love-concept_23-2147924925.webp?classes=center&loading=lazy)
 <div class="align-center">

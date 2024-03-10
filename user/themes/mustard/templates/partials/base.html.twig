@@ -41,5 +41,11 @@
 {% block bottom %}
         {{ assets.js('bottom')|raw }}
 {% endblock %}
+{% if page.header.mathjax  %}
+{% block mathjax %}
+        {{ assets.js('mathjax')|raw }}
+{% endblock %}
+{% endif %}
+
 </body>
 </html>
