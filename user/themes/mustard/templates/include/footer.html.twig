@@ -1,3 +1,4 @@
+
 <footer  style=" text-align: justify; text-justify: inter-word;">
   <div class="container container-small">
         <div class="footer-text">
@@ -71,5 +72,10 @@
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
  -->
+
+{% block assets deferred %}
+        {{ assets.js()|raw }}
+{% endblock %}
+
 
 </footer>
