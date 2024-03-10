@@ -9,7 +9,7 @@ author: Sibiāā
 taxonomy: 
     tag: [  ]
 ---
-![ رزبری پای ۵ ](raspberry-pi-5.webp?classes=center)
+![ رزبری پای ۵ ](raspberry-pi-5.webp?classes=center&loading=lazy)
 <div class="align-center">
 </div>
 

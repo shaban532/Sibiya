@@ -8,7 +8,7 @@ author: Sibiāā
 taxonomy:
     tag: [ سیاست , دین  ]
 ---
-![ نگاهی عمیق‌تر به مسئله انتخابات در جمهوری اسلامی ایران](india-general-election-illustration_24911-115308.webp?classes=center)
+![ نگاهی عمیق‌تر به مسئله انتخابات در جمهوری اسلامی ایران](india-general-election-illustration_24911-115308.webp?classes=center&loading=lazy)
 <div class="align-center">
 <a href="https://www.freepik.com/free-vector/india-general-election-illustration_145856236.htm#fromView=search&page=1&position=8&uuid=9721719f-31ab-45c5-b380-97169c6e6351">Image by djvstock</a> on Freepik
 </div>

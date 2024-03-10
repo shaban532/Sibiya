@@ -8,7 +8,7 @@ author: Sibiāā
 taxonomy:
     tag: [ عاشقانه , هنر , داستان  ]
 ---
-![ تصویر داستان زمستان کوتاه نیست ](close-up-hands-holding-snow_23-2149271454.webp?classes=center)
+![ تصویر داستان زمستان کوتاه نیست ](close-up-hands-holding-snow_23-2149271454.webp?classes=center&loading=lazy)
 <div class="align-center">
 Image by <a href="https://www.freepik.com/free-photo/close-up-hands-holding-snow_22635158.htm#fromView=search&page=1&position=31&uuid=b0122d37-d3c1-43da-bf27-7f7e37e138f3">Freepik</a>
 </div>

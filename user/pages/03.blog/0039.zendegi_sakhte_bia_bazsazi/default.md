@@ -8,7 +8,7 @@ author: Sibiāā
 taxonomy:
     tag: [ خیریه , بازسازی , کودکان_فرشته_اند , خاطره   ]
 ---
-![ نوشته‌ای برای تیم بازسازی خیریه کودکان فرشته‌اند ](baazsaazi.webp?classes=center)
+![ نوشته‌ای برای تیم بازسازی خیریه کودکان فرشته‌اند ](baazsaazi.webp?classes=center&loading=lazy)
 <div class="align-center">
 </div>
 

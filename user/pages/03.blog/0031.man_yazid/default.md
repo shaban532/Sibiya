@@ -9,7 +9,7 @@ author: Sibiāā
 taxonomy: 
     tag: [  ]
 ---
-![ مزایده در بازار ](auction-concept-illustration_114360-6961.webp?classes=center,loading=lazy)
+![ مزایده در بازار ](auction-concept-illustration_114360-6961.webp?classes=center&loading=lazy)
 <div class="align-center">
 <a href="https://www.freepik.com/free-vector/auction-concept-illustration_16736635.htm">Image by storyset</a> on Freepik
 </div>

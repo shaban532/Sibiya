@@ -8,7 +8,7 @@ author: Sibiāā
 taxonomy:
     tag: [  فیلم , هنر  ]
 ---
-![ تصویری از فیروزه در فیلم شهر زیبا ساخته اصغر فرهادی ](shahre_ziba.webp?classes=center,loading=lazy)
+![ تصویری از فیروزه در فیلم شهر زیبا ساخته اصغر فرهادی ](shahre_ziba.webp?classes=center,loading=lazy&loading=lazy)
 <div class="align-center">
 </div>
 من زیبایم. تو زیبایی. نغمه‌ها و ترانه‌ها زیبایند. پرستوها و بلدرچین‌ها هم. در شهر ما همه چیز زیباست. اصلاً  این شهر ماست که زیباست.
