@@ -10,7 +10,7 @@ taxonomy:
     tag: [  داستان  ]
 published: 1
 ---
-![ آیدین و عشقش ](hand-drawn-couple-silhouette-illustration_23-2149840571.webp?classes=center)
+![ آیدین و عشقش ](hand-drawn-couple-silhouette-illustration_23-2149840571.webp?classes=center,loading=lazy)
 <div class="align-center">
 Image by <a href="https://www.freepik.com/free-vector/hand-drawn-couple-silhouette-illustration_33686572.htm#page=2&query=love%20lean%20back&position=5&from_view=search&track=ais&uuid=f26d210e-60ff-403f-b80d-b60e13a98b3d">Freepik</a>
 </div>

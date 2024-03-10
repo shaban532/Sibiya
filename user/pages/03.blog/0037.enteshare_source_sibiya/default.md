@@ -8,7 +8,7 @@ author: Sibiāā
 taxonomy:
     tag: [ گیت‌هاب  ]
 ---
-![ تصویری از مخزن گیت‌هاب sibiya ](sibiya_github.webp?classes=center?loading=lazy)
+![ تصویری از مخزن گیت‌هاب sibiya ](sibiya_github.webp?classes=center)
 <div class="align-center">
 </div>
 
