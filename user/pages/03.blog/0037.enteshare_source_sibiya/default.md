@@ -6,7 +6,7 @@ progress_bar: 1
 pdate: سه‌شنبه ۱۵ اسفند ۱۴۰۲
 author: Sibiāā
 taxonomy:
-    tag: [ گیت‌هاب  ]
+    tag: [ منبع_باز , سایت , Sibiya , GitHub  ]
 ---
 ![ تصویری از مخزن گیت‌هاب sibiya ](sibiya_github.webp?classes=center&loading=lazy)
 <div class="align-center">

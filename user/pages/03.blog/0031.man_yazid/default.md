@@ -1,13 +1,13 @@
 ---
 title: من یزید!؟
-metadata: 
+metadata: معنی و مفهموم من یزید در شعر حافظ و کتاب کیمیای سعادت ابوحامد غزالی
     description: 
 progress_bar: 1
 pdate: چهارشنبه ۲ اسفند ۱۴۰۲
 edate: چهارشنبه  ۲ اسفند ۱۴۰۲    
 author: Sibiāā
 taxonomy: 
-    tag: [  ]
+    tag: [ هنر , ادبیات , دین , حافظ , غزالی ]
 ---
 ![ مزایده در بازار ](auction-concept-illustration_114360-6961.webp?classes=center&loading=lazy)
 <div class="align-center">

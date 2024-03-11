@@ -1,13 +1,13 @@
 ---
 title: صبحونه بخوریم!
 metadata:
-    description: یک نیمروی خوشمزه در آخرین روزهای خدمت
+    description: خاطره‌های دوران سربازی یک نیمروی خوشمزه در آخرین روزهای خدمت
 progress_bar: 1
 pdate: دو‌شنبه ۲۵ دی ۱۴۰۲
 edate: سه‌شنبه ۲۶ دی ۱۴۰۲    
 author: Sibiāā
 taxonomy:
-    tag: [ داستان  ]
+    tag: [ خاطره , سربازی , خدمت  ]
 ---
 ![ نیمرو ](fried-eggs-frying-pan.webp?classes=center&loading=lazy)
 <div class="align-center">

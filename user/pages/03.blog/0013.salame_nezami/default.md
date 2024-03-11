@@ -1,12 +1,12 @@
 ---
 title: سلام عزیزم!
 metadata:
-    description: داستانی از احترام نظامی در دوران خدمت
+    description: خاطره‌ای از روزهای زیبای خدمت سربازی و  احترام نظامی در دوران خدمت
 progress_bar: 1
 pdate: یک شنبه ۳ دی ۱۴۰۲    
 author: Sibiāā
 taxonomy:
-    tag: [ خدمت , سربازی , احترام , خاطره ]
+    tag: [ خدمت , سربازی , خاطره ]
 ---
 ![سلام عزیزم](soldier_1308-83676.webp?classes=center&loading=lazy)
 <div class="align-center">

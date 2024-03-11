@@ -1,12 +1,12 @@
 ---
 title: از گیت‌هاب به سرور شخصی
 metadata:
-    description: یادداشت‌های یک دیوانه، متشکل از مطالبی است که نویسنده در طول سال‌های عمر خویش به تجربه و یا با مطالعه یافته‌است.
+    description: استفاده از لانچدک launchdeck برای انتقال فایل‌ها از سرور گیت Git به سرور یا هاست شخصی
 progress_bar: 1
 pdate: سه شنبه ۳۰ آبان ۱۴۰۲    
 author: Sibiāā
 taxonomy:
-    tag: [launchdeck.io, launchdeck, Git, GitHub, Server, Open Source]
+    tag: [ launchdeck, Git , GitHub , منبع_باز ]
 ---
 ![launchdeck.io](launchdeck_io.webp?classes=center&loading=lazy)
 

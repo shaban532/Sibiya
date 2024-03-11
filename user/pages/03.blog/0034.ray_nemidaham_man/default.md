@@ -1,12 +1,12 @@
 ---
 title: رأی نمی‌دهم من؟
-metadata: 
+metadata: نگاهی که به مسئله انتخابات جمهوری اسلامی و ایران و پاسخی به پرسش آیا من رأی می‌دهم
     description: نگاهی عمیق‌تر به مسئله انتخابات در جمهوری اسلامی ایران
 progress_bar: 1
 pdate: دوشنبه ۷ اسفند ۱۴۰۲
 author: Sibiāā
 taxonomy:
-    tag: [ سیاست , دین  ]
+    tag: [ سیاست , دین , دل_نوشته ]
 ---
 ![ نگاهی عمیق‌تر به مسئله انتخابات در جمهوری اسلامی ایران](india-general-election-illustration_24911-115308.webp?classes=center&loading=lazy)
 <div class="align-center">

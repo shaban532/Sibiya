@@ -6,7 +6,7 @@ progress_bar: 1
 pdate: سه شنبه ۳۰ آبان ۱۴۰۲    
 author: Sibiāā
 taxonomy:
-    tag: [ فونت ]
+    tag: [ هنر , گرافیک , فونت ]
 ---
 ![تلگرام صابر راستی کردار](saber.webp?classes=center&loading=lazy)
 

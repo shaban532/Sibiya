@@ -7,7 +7,7 @@ pdate: سه‌شنبه ۲۶ دی ۱۴۰۲
 edate: سه‌شنبه ۲۶ دی ۱۴۰۲    
 author: Sibiāā
 taxonomy:
-    tag: [   , خودکشی , داستان  ]
+    tag: [ سربازی , خدمت , فیلم , هنر  , خودکشی , دل_نوشته  ]
 ---
 ![ یک تصویر از فیلم رستگاری در شاوشنک ](brooks_was_here.webp?classes=center&loading=lazy)
 

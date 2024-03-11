@@ -1,8 +1,8 @@
 ---
-title: امیرخانی
+title: سایت
 content:
     items:  
-        '@taxonomy.tag': امیرخانی
+        '@taxonomy.tag': سایت
 body_classes: 'title-center title-h1h2'
 twig_first: true
 process:

@@ -1,13 +1,13 @@
 ---
 title: رزبری پای
-metadata: 
+metadata: نقد و بررسی رزبری پای ۴ پس از چند سال استفاده 
     description: 
 progress_bar: 1
 pdate: یکشنبه ۲۹ بهمن ۱۴۰۲
 edate: یکشنبه  ۲۹ بهمن ۱۴۰۲    
 author: Sibiāā
 taxonomy: 
-    tag: [  ]
+    tag: [ تکنولوژی ,Raspberry_Pi , منبع_باز ]
 ---
 ![ رزبری پای ۵ ](raspberry-pi-5.webp?classes=center&loading=lazy)
 <div class="align-center">

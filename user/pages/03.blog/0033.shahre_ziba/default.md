@@ -1,12 +1,12 @@
 ---
 title: شهر زیبا
-metadata: 
+metadata: نقد و بررسی کوتاه فیلم شهر زیبا ساخته و کارگردانی اصغر فرهادی بازیگری ترانه علیدوستی
     description: 
 progress_bar: 1
 pdate: دوشنبه ۷ اسفند ۱۴۰۲
 author: Sibiāā
 taxonomy:
-    tag: [  فیلم , هنر  ]
+    tag: [  فیلم , هنر , اصغر_فرهادی ]
 ---
 ![ تصویری از فیروزه در فیلم شهر زیبا ساخته اصغر فرهادی ](shahre_ziba.webp?classes=center,loading=lazy&loading=lazy)
 <div class="align-center">

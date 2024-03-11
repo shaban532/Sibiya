@@ -1,13 +1,13 @@
 ---
 title: گل برای تو!
-metadata: 
+metadata: نگاهی نو به خاطره‌های دوران دانشگاه نامه‌ای به بهترین دوست دانشگاه
     description: 
 progress_bar: 1
 pdate: پنجشنبه ۵ بهمن ۱۴۰۲
 edate: پنجشنبه ۵ بهمن ۱۴۰۲    
 author: Sibiāā
 taxonomy:
-    tag: [  نامه  ]
+    tag: [  نامه  , دل_نوشته , دانشگاه]
 ---
 ![ گل برای تو ](cute-flower-pot-cartoon-vector-icon-illustration-nature-object-icon-concept-isolated-flat-vector_138676-9485.webp?classes=center&loading=lazy)
 <div class="align-center">

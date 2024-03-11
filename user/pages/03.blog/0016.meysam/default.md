@@ -1,13 +1,13 @@
 ---
 title: میثم
 metadata:
-    description: بریده‌ای از کتاب خداحافظ کرخه نوشته داوود امیریان
+    description: بریده‌ای از کتاب خداحافظ کرخه نوشته داوود امیریان و قصه شهید مرتضی شکوری معروف به میثم  
 progress_bar: 1
 pdate: دوشنبه ۱۸ دی ۱۴۰۲
 edate: دوشنبه ۱۸ دی ۱۴۰۲    
 author: Sibiāā
 taxonomy:
-    tag: [ جنگ , کتاب  ]
+    tag: [ جنگ , کتاب , شهدا ]
 ---
 ![تصویر شهید مرتضی شکوری معروف به میثم](meysam-l.webp?classes=center&loading=lazy)
 

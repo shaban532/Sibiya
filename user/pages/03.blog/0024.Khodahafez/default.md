@@ -1,13 +1,13 @@
 ---
 title: خداحافظ
 metadata: 
-    description: 
+    description: گاهی بعضی از دوستان قدیمی وقت و حوصله کافی برای رفاقت را ندارند چاره ای نیست باید با آن کنار آمد
 progress_bar: 1
 pdate: جمعه ۱۳ بهمن ۱۴۰۲
 edate: جمعه ۱۳ بهمن ۱۴۰۲    
 author: Sibiāā
 taxonomy: 
-    tag: [  ]
+    tag: [ دل_نوشته ]
 ---
 ![ خداحافظ! ](back-backpacker-simple-character_1308-106503.webp?classes=center&loading=lazy)
 <div class="align-center">

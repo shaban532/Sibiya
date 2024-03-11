@@ -1,13 +1,13 @@
 ---
 title: قالی سلیمان
 metadata:
-    description: حکایت فرش خریدن ما بعد از بیست و چند سال
+    description: طنزی در اعتراض به خریدن وسایل جدید و حکایت فرش خریدن ما بعد از بیست و چند سال
 progress_bar: 1
 pdate: سه‌شنبه ۷ آذر ۱۴۰۲
 edate: دوشنبه ۲۵ دی ۱۴۰۲    
 author: Sibiāā
 taxonomy:
-    tag: [ داستان  ]
+    tag: [ طنز   ]
 ---
 ![قالی سلیمان](flat-design-prayer-mat.webp?classes=center&loading=lazy)
 <div class="align-center">

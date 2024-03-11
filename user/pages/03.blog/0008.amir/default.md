@@ -1,13 +1,13 @@
 ---
 title: من و امیر
-metadata:
-    description: 
+metadata: 
+    description: خاطره‌ای از دوستی و رفاقت‌های خاطره‌انگیز در دوران خدمت سربازی
 progress_bar: 1
 pdate: یکشنبه ۲۱ آبان ۱۴۰۲    
 edate: یک‌شنبه ۸ بهمن ۱۴۰۲    
 author: Sibiāā
 taxonomy:
-    tag: [ داستان ]
+    tag: [ سربازی , خدمت , خاطره ]
 ---
 ![من و امیر](friendship-day-background-with-friends_23-2147837909.webp?classes=center&loading=lazy)
 <div class="align-center">

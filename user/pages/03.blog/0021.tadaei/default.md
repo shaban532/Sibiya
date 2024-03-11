@@ -7,7 +7,7 @@ pdate: یک‌شنبه ۱ بهمن ۱۴۰۲
 edate: یک‌شنبه ۱ بهمن ۱۴۰۲    
 author: Sibiāā
 taxonomy:
-    tag: [  دانشگاه  ]
+    tag: [  دانشگاه , خاطره , هنر , عکاسی ,  ]
 ---
 ![ دختر عموی قشنگم ](4.webp?classes=center&loading=lazy)
 <div class="align-center">

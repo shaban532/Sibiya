@@ -1,13 +1,13 @@
 ---
 title: مشق شب
-metadata: 
+metadata: نقد و نگاهی به فیلم مستند مشق شب ساخته کارگردانی عباس کیارستمی 
     description: 
 progress_bar: 1
 pdate: دوشنبه ۱۶ بهمن ۱۴۰۲
 edate: دوشنبه ۱۶ بهمن ۱۴۰۲    
 author: Sibiāā
 taxonomy: 
-    tag: [  ]
+    tag: [ فیلم , مستند , هنر , عباس_کیارستمی , مدرسه ]
 ---
 ![ خداحافظ! ](note-paper-background-with-hole-punches_78370-2344.webp?classes=center&loading=lazy)
 <div class="align-center">

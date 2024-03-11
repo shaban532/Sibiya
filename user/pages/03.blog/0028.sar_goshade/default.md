@@ -7,7 +7,7 @@ pdate: جمعه ۲۷ بهمن ۱۴۰۲
 edate: جمعه  ۲۷ بهمن ۱۴۰۲    
 author: Sibiāā
 taxonomy: 
-    tag: [  ]
+    tag: [ نامه , اهدای_خون , خاطره  ]
 ---
 ![ من هنوز تو را دوست دارم ](halloween-element-illustration_23-2150619065.webp?classes=center&loading=lazy)
 <div class="align-center">

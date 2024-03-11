@@ -1,12 +1,12 @@
 ---
 title: ریای زاهد سالوس 
-metadata:
+metadata: نوشته‌ای در مورد پرهیز از پنهان کردن واقعیت‌ها و دورویی و نشان دادن خود آن گونه که نیستی
     description:  
 progress_bar: 1
 pdate: سه شنبه ۴ مهر ۱۴۰۲    
 author: Sibiāā
 taxonomy:
-    tag: [ درد , بیمارستان , زندگی ]
+    tag: [ دل_نوشته ]
 ---
 ![ریای زاهد سالوس](riaye_zahede_salous.webp?classes=center&loading=lazy)
 

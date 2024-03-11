@@ -6,7 +6,7 @@ progress_bar: 1
 pdate: شنبه ۱۹ اسفند ۱۴۰۲
 author: Sibiāā
 taxonomy:
-    tag: [ المپیاد , کامپیوتر   ]
+    tag: [ المپیاد  , خاطره  ]
 ---
 ![ لوگوی کاهو وبگاه پرسش و پاسخ المپیاد کامپیوتر ](kahu.webp?classes=center&loading=lazy)
 <div class="align-center">

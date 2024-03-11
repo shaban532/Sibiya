@@ -7,7 +7,7 @@ pdate: پنجشنبه ۱۹ بهمن ۱۴۰۲
 edate: پنجشنبه ۱۹ بهمن ۱۴۰۲    
 author: Sibiāā
 taxonomy: 
-    tag: [  ]
+    tag: [ خیریه , کودکان_فرشته_اند , دل_نوشته ]
 ---
 ![ رسید پرداخت پول به خیریه ](resid.webp?classes=center&loading=lazy)
 <div class="align-center">

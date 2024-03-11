@@ -6,7 +6,7 @@ progress_bar: 1
 pdate: یک شنبه ۳ دی ۱۴۰۲    
 author: Sibiāā
 taxonomy:
-    tag: [ امیرخانی , کتاب , رمان , شهرکتاب ]
+    tag: [ رضا_امیرخانی , کتاب , رمان , شهرکتاب , ادبیات , هنر ]
 ---
 ![همهٔ کتاب‌های امیرخانی](amirkhani.webp?classes=center&loading=lazy)
 

@@ -1,12 +1,12 @@
 ---
 title: هر چیز که خوار آید
-metadata:
+metadata: نوشته‌ای طنز دربارهٔ نگهدای و انبار کردن وسایل قدیمی در انباری خانه‌ها
     description:  
 progress_bar: 1
 pdate: یک شنبه ۳۰ مهر ۱۴۰۲    
 author: Sibiāā
 taxonomy:
-    tag: [ درد , بیمارستان , زندگی ]
+    tag: [ داستان , طنز , دل_نوشته ]
 ---
 ![هر چیز که خوار آید](old-rusty-junk-garbage-steel_1150-10992.webp?classes=center&loading=lazy)
 

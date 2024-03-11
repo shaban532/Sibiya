@@ -1,13 +1,13 @@
 ---
 title: شوالیهٔ ناموجود
 metadata: 
-    description: 
+    description: بریده‌ای از کتاب شوالیهٔ ناموجود نوشته ایتالو کالوینو ترجمه پرویز شهدی نشر چشمه
 progress_bar: 1
 pdate: دوشنبه ۹ بهمن ۱۴۰۲
 edate: دوشنبه ۹ بهمن ۱۴۰۲    
 author: Sibiāā
 taxonomy:
-    tag: [ داستان , کتاب ,   ]
+    tag: [ داستان , کتاب , هنر , ادبیات ]
 ---
 ![ شوالیهٔ ناموجود ](hand-drawn-knight-cartoon-illustration_52683-118933.webp?classes=center&loading=lazy)
 <div class="align-center">

@@ -1,12 +1,12 @@
 ---
 title: آرام جان
-metadata:
+metadata:  آلبوم آرام جان موسیقی‌های ریمیکس شده استاد محمدرضا شجریان و بنان با اولافور آرنالس Olafur Arnalds
     description: 
 progress_bar: 1
 pdate: پنج شنبه ۱۳ مهر ۱۴۰۲    
 author: Sibiāā
 taxonomy:
-    tag: [ درد , بیمارستان , زندگی ]
+    tag: [ هنر , موسیقی , حافظ , محمدرضا_شجریان , غلامحسین_بنان , Olafur_Arnalds ]
 ---
 ![آرام جان](arame_jaan.webp?classes=center&loading=lazy)
 

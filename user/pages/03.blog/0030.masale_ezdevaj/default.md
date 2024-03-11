@@ -1,13 +1,13 @@
 ---
 title: مسئله کلاسیک ازدواج
-metadata: 
+metadata: مسئله کلاسیک ازدواج یک از مسائل شمارشی در ریاضیات المپیاد 
     description: 
 progress_bar: 1
 pdate: دوشنبه ۳۰ بهمن ۱۴۰۲
 edate: دوشنبه  ۳۰ بهمن ۱۴۰۲    
 author: Sibiāā
 taxonomy: 
-    tag: [  ]
+    tag: [ ریاضی , المپیاد ]
 mathjax: 1
 ---
 ![ جوانی که به خواستگاری رفته است ](wedding-love-concept_23-2147924925.webp?classes=center&loading=lazy)

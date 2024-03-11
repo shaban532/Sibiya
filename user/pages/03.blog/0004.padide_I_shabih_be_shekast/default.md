@@ -1,12 +1,12 @@
 ---
 title: پدیده‌ای شبیه به شکست
-metadata:
+metadata: 
     description:  
 progress_bar: 1
 pdate: چهار شنبه ۱۲ مهر ۱۴۰۲    
 author: Sibiāā
 taxonomy:
-    tag: [ درد , بیمارستان , زندگی ]
+    tag: [ دل_نوشته ]
 ---
 ![شکست](padide_I_shabih_be_shekast.webp?classes=center&loading=lazy)
 

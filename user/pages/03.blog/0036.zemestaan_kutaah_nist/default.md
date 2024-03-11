@@ -1,7 +1,7 @@
 ---
 title: زمستان کوتاه نیست
 metadata: 
-    description: داستان عاشقانه زمستان کوتاه نیست
+    description: داستان کوتاه عاشقانه زمستان کوتاه نیست
 progress_bar: 1
 pdate: دوشنبه ۱۴ اسفند ۱۴۰۲
 author: Sibiāā

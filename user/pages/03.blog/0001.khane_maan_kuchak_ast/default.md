@@ -1,13 +1,13 @@
 ---
 title: خانهٔ‌مان کوچک است
-metadata:
+metadata: نوشته‌ای طنز در انتقاد به تلاش مردمان امروز برای بزرگ کردن خانه‌هایشان
     description:  
 progress_bar: 1
 pdate: جمعه  ۳۱ شهریور ۱۴۰۲  
 edate: یکشنبه ۵ اسفند ۱۴۰۲      
 author: Sibiāā
 taxonomy:
-    tag: [ زندگی ]
+    tag: [ زندگی , طنز , داستان ]
 ---
 ![خانهٔ‌مان کوچک است](1.webp?classes=center&loading=lazy)
 

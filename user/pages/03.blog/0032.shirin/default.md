@@ -1,13 +1,13 @@
 ---
 title: شیرین!
-metadata: 
+metadata: داستان کوتاه عاشقانه 
     description: 
 progress_bar: 1
 pdate: جمعه ۴ اسفند ۱۴۰۲
 edate: جمعه ۴ اسفند ۱۴۰۲    
 author: Sibiāā
 taxonomy:
-    tag: [  داستان  ]
+    tag: [  داستان , عاشقانه ]
 published: 1
 ---
 ![ آیدین و عشقش ](hand-drawn-couple-silhouette-illustration_23-2149840571.webp?classes=center&loading=lazy)

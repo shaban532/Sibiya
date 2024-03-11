@@ -1,13 +1,13 @@
 ---
 title: بهانه!
 metadata: 
-    description: 
+    description: نوشته‌ای به بهانه‌ تبریک گفتن روز تولد بهترین دوست من
 progress_bar: 1
 pdate: جمعه ۲۹ دی ۱۴۰۲
 edate: جمعه ۲۹ دی ۱۴۰۲    
 author: Sibiāā
 taxonomy:
-    tag: [  تولد  ]
+    tag: [  تولد , دل_نوشته ]
 ---
 ![ تولدت مبارک! ](colorful-birthday-composition-with-lovely-style_23-2147831067.webp?classes=center&loading=lazy)
 <div class="align-center">
