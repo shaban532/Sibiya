@@ -4,9 +4,9 @@ metadata:
     description: ساخت یک شبکه دی ال ان ای dlna و به اشتراک گذاری مدیا فیلم ویدیو عکس تصویر موسیقی صوتی در شبکه خانگی با minidlna مینی دی ال ان ای روی رزبری پای Raspberry pi
 progress_bar: 1
 pdate: پنجشنبه ۲۴ اسفند ۱۴۰۲
-author: Sibiāā
 taxonomy:
     tag: [ منبع_باز , هنر , فیلم , موسیقی , عکس , نرم_افزار , raspberry_pi  ]
+structure: BlogPosting
 ---
 ![ نصب مینی دی ال ان ای MiniDLNA رپی یک دستگاه رزبری پای ](2024-03-14-114002_1920x1080_scrot.webp?classes=center&loading=lazy)
 <div class="align-center">

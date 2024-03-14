@@ -7,7 +7,7 @@ pdate: پنجشنبه ۲۴ اسفند ۱۴۰۲
 author: Sibiāā
 taxonomy:
     tag: [ هاست , سرور , اقتصادی ]
-published: 0
+published: 1
 ---
 ![ هاست ](parspack.webp?classes=center&loading=lazy)
 <div class="align-center">
