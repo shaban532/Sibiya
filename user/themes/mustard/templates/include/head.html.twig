@@ -26,7 +26,7 @@
 {% if page.header.image3 %},"{{ page.url }}/{{page.header.image3}}",{% endif %}
 {% if page.header.image4 %},"{{ page.url }}/{{page.header.image4}}",{% endif %}
        ],
-      "datePublished": "{{page.header.datePublished}}",
+      "datePublished": "{{page.header.datePublished| date("c")}}",
       "dateModified": "",
       "author": [{
           "@type": "Person",
