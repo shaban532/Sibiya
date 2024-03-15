@@ -7,6 +7,7 @@ pdate: پنجشنبه ۲۴ اسفند ۱۴۰۲
 taxonomy:
     tag: [ منبع_باز , هنر , فیلم , موسیقی , عکس , نرم_افزار , raspberry_pi  ]
 structure: BlogPosting
+image1: 2024-03-14-114002_1920x1080_scrot.webp
 ---
 ![ نصب مینی دی ال ان ای MiniDLNA رپی یک دستگاه رزبری پای ](2024-03-14-114002_1920x1080_scrot.webp?classes=center&loading=lazy)
 <div class="align-center">

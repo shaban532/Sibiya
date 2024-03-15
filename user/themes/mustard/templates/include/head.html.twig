@@ -21,6 +21,10 @@
       "@type": "BlogPosting",
       "headline": "{{ page.title|e('html') }}",
       "image": [
+	{% if page.header.image1 %}"{{ page.url }}/{{page.header.image1}}"{% endif %}
+{% if page.header.image2 %},"{{ page.url }}/{{page.header.image2}}",{% endif %}
+{% if page.header.image3 %},"{{ page.url }}/{{page.header.image3}}",{% endif %}
+{% if page.header.image4 %},"{{ page.url }}/{{page.header.image4}}",{% endif %}
        ],
       "datePublished": "",
       "dateModified": "",
