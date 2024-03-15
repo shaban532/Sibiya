@@ -4,9 +4,10 @@ metadata:
     description: نقد و بررسی کتاب خداحافظ گاری کوپر نوشتهٔ رومن گاری و ترجمهٔ فارسی آن توسط سروش حبیبی نشر نیلوفر
 progress_bar: 1
 pdate: جمعه ۱۱ اسفند ۱۴۰۲
-author: Sibiāā
 taxonomy:
     tag: [ کتاب , هنر , داستان , Romain_Gary ]
+structure: BlogPosting
+datePublished: 2024-03-01T19:55:00-03:30
 ---
 ![ تصویر روی جلد کتاب کتاب خداحافظ گاری کوپر در فرانسه نوشته رومن گاری ](Book_53281_lg_0.webp?classes=center&loading=lazy)
 <div class="align-center">

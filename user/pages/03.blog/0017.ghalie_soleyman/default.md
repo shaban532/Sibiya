@@ -5,9 +5,10 @@ metadata:
 progress_bar: 1
 pdate: سه‌شنبه ۷ آذر ۱۴۰۲
 edate: دوشنبه ۲۵ دی ۱۴۰۲    
-author: Sibiāā
 taxonomy:
     tag: [ طنز   ]
+    structure: BlogPosting
+datePublished: 2024-01-15T08:00:00-03:30
 ---
 ![قالی سلیمان](flat-design-prayer-mat.webp?classes=center&loading=lazy)
 <div class="align-center">

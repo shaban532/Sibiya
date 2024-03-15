@@ -5,10 +5,12 @@ metadata: مسئله کلاسیک ازدواج یک از مسائل شمارشی
 progress_bar: 1
 pdate: دوشنبه ۳۰ بهمن ۱۴۰۲
 edate: دوشنبه  ۳۰ بهمن ۱۴۰۲    
-author: Sibiāā
 taxonomy: 
     tag: [ ریاضی , المپیاد ]
-mathjax: 1
+mathjax: 
+structure: BlogPosting
+datePublished: 2024-02-19T13:48:00-03:30
+
 ---
 ![ جوانی که به خواستگاری رفته است ](wedding-love-concept_23-2147924925.webp?classes=center&loading=lazy)
 <div class="align-center">

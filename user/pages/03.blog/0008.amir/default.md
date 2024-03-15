@@ -5,9 +5,10 @@ metadata:
 progress_bar: 1
 pdate: یکشنبه ۲۱ آبان ۱۴۰۲    
 edate: یک‌شنبه ۸ بهمن ۱۴۰۲    
-author: Sibiāā
 taxonomy:
     tag: [ سربازی , خدمت , خاطره ]
+structure: BlogPosting
+datePublished: 2023-11-12T08:00:00-03:30
 ---
 ![من و امیر](friendship-day-background-with-friends_23-2147837909.webp?classes=center&loading=lazy)
 <div class="align-center">

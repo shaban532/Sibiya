@@ -15,19 +15,22 @@
 {% endfor %}
 
 {% if page.header.structure == "BlogPosting" %}
+
+{% set blog_image = page.media.images|first %}
+
 <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "headline": "{{ page.title|e('html') }}",
       "image": [
-	{% if page.header.image1 %}"{{ page.url }}/{{page.header.image1}}"{% endif %}
+	"{{blog_image.url|e}}"
 {% if page.header.image2 %},"{{ page.url }}/{{page.header.image2}}",{% endif %}
 {% if page.header.image3 %},"{{ page.url }}/{{page.header.image3}}",{% endif %}
 {% if page.header.image4 %},"{{ page.url }}/{{page.header.image4}}",{% endif %}
        ],
-      "datePublished": "{{page.header.datePublished| date("c")}}",
-      "dateModified": "",
+      {% if page.header.datePublished %} "datePublished": "{{page.header.datePublished| date("c")}}", {% endif %}
+	{% if page.header.dateModified %} "dateModified": "{{page.header.dateModified| date("c")}}", {% endif %}      
       "author": [{
           "@type": "Person",
           "name": "{% if page.header.author.name %}{{page.header.author.name|e}}{% else %}{{site.author.name|e}}{% endif %}",

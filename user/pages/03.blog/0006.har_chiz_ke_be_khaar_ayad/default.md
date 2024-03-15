@@ -4,9 +4,10 @@ metadata: نوشته‌ای طنز دربارهٔ نگهدای و انبار ک�
     description:  
 progress_bar: 1
 pdate: یک شنبه ۳۰ مهر ۱۴۰۲    
-author: Sibiāā
 taxonomy:
     tag: [ داستان , طنز , دل_نوشته ]
+structure: BlogPosting
+datePublished: 2023-10-22T08:00:00-03:30
 ---
 ![هر چیز که خوار آید](old-rusty-junk-garbage-steel_1150-10992.webp?classes=center&loading=lazy)
 

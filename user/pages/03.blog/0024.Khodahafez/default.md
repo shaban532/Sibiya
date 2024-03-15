@@ -5,9 +5,10 @@ metadata:
 progress_bar: 1
 pdate: جمعه ۱۳ بهمن ۱۴۰۲
 edate: جمعه ۱۳ بهمن ۱۴۰۲    
-author: Sibiāā
 taxonomy: 
     tag: [ دل_نوشته ]
+structure: BlogPosting
+datePublished: 2024-02-02T08:00:00-03:30
 ---
 ![ خداحافظ! ](back-backpacker-simple-character_1308-106503.webp?classes=center&loading=lazy)
 <div class="align-center">

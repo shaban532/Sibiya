@@ -4,9 +4,10 @@ metadata:
     description: داستان کوتاه عاشقانه زمستان کوتاه نیست
 progress_bar: 1
 pdate: دوشنبه ۱۴ اسفند ۱۴۰۲
-author: Sibiāā
 taxonomy:
     tag: [ عاشقانه , هنر , داستان  ]
+structure: BlogPosting
+datePublished: 2024-03-04T14:20:00-03:30
 ---
 ![ تصویر داستان زمستان کوتاه نیست ](close-up-hands-holding-snow_23-2149271454.webp?classes=center&loading=lazy)
 <div class="align-center">

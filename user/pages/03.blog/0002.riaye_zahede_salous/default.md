@@ -4,9 +4,10 @@ metadata: نوشته‌ای در مورد پرهیز از پنهان کردن و
     description:  
 progress_bar: 1
 pdate: سه شنبه ۴ مهر ۱۴۰۲    
-author: Sibiāā
 taxonomy:
     tag: [ دل_نوشته ]
+structure: BlogPosting
+datePublished: 2023-09-26T08:00:00-03:30
 ---
 ![ریای زاهد سالوس](riaye_zahede_salous.webp?classes=center&loading=lazy)
 

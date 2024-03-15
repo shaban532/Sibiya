@@ -5,9 +5,10 @@ metadata:
 progress_bar: 1
 pdate: جمعه ۲۹ دی ۱۴۰۲
 edate: جمعه ۲۹ دی ۱۴۰۲    
-author: Sibiāā
 taxonomy:
     tag: [  تولد , دل_نوشته ]
+structure: BlogPosting
+datePublished: 2024-01-19T08:00:00-03:30
 ---
 ![ تولدت مبارک! ](colorful-birthday-composition-with-lovely-style_23-2147831067.webp?classes=center&loading=lazy)
 <div class="align-center">

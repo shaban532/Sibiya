@@ -5,9 +5,10 @@ metadata:
 progress_bar: 1
 pdate: پنج شنبه ۷ دی ۱۴۰۲
 edate: شنبه ۹ دی ۱۴۰۲    
-author: Sibiāā
 taxonomy:
     tag: [ خدمت , سربازی , تولد , خاطره ]
+structure: BlogPosting
+datePublished: 2023-12-31T08:00:00-03:30
 ---
 ![شکلات کاکائویی به شکل قلب و روکش فویل قرمز](heart-chocolate-wooden-table_23-2147591176.webp?classes=center&loading=lazy)
 <div class="align-center">

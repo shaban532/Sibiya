@@ -4,9 +4,11 @@ metadata: نقد و بررسی کوتاه فیلم شهر زیبا ساخته و
     description: 
 progress_bar: 1
 pdate: دوشنبه ۷ اسفند ۱۴۰۲
-author: Sibiāā
 taxonomy:
     tag: [  فیلم , هنر , اصغر_فرهادی ]
+structure: BlogPosting
+datePublished: 2024-02-26T14:33:00-03:30
+
 ---
 ![ تصویری از فیروزه در فیلم شهر زیبا ساخته اصغر فرهادی ](shahre_ziba.webp?classes=center,loading=lazy&loading=lazy)
 <div class="align-center">

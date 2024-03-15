@@ -5,9 +5,10 @@ metadata:
 progress_bar: 1
 pdate: دوشنبه ۹ بهمن ۱۴۰۲
 edate: دوشنبه ۹ بهمن ۱۴۰۲    
-author: Sibiāā
 taxonomy:
     tag: [ داستان , کتاب , هنر , ادبیات ]
+structure: BlogPosting
+datePublished: 2024-01-30T08:00:00-03:30
 ---
 ![ شوالیهٔ ناموجود ](hand-drawn-knight-cartoon-illustration_52683-118933.webp?classes=center&loading=lazy)
 <div class="align-center">

@@ -5,9 +5,10 @@ metadata: نقد و بررسی رزبری پای ۴ پس از چند سال اس
 progress_bar: 1
 pdate: یکشنبه ۲۹ بهمن ۱۴۰۲
 edate: یکشنبه  ۲۹ بهمن ۱۴۰۲    
-author: Sibiāā
 taxonomy: 
     tag: [ تکنولوژی ,Raspberry_Pi , منبع_باز ]
+structure: BlogPosting
+datePublished: 2024-02-18T08:00:00-03:30
 ---
 ![ رزبری پای ۵ ](raspberry-pi-5.webp?classes=center&loading=lazy)
 <div class="align-center">

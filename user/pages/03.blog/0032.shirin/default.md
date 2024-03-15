@@ -5,9 +5,10 @@ metadata: داستان کوتاه عاشقانه
 progress_bar: 1
 pdate: جمعه ۴ اسفند ۱۴۰۲
 edate: جمعه ۴ اسفند ۱۴۰۲    
-author: Sibiāā
 taxonomy:
     tag: [  داستان , عاشقانه ]
+structure: BlogPosting
+datePublished: 2024-02-23T21:55:00-03:30
 published: 1
 ---
 ![ آیدین و عشقش ](hand-drawn-couple-silhouette-illustration_23-2149840571.webp?classes=center&loading=lazy)

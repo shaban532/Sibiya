@@ -5,9 +5,10 @@ metadata:
 progress_bar: 1
 pdate: پنجشنبه ۱۹ بهمن ۱۴۰۲
 edate: پنجشنبه ۱۹ بهمن ۱۴۰۲    
-author: Sibiāā
 taxonomy: 
     tag: [ خیریه , کودکان_فرشته_اند , دل_نوشته ]
+structure: BlogPosting
+datePublished: 2024-02-08T08:00:00-03:30
 ---
 ![ رسید پرداخت پول به خیریه ](resid.webp?classes=center&loading=lazy)
 <div class="align-center">

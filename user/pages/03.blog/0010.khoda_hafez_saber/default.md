@@ -4,9 +4,10 @@ metadata:
     description:  صابر راستی کردار دوست داشتنی خالق فونت وزیر-متن بعد از مدت‌ها سختی به دلیل بیماری سرطان درگذشت.
 progress_bar: 1
 pdate: سه شنبه ۳۰ آبان ۱۴۰۲    
-author: Sibiāā
 taxonomy:
     tag: [ هنر , گرافیک , فونت ]
+structure: BlogPosting
+datePublished: 2023-11-21T08:00:00-03:30
 ---
 ![تلگرام صابر راستی کردار](saber.webp?classes=center&loading=lazy)
 

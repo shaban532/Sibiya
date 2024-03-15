@@ -4,9 +4,10 @@ metadata:
     description: استفاده از لانچدک launchdeck برای انتقال فایل‌ها از سرور گیت Git به سرور یا هاست شخصی
 progress_bar: 1
 pdate: سه شنبه ۳۰ آبان ۱۴۰۲    
-author: Sibiāā
 taxonomy:
     tag: [ launchdeck, Git , GitHub , منبع_باز ]
+structure: BlogPosting
+datePublished: 2023-11-21T08:00:00-03:30
 ---
 ![launchdeck.io](launchdeck_io.webp?classes=center&loading=lazy)
 

@@ -4,9 +4,10 @@ metadata:
     description: انتشار سورس Grav Sibiya.ir روی گیت هاب GitHub 
 progress_bar: 1
 pdate: سه‌شنبه ۱۵ اسفند ۱۴۰۲
-author: Sibiāā
 taxonomy:
     tag: [ منبع_باز , سایت , Sibiya , GitHub  ]
+structure: BlogPosting
+datePublished: 2024-03-05T09:50:00-03:30
 ---
 ![ تصویری از مخزن گیت‌هاب sibiya ](sibiya_github.webp?classes=center&loading=lazy)
 <div class="align-center">

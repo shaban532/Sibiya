@@ -5,9 +5,11 @@ metadata: معنی و مفهموم من یزید در شعر حافظ و کتا�
 progress_bar: 1
 pdate: چهارشنبه ۲ اسفند ۱۴۰۲
 edate: چهارشنبه  ۲ اسفند ۱۴۰۲    
-author: Sibiāā
 taxonomy: 
     tag: [ هنر , ادبیات , دین , حافظ , غزالی ]
+structure: BlogPosting
+datePublished: 2024-02-21T22:28:00-03:30
+
 ---
 ![ مزایده در بازار ](auction-concept-illustration_114360-6961.webp?classes=center&loading=lazy)
 <div class="align-center">

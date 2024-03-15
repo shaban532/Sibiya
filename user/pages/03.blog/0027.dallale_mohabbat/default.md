@@ -5,9 +5,10 @@ metadata:
 progress_bar: 1
 pdate: جمعه ۲۷ بهمن ۱۴۰۲
 edate: جمعه  ۲۷ بهمن ۱۴۰۲    
-author: Sibiāā
 taxonomy: 
     tag: [ دل_نوشته , عاشقانه , داستان , هنر ]
+structure: BlogPosting
+datePublished: 2024-02-16T08:00:00-03:30
 ---
 ![ من هنوز تو را دوست دارم ](joyful-young-couple-showing-heart-sign_23-2148215596.webp?classes=center&loading=lazy)
 <div class="align-center">

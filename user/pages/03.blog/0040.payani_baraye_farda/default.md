@@ -7,6 +7,8 @@ pdate: دوشنبه ۲۱ اسفند ۱۴۰۲
 author: Sibiāā
 taxonomy:
     tag: [ داستان , هنر , فیلم , سینما  ]
+structure: BlogPosting
+datePublished: 2024-03-11T11:50:00-03:30
 ---
 ![ تصویری از یک جاده ](payani_baraye_farda.webp?classes=center&loading=lazy)
 <div class="align-center">

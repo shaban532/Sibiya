@@ -4,9 +4,10 @@ metadata:
     description: خاطره‌ای از روزهای زیبای خدمت سربازی و  احترام نظامی در دوران خدمت
 progress_bar: 1
 pdate: یک شنبه ۳ دی ۱۴۰۲    
-author: Sibiāā
 taxonomy:
     tag: [ خدمت , سربازی , خاطره ]
+structure: BlogPosting
+datePublished: 2023-12-24T08:00:00-03:30
 ---
 ![سلام عزیزم](soldier_1308-83676.webp?classes=center&loading=lazy)
 <div class="align-center">

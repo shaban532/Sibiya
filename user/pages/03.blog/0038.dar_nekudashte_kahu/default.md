@@ -4,9 +4,10 @@ metadata:
     description: سایت کاهو پرسش و پاسخ  کمیته ملی المپیاد کامپیوتر
 progress_bar: 1
 pdate: شنبه ۱۹ اسفند ۱۴۰۲
-author: Sibiāā
 taxonomy:
     tag: [ المپیاد  , خاطره  ]
+structure: BlogPosting
+datePublished: 2024-03-09T08:00:00-03:30
 ---
 ![ لوگوی کاهو وبگاه پرسش و پاسخ المپیاد کامپیوتر ](kahu.webp?classes=center&loading=lazy)
 <div class="align-center">

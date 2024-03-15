@@ -4,10 +4,11 @@ metadata:
     description: هاست ارزان با قیمت و پشتیبانی مناسب پارس پک pars pack
 progress_bar: 1
 pdate: پنجشنبه ۲۴ اسفند ۱۴۰۲
-author: Sibiāā
 taxonomy:
     tag: [ هاست , سرور , اقتصادی ]
 published: 1
+structure: BlogPosting
+datePublished: 2024-03-14T21:05:46+03:30
 ---
 ![ هاست ](parspack.webp?classes=center&loading=lazy)
 <div class="align-center">

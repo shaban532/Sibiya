@@ -5,9 +5,10 @@ metadata:
 progress_bar: 1
 pdate: یک‌شنبه ۱ بهمن ۱۴۰۲
 edate: یک‌شنبه ۱ بهمن ۱۴۰۲    
-author: Sibiāā
 taxonomy:
     tag: [  دانشگاه , خاطره , هنر , عکاسی ,  ]
+structure: BlogPosting
+datePublished: 2024-01-21T08:00:00-03:30
 ---
 ![ دختر عموی قشنگم ](4.webp?classes=center&loading=lazy)
 <div class="align-center">

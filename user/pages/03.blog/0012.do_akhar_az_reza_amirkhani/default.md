@@ -4,9 +4,10 @@ metadata:
     description: حکایت آشنایی من با رضا امیرخانی و سیر من در مطالعه کتاب‌های او
 progress_bar: 1
 pdate: یک شنبه ۳ دی ۱۴۰۲    
-author: Sibiāā
 taxonomy:
     tag: [ رضا_امیرخانی , کتاب , رمان , شهرکتاب , ادبیات , هنر ]
+structure: BlogPosting
+datePublished: 2023-12-24T08:00:00-03:30
 ---
 ![همهٔ کتاب‌های امیرخانی](amirkhani.webp?classes=center&loading=lazy)
 

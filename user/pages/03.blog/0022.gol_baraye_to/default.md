@@ -5,9 +5,10 @@ metadata: نگاهی نو به خاطره‌های دوران دانشگاه ن�
 progress_bar: 1
 pdate: پنجشنبه ۵ بهمن ۱۴۰۲
 edate: پنجشنبه ۵ بهمن ۱۴۰۲    
-author: Sibiāā
 taxonomy:
     tag: [  نامه  , دل_نوشته , دانشگاه]
+structure: BlogPosting
+datePublished: 2024-01-30T08:00:00-03:30
 ---
 ![ گل برای تو ](cute-flower-pot-cartoon-vector-icon-illustration-nature-object-icon-concept-isolated-flat-vector_138676-9485.webp?classes=center&loading=lazy)
 <div class="align-center">

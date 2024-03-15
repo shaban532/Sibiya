@@ -7,6 +7,8 @@ pdate: شنبه ۱۹ اسفند ۱۴۰۲
 author: Sibiāā
 taxonomy:
     tag: [ خیریه , بازسازی , کودکان_فرشته_اند , خاطره   ]
+structure: BlogPosting
+datePublished: 2024-03-09T23:10:00-03:30
 ---
 ![ نوشته‌ای برای تیم بازسازی خیریه کودکان فرشته‌اند ](baazsaazi.webp?classes=center&loading=lazy)
 <div class="align-center">

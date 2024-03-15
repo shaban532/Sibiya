@@ -4,9 +4,10 @@ metadata:
     description: کمیک رایگان و منبع‌باز فلفل و هویچ Pepper and Carrot ساخته شده توسط دیوید ریووی David Revoy 
 progress_bar: 1
 pdate: چهار شنبه ۵ مهر ۱۴۰۲    
-author: Sibiāā
 taxonomy:
     tag: [ اوپن_سورس , منبع_باز , گرافیک , هنر ]
+structure: BlogPosting
+datePublished: 2023-09-27T08:00:00-03:30
 ---
 ![لوگوی فلفل و هویچ](Pepper_and_Carrot.webp?classes=center&loading=lazy)
 
