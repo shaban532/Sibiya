@@ -7,7 +7,7 @@ pdate: سه‌شنبه ۷ آذر ۱۴۰۲
 edate: دوشنبه ۲۵ دی ۱۴۰۲    
 taxonomy:
     tag: [ طنز   ]
-    structure: BlogPosting
+structure: BlogPosting
 datePublished: 2024-01-15T08:00:00-03:30
 ---
 ![قالی سلیمان](flat-design-prayer-mat.webp?classes=center&loading=lazy)
