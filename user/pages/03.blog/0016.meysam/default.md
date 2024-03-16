@@ -8,7 +8,7 @@ edate: دوشنبه ۱۸ دی ۱۴۰۲
 taxonomy:
     tag: [ جنگ , کتاب , شهدا ]
 structure: BlogPosting
-datePublished: 2024-01-08T08:00:00-03:30
+datePublished: 2024-01-08T08:00:00+03:30
 ---
 ![تصویر شهید مرتضی شکوری معروف به میثم](meysam-l.webp?classes=center&loading=lazy)
 

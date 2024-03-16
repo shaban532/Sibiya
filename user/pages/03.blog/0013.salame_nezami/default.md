@@ -7,7 +7,7 @@ pdate: یک شنبه ۳ دی ۱۴۰۲
 taxonomy:
     tag: [ خدمت , سربازی , خاطره ]
 structure: BlogPosting
-datePublished: 2023-12-24T08:00:00-03:30
+datePublished: 2023-12-24T08:00:00+03:30
 ---
 ![سلام عزیزم](soldier_1308-83676.webp?classes=center&loading=lazy)
 <div class="align-center">

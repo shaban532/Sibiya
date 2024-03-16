@@ -7,7 +7,7 @@ pdate: سه شنبه ۴ مهر ۱۴۰۲
 taxonomy:
     tag: [ دل_نوشته ]
 structure: BlogPosting
-datePublished: 2023-09-26T08:00:00-03:30
+datePublished: 2023-09-26T08:00:00+03:30
 ---
 ![ریای زاهد سالوس](riaye_zahede_salous.webp?classes=center&loading=lazy)
 

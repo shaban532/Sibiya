@@ -7,7 +7,7 @@ pdate: پنج شنبه ۱۳ مهر ۱۴۰۲
 taxonomy:
     tag: [ هنر , موسیقی , حافظ , محمدرضا_شجریان , غلامحسین_بنان , Olafur_Arnalds ]
 structure: BlogPosting
-datePublished: 2023-10-05T08:00:00-03:30
+datePublished: 2023-10-05T08:00:00+03:30
 ---
 ![آرام جان](arame_jaan.webp?classes=center&loading=lazy)
 

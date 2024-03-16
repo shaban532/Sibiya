@@ -8,7 +8,7 @@ edate: چهارشنبه  ۲ اسفند ۱۴۰۲
 taxonomy: 
     tag: [ هنر , ادبیات , دین , حافظ , غزالی ]
 structure: BlogPosting
-datePublished: 2024-02-21T22:28:00-03:30
+datePublished: 2024-02-21T22:28:00+03:30
 
 ---
 ![ مزایده در بازار ](auction-concept-illustration_114360-6961.webp?classes=center&loading=lazy)

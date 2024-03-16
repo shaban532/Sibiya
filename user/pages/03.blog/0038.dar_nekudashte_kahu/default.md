@@ -7,7 +7,7 @@ pdate: شنبه ۱۹ اسفند ۱۴۰۲
 taxonomy:
     tag: [ المپیاد  , خاطره  ]
 structure: BlogPosting
-datePublished: 2024-03-09T08:00:00-03:30
+datePublished: 2024-03-09T08:00:00+03:30
 ---
 ![ لوگوی کاهو وبگاه پرسش و پاسخ المپیاد کامپیوتر ](kahu.webp?classes=center&loading=lazy)
 <div class="align-center">

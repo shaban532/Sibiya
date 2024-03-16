@@ -9,7 +9,7 @@ taxonomy:
     tag: [ ریاضی , المپیاد ]
 mathjax: 
 structure: BlogPosting
-datePublished: 2024-02-19T13:48:00-03:30
+datePublished: 2024-02-19T13:48:00+03:30
 
 ---
 ![ جوانی که به خواستگاری رفته است ](wedding-love-concept_23-2147924925.webp?classes=center&loading=lazy)

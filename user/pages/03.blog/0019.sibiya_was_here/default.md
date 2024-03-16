@@ -8,7 +8,7 @@ edate: سه‌شنبه ۲۶ دی ۱۴۰۲
 taxonomy:
     tag: [ سربازی , خدمت , فیلم , هنر  , خودکشی , دل_نوشته  ]
 structure: BlogPosting
-datePublished: 2024-01-16T08:00:00-03:30
+datePublished: 2024-01-16T08:00:00+03:30
 ---
 ![ یک تصویر از فیلم رستگاری در شاوشنک ](brooks_was_here.webp?classes=center&loading=lazy)
 

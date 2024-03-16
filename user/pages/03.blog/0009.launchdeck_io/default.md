@@ -7,7 +7,7 @@ pdate: سه شنبه ۳۰ آبان ۱۴۰۲
 taxonomy:
     tag: [ launchdeck, Git , GitHub , منبع_باز ]
 structure: BlogPosting
-datePublished: 2023-11-21T08:00:00-03:30
+datePublished: 2023-11-21T08:00:00+03:30
 ---
 ![launchdeck.io](launchdeck_io.webp?classes=center&loading=lazy)
 

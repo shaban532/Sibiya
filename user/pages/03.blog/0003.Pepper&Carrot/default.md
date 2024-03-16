@@ -7,7 +7,7 @@ pdate: چهار شنبه ۵ مهر ۱۴۰۲
 taxonomy:
     tag: [ اوپن_سورس , منبع_باز , گرافیک , هنر ]
 structure: BlogPosting
-datePublished: 2023-09-27T08:00:00-03:30
+datePublished: 2023-09-27T08:00:00+03:30
 ---
 ![لوگوی فلفل و هویچ](Pepper_and_Carrot.webp?classes=center&loading=lazy)
 

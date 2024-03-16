@@ -8,7 +8,7 @@ edate: یک شنبه ۱۰ دی ۱۴۰۲
 taxonomy:
     tag: [ جایزه , مدرسه , المپیاد , خاطره ]
 structure: BlogPosting
-datePublished: 2023-12-31T08:00:00-03:30
+datePublished: 2023-12-31T08:00:00+03:30
 ---
 ![تصویر ایران چک ۵۰۰ هزار تومانی!](500.webp?classes=center&loading=lazy)
 

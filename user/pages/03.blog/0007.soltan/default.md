@@ -7,7 +7,7 @@ pdate: یکشنبه ۳۰ مهر ۱۴۰۲
 taxonomy:
     tag: [ داستان , سلطان ]
 structure: BlogPosting
-datePublished: 2023-10-22T08:00:00-03:30
+datePublished: 2023-10-22T08:00:00+03:30
 ---
 ![سلطان](poor-people-living-cardboard-box-outdoor-begging-money-flat-banner-with-homeless-men_1284-32215.webp?classes=center&loading=lazy)
 <div class="align-center">

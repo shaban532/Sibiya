@@ -7,7 +7,7 @@ pdate: جمعه ۱۱ اسفند ۱۴۰۲
 taxonomy:
     tag: [ کتاب , هنر , داستان , Romain_Gary ]
 structure: BlogPosting
-datePublished: 2024-03-01T19:55:00-03:30
+datePublished: 2024-03-01T19:55:00+03:30
 ---
 ![ تصویر روی جلد کتاب کتاب خداحافظ گاری کوپر در فرانسه نوشته رومن گاری ](Book_53281_lg_0.webp?classes=center&loading=lazy)
 <div class="align-center">

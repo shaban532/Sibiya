@@ -7,7 +7,7 @@ pdate: سه شنبه ۳۰ آبان ۱۴۰۲
 taxonomy:
     tag: [ هنر , گرافیک , فونت ]
 structure: BlogPosting
-datePublished: 2023-11-21T08:00:00-03:30
+datePublished: 2023-11-21T08:00:00+03:30
 ---
 ![تلگرام صابر راستی کردار](saber.webp?classes=center&loading=lazy)
 

@@ -8,7 +8,7 @@ edate: یکشنبه ۵ اسفند ۱۴۰۲
 taxonomy:
     tag: [ زندگی , طنز , داستان ]
 structure: BlogPosting
-datePublished: 2023-09-22T08:00:00-03:30
+datePublished: 2023-09-22T08:00:00+03:30
 ---
 ![خانهٔ‌مان کوچک است](1.webp?classes=center&loading=lazy)
 

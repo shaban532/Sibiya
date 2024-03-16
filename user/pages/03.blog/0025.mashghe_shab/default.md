@@ -8,7 +8,7 @@ edate: دوشنبه ۱۶ بهمن ۱۴۰۲
 taxonomy: 
     tag: [ فیلم , مستند , هنر , عباس_کیارستمی , مدرسه ]
 structure: BlogPosting
-datePublished: 2024-02-05T08:00:00-03:30
+datePublished: 2024-02-05T08:00:00+03:30
 ---
 ![ خداحافظ! ](note-paper-background-with-hole-punches_78370-2344.webp?classes=center&loading=lazy)
 <div class="align-center">

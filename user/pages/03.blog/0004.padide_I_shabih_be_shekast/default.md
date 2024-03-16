@@ -7,7 +7,7 @@ pdate: چهار شنبه ۱۲ مهر ۱۴۰۲
 taxonomy:
     tag: [ دل_نوشته ]
 structure: BlogPosting
-datePublished: 2023-10-04T08:00:00-03:30
+datePublished: 2023-10-04T08:00:00+03:30
 ---
 ![شکست](padide_I_shabih_be_shekast.webp?classes=center&loading=lazy)
 

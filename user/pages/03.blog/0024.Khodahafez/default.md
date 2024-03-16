@@ -8,7 +8,7 @@ edate: جمعه ۱۳ بهمن ۱۴۰۲
 taxonomy: 
     tag: [ دل_نوشته ]
 structure: BlogPosting
-datePublished: 2024-02-02T08:00:00-03:30
+datePublished: 2024-02-02T08:00:00+03:30
 ---
 ![ خداحافظ! ](back-backpacker-simple-character_1308-106503.webp?classes=center&loading=lazy)
 <div class="align-center">

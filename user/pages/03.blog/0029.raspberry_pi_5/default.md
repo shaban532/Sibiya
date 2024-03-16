@@ -8,7 +8,7 @@ edate: یکشنبه  ۲۹ بهمن ۱۴۰۲
 taxonomy: 
     tag: [ تکنولوژی ,Raspberry_Pi , منبع_باز ]
 structure: BlogPosting
-datePublished: 2024-02-18T08:00:00-03:30
+datePublished: 2024-02-18T08:00:00+03:30
 ---
 ![ رزبری پای ۵ ](raspberry-pi-5.webp?classes=center&loading=lazy)
 <div class="align-center">

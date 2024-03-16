@@ -8,7 +8,7 @@ edate: سه‌شنبه ۲۶ دی ۱۴۰۲
 taxonomy:
     tag: [ خاطره , سربازی , خدمت  ]
 structure: BlogPosting
-datePublished: 2024-01-16T08:00:00-03:30
+datePublished: 2024-01-16T08:00:00+03:30
 ---
 ![ نیمرو ](fried-eggs-frying-pan.webp?classes=center&loading=lazy)
 <div class="align-center">

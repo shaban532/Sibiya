@@ -7,7 +7,7 @@ pdate: دوشنبه ۷ اسفند ۱۴۰۲
 taxonomy:
     tag: [ سیاست , دین , دل_نوشته ]
 structure: BlogPosting
-datePublished: 2024-02-26T17:08:00-03:30
+datePublished: 2024-02-26T17:08:00+03:30
 ---
 ![ نگاهی عمیق‌تر به مسئله انتخابات در جمهوری اسلامی ایران](india-general-election-illustration_24911-115308.webp?classes=center&loading=lazy)
 <div class="align-center">

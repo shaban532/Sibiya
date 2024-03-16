@@ -8,7 +8,7 @@ edate: یک‌شنبه ۸ بهمن ۱۴۰۲
 taxonomy:
     tag: [ سربازی , خدمت , خاطره ]
 structure: BlogPosting
-datePublished: 2023-11-12T08:00:00-03:30
+datePublished: 2023-11-12T08:00:00+03:30
 ---
 ![من و امیر](friendship-day-background-with-friends_23-2147837909.webp?classes=center&loading=lazy)
 <div class="align-center">

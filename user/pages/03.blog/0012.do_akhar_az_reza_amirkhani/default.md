@@ -7,7 +7,7 @@ pdate: یک شنبه ۳ دی ۱۴۰۲
 taxonomy:
     tag: [ رضا_امیرخانی , کتاب , رمان , شهرکتاب , ادبیات , هنر ]
 structure: BlogPosting
-datePublished: 2023-12-24T08:00:00-03:30
+datePublished: 2023-12-24T08:00:00+03:30
 ---
 ![همهٔ کتاب‌های امیرخانی](amirkhani.webp?classes=center&loading=lazy)
 

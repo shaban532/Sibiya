@@ -8,7 +8,7 @@ edate: یک‌شنبه ۱ بهمن ۱۴۰۲
 taxonomy:
     tag: [  دانشگاه , خاطره , هنر , عکاسی ,  ]
 structure: BlogPosting
-datePublished: 2024-01-21T08:00:00-03:30
+datePublished: 2024-01-21T08:00:00+03:30
 ---
 ![ دختر عموی قشنگم ](4.webp?classes=center&loading=lazy)
 <div class="align-center">

@@ -8,7 +8,7 @@ edate: دوشنبه ۹ بهمن ۱۴۰۲
 taxonomy:
     tag: [ داستان , کتاب , هنر , ادبیات ]
 structure: BlogPosting
-datePublished: 2024-01-30T08:00:00-03:30
+datePublished: 2024-01-30T08:00:00+03:30
 ---
 ![ شوالیهٔ ناموجود ](hand-drawn-knight-cartoon-illustration_52683-118933.webp?classes=center&loading=lazy)
 <div class="align-center">

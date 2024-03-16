@@ -7,7 +7,7 @@ pdate: یک شنبه ۳۰ مهر ۱۴۰۲
 taxonomy:
     tag: [ داستان , طنز , دل_نوشته ]
 structure: BlogPosting
-datePublished: 2023-10-22T08:00:00-03:30
+datePublished: 2023-10-22T08:00:00+03:30
 ---
 ![هر چیز که خوار آید](old-rusty-junk-garbage-steel_1150-10992.webp?classes=center&loading=lazy)
 
