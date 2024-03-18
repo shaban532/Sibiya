@@ -8,7 +8,7 @@ taxonomy:
     tag: [ داستان , رمان , رضا_امیرخانی , ادبیات ]
 published: 1
 structure: BlogPosting
-datePublished: 2024-03-16T13:15:46+03:30
+datePublished: 2024-03-17T21:15:46+03:30
 ---
 ![ کتاب ارمیا نوشته رضا امیرخانی نشر افق ](ermia.webp?classes=center&loading=lazy)
 <div class="align-center">
