@@ -1,7 +1,7 @@
 ---
 title: به افق کرمانشاه
 metadata: 
-    description: دل‌نوشته عاشقانه به مناسبت  ماه مبارک رمضان
+    description: دل‌نوشته عاشقانه به مناسبت  ماه مبارک رمضان ۱۴۴۵
 progress_bar: 1
 pdate: دوشنبه ۲۸ اسفند ۱۴۰۲
 taxonomy:
