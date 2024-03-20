@@ -46,4 +46,4 @@ datePublished: 2023-12-31T08:00:00+03:30
 
 من:
 
-![عصبانی](cute-panda-crying-cartoon-vector-icon-illustration-animal-nature-icon-concept-isolated-premium-flat_138676-5858.jpg?classes=center)
+![عصبانی](cute-panda-crying-cartoon-vector-icon-illustration-animal-nature-icon-concept-isolated-premium-flat_138676-5858.webp?classes=center)

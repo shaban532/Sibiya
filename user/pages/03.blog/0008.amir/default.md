@@ -85,7 +85,7 @@ Image by <a href="https://www.freepik.com/free-vector/friendship-day-background-
 حالا اگر بهم بگویند برو و دو ساعت روی برجک نگهبانی بده جانم به لب می‌رسد. زمین و زمان را یکی می‌کنم که نگهبانی ندهم. اما آن روزها بی‌آنکه کوچک‌ترین شکایتی داشته باشم نیمی از روز را روی برجک می‌گذراندم.
 
 
-![من و امیر](happy-friendship-day-hand-drawn_23-2147561244-3.jpg?classes=center)
+![من و امیر](happy-friendship-day-hand-drawn_23-2147561244-3.webp?classes=center)
 <div class="align-center">
 Image by <a href="https://www.freepik.com/free-vector/happy-friendship-day-hand-drawn_900599.htm#query=happy-friendship-day-hand-drawn_23-2147561244&position=19&from_view=search&track=ais&uuid=79fdd2d4-a41b-4124-a56d-9d3a949ea603">Freepik</a>
 </div>

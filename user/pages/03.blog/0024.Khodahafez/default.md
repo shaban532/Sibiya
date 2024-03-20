@@ -25,7 +25,7 @@ datePublished: 2024-02-02T08:00:00+03:30
 
 خداحافظ همهٔ آنهایی که همهٔ من را دنبال نمی‌کنید. خدا پشت و پناهتان!
 
-![ بوس بوس! ](kiss-emoji_53876-25517.jpg?classes=center)
+![ بوس بوس! ](kiss-emoji_53876-25517.webp?classes=center)
 <div class="align-center">
 <a href="https://www.freepik.com/free-vector/kiss-emoji_2900702.htm#query=kiss&position=14&from_view=search&track=sph&uuid=5b1e7e12-a60b-45df-ba0b-35d39bbe57f0">Image by rawpixel.com</a> on Freepik
 </div>
