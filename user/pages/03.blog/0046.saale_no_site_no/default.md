@@ -1,14 +1,14 @@
 ---
 title: سال نو، سایت نو ...
 metadata: 
-    description: دل‌نوشته عاشقانه به مناسبت  ماه مبارک رمضان ۱۴۴۵
+    description: طراحی قالب نو جدید سایت خیریه کودکان فرشته‌اند koodakancharity.ir
 progress_bar: 1
-pdate: دوشنبه ۲۸ اسفند ۱۴۰۲
+pdate: جمعه ۳ فروردین ۱۴۰۳
 taxonomy:
     tag: [ گرافیک , هنر , کودکان_فرشته_اند  ]
 published: 1
 structure: BlogPosting
-datePublished: 2024-03-18T22:35:46+03:30
+datePublished: 2024-03-22T12:35:46+03:30
 ---
 ![ تصویر ساعت ](kc0.webp?classes=center&loading=lazy)
 <div class="align-center">
