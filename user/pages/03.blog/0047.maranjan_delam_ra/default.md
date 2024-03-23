@@ -8,7 +8,7 @@ taxonomy:
     tag: [ ادبیات , شعر , حافظ , هنر , نقد  ]
 published: 1
 structure: BlogPosting
-datePublished: 2024-03-23T12:35:46+03:30
+datePublished: 2024-03-23T13:00:46+03:30
 ---
 ![ تصویر پسر عاشق و دختری که اعتنایی ندارد ](girl-love-boyfriend-divorce-background_1150-1511.webp?classes=center&loading=lazy)
 <div class="align-center">
