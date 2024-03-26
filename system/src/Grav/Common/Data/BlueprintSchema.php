@@ -3,7 +3,7 @@
 /**
  * @package    Grav\Common\Data
  *
- * @copyright  Copyright (c) 2015 - 2024 Trilby Media, LLC. All rights reserved.
+ * @copyright  Copyright (c) 2015 - 2022 Trilby Media, LLC. All rights reserved.
  * @license    MIT License; see LICENSE file for details.
  */
 
@@ -129,8 +129,7 @@ class BlueprintSchema extends BlueprintSchemaBase implements ExportInterface
             $items = $name !== '' ? $this->getProperty($name)['fields'] ?? [] : $this->items;
             foreach ($items as $key => $rules) {
                 $type = $rules['type'] ?? '';
-                $ignore = (bool) array_filter((array)($rules['validate']['ignore'] ?? [])) ?? false;
-                if (!str_starts_with($type, '_') && !str_contains($key, '*') && $ignore !== true) {
+                if (!str_starts_with($type, '_') && !str_contains($key, '*')) {
                     $list[$prefix . $key] = null;
                 }
             }

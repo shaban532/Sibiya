@@ -17,9 +17,6 @@ class EloquentDataSource extends DataSource
 	// Database manager instance
 	protected $databaseManager;
 
-	// Event dispatcher instance
-	protected $eventDispatcher;
-
 	// Array of collected queries
 	protected $queries = [];
 
@@ -201,10 +198,10 @@ class EloquentDataSource extends DataSource
 
 		$action = [
 			'model'      => $modelClass = get_class($model),
-			'key'        => $this->getModelKey($model),
+			'key'        => $model->getKey(),
 			'action'     => $event,
 			'attributes' => $this->collectModelsRetrieved && $event == 'retrieved' ? $model->getOriginal() : [],
-			'changes'    => $this->collectModelsActions && method_exists($model, 'getChanges') ? $model->getChanges() : [],
+			'changes'    => $this->collectModelsActions ? $model->getChanges() : [],
 			'time'       => microtime(true) / 1000,
 			'query'      => $lastQuery ? $lastQuery['query'] : null,
 			'duration'   => $lastQuery ? $lastQuery['duration'] : null,
@@ -266,9 +263,8 @@ class EloquentDataSource extends DataSource
 
 		if ($pdo === null) return;
 
-		if ($pdo->getAttribute(\PDO::ATTR_DRIVER_NAME) === 'odbc' || $pdo->getAttribute(\PDO::ATTR_DRIVER_NAME) === 'crate') {
-			// PDO_ODBC and PDO Crate driver doesn't support the quote method, apply simple MSSQL style quoting instead - Crate sometimes uses a object as a binding - for json support
-			$binding = is_object($binding) ? json_encode($binding) : $binding;
+		if ($pdo->getAttribute(\PDO::ATTR_DRIVER_NAME) === 'odbc') {
+			// PDO_ODBC driver doesn't support the quote method, apply simple MSSQL style quoting instead
 			return "'" . str_replace("'", "''", $binding) . "'";
 		}
 
@@ -318,13 +314,5 @@ class EloquentDataSource extends DataSource
 		}
 
 		return new ResolveModelScope($this);
-	}
-
-	// Returns model key without crashing when using Eloquent strict mode and it's not loaded
-	protected function getModelKey($model)
-	{
-		try {
-			return $model->getKey();
-		} catch (\Illuminate\Database\Eloquent\MissingAttributeException $e) {}
 	}
 }

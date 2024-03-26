@@ -186,7 +186,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
          * @param {Function} cb
          */
         bindAttr: function(attr, cb) {
-            if (Array.isArray(attr)) {
+            if ($.isArray(attr)) {
                 for (var i = 0, c = attr.length; i < c; i++) {
                     this.bindAttr(attr[i], cb);
                 }
@@ -370,16 +370,14 @@ if (typeof(PhpDebugBar) == 'undefined') {
                 return "#" + nb + suffix;
             }
 
-            var uri = data['__meta']['uri'].split('/'), filename = uri.pop();
-
-            // URI ends in a trailing /, avoid returning an empty string
-            if (!filename) {
-                filename = (uri.pop() || '') + '/'; // add the trailing '/' back
-            }
-
-            // filename is a number, path could be like /action/{id}
-            if (uri.length && !isNaN(filename)) {
-                filename = uri.pop() + '/' + filename;
+            var uri = data['__meta']['uri'], filename;
+            if (uri.length && uri.charAt(uri.length - 1) === '/') {
+                // URI ends in a trailing /: get the portion before then to avoid returning an empty string
+                filename = uri.substr(0, uri.length - 1); // strip trailing '/'
+                filename = filename.substr(filename.lastIndexOf('/') + 1); // get last path segment
+                filename += '/'; // add the trailing '/' back
+            } else {
+                filename = uri.substr(uri.lastIndexOf('/') + 1);
             }
 
             // truncate the filename in the label, if it's too long
@@ -424,8 +422,6 @@ if (typeof(PhpDebugBar) == 'undefined') {
             this.activePanelName = null;
             this.datesetTitleFormater = new DatasetTitleFormater(this);
             this.options.bodyMarginBottomHeight = parseInt($('body').css('margin-bottom'));
-            this.hasParent = window.parent && window.parent !== window.top
-                && window.parent.phpdebugbar && window.parent.phpdebugbar != this;
             this.registerResizeHandler();
         },
 
@@ -435,7 +431,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
          * @this {DebugBar}
          */
         registerResizeHandler: function() {
-            if (typeof this.resize.bind == 'undefined' || this.hasParent) return;
+            if (typeof this.resize.bind == 'undefined') return;
 
             var f = this.resize.bind(this);
             this.respCSSSize = 0;
@@ -476,19 +472,11 @@ if (typeof(PhpDebugBar) == 'undefined') {
          * @this {DebugBar}
          */
         render: function() {
-            if (this.hasParent) {
-                this.$el.hide();
-            }
-
             var self = this;
             this.$el.appendTo('body');
             this.$dragCapture = $('<div />').addClass(csscls('drag-capture')).appendTo(this.$el);
             this.$resizehdle = $('<div />').addClass(csscls('resize-handle')).appendTo(this.$el);
             this.$header = $('<div />').addClass(csscls('header')).appendTo(this.$el);
-            this.$headerBtn = $('<a />').addClass(csscls('restore-btn')).appendTo(this.$header);
-            this.$headerBtn.click(function() {
-                self.close();
-            });
             this.$headerLeft = $('<div />').addClass(csscls('header-left')).appendTo(this.$header);
             this.$headerRight = $('<div />').addClass(csscls('header-right')).appendTo(this.$header);
             var $body = this.$body = $('<div />').addClass(csscls('body')).appendTo(this.$el);
@@ -545,8 +533,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
             });
 
             // select box for data sets
-            this.$datasets = $('<select />').addClass(csscls('datasets-switcher')).attr('name', 'datasets-switcher')
-                .appendTo(this.$headerRight);
+            this.$datasets = $('<select />').addClass(csscls('datasets-switcher')).appendTo(this.$headerRight);
             this.$datasets.change(function() {
                 self.dataChangeHandler(self.datasets[this.value]);
                 self.showTab();
@@ -579,7 +566,6 @@ if (typeof(PhpDebugBar) == 'undefined') {
          * @this {DebugBar}
          */
         restoreState: function() {
-            if (this.hasParent) return;
             // bar height
             var height = localStorage.getItem('phpdebugbar-height');
             this.setHeight(height || this.$body.height());
@@ -930,15 +916,6 @@ if (typeof(PhpDebugBar) == 'undefined') {
          * @return {String} Dataset's id
          */
         addDataSet: function(data, id, suffix, show) {
-            if (this.hasParent) {
-                if (!suffix || ('(iframe)').indexOf(suffix) < 0) {
-                    suffix = '(iframe)' + (suffix || '');
-                }
-                
-                window.parent.phpdebugbar.addDataSet(data, id, suffix, show);
-                return;
-            }
-
             var label = this.datesetTitleFormater.format(id, data, suffix);
             id = id || (getObjectSize(this.datasets) + 1);
             this.datasets[id] = data;
@@ -1193,9 +1170,6 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
                 promise.then(function (response) {
                     self.handle(response);
-                }).catch(function(reason) {
-                    // Fetch request failed or aborted via AbortController.abort().
-                    // Catch is required to not trigger React's error handler.
                 });
 
                 return promise;
@@ -1229,9 +1203,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
                 var xhr = this;
                 this.addEventListener("readystatechange", function() {
                     var skipUrl = self.debugbar.openHandler ? self.debugbar.openHandler.get('url') : null;
-                    var href = (typeof url === 'string') ? url : url.href;
-
-                    if (xhr.readyState == 4 && href.indexOf(skipUrl) !== 0) {
+                    if (xhr.readyState == 4 && url.indexOf(skipUrl) !== 0) {
                         self.handle(xhr);
                     }
                 }, false);

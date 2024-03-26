@@ -80,7 +80,6 @@ class Request
 	public $databaseUpdates;
 	public $databaseDeletes;
 	public $databaseOthers;
-	public $databaseDuration;
 
 	// Cache queries
 	public $cacheQueries = [];
@@ -401,7 +400,7 @@ class Request
 	// name), line (caller line number), tags
 	public function addModelAction($model, $action, $data = [])
 	{
-		$this->modelsActions[] = [
+		$this->modelActions[] = [
 			'model'      => $model,
 			'key'        => isset($data['key']) ? $data['key'] : null,
 			'action'     => $action,

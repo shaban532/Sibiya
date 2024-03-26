@@ -3,7 +3,7 @@
 /**
  * @package    Grav\Common
  *
- * @copyright  Copyright (c) 2015 - 2024 Trilby Media, LLC. All rights reserved.
+ * @copyright  Copyright (c) 2015 - 2022 Trilby Media, LLC. All rights reserved.
  * @license    MIT License; see LICENSE file for details.
  */
 
@@ -161,15 +161,9 @@ class Inflector
      */
     public static function titleize($word, $uppercase = '')
     {
-        $humanize_underscorize = static::humanize(static::underscorize($word));
+        $uppercase = $uppercase === 'first' ? 'ucfirst' : 'ucwords';
 
-        if ($uppercase === 'first') {
-            $firstLetter = mb_strtoupper(mb_substr($humanize_underscorize, 0, 1, "UTF-8"), "UTF-8");
-            return $firstLetter . mb_substr($humanize_underscorize, 1, mb_strlen($humanize_underscorize, "UTF-8"), "UTF-8");
-        } else {
-            return mb_convert_case($humanize_underscorize, MB_CASE_TITLE, 'UTF-8');
-        }
-
+        return $uppercase(static::humanize(static::underscorize($word)));
     }
 
     /**
@@ -186,7 +180,7 @@ class Inflector
      */
     public static function camelize($word)
     {
-        return str_replace(' ', '', ucwords(preg_replace('/[^\p{L}^0-9]+/', ' ', $word)));
+        return str_replace(' ', '', ucwords(preg_replace('/[^A-Z^a-z^0-9]+/', ' ', $word)));
     }
 
     /**
@@ -204,7 +198,7 @@ class Inflector
     {
         $regex1 = preg_replace('/([A-Z]+)([A-Z][a-z])/', '\1_\2', $word);
         $regex2 = preg_replace('/([a-zd])([A-Z])/', '\1_\2', $regex1);
-        $regex3 = preg_replace('/[^\p{L}^0-9]+/u', '_', $regex2);
+        $regex3 = preg_replace('/[^A-Z^a-z^0-9]+/', '_', $regex2);
 
         return strtolower($regex3);
     }
@@ -225,7 +219,7 @@ class Inflector
         $regex1 = preg_replace('/([A-Z]+)([A-Z][a-z])/', '\1-\2', $word);
         $regex2 = preg_replace('/([a-z])([A-Z])/', '\1-\2', $regex1);
         $regex3 = preg_replace('/([0-9])([A-Z])/', '\1-\2', $regex2);
-        $regex4 = preg_replace('/[^\p{L}^0-9]+/', '-', $regex3);
+        $regex4 = preg_replace('/[^A-Z^a-z^0-9]+/', '-', $regex3);
 
         $regex4 = trim($regex4, '-');
 
@@ -316,11 +310,11 @@ class Inflector
      */
     public static function ordinalize($number)
     {
-        static::init();
-
         if (!is_array(static::$ordinals)) {
             return (string)$number;
         }
+
+        static::init();
 
         if (in_array($number % 100, range(11, 13), true)) {
             return $number . static::$ordinals['default'];

@@ -4,10 +4,8 @@ namespace Doctrine\Common\Collections;
 
 use Doctrine\Common\Collections\Expr\CompositeExpression;
 use Doctrine\Common\Collections\Expr\Expression;
-use Doctrine\Deprecations\Deprecation;
 
 use function array_map;
-use function func_num_args;
 use function strtoupper;
 
 /**
@@ -71,15 +69,6 @@ class Criteria
     {
         $this->expression = $expression;
 
-        if ($firstResult === null && func_num_args() > 2) {
-            Deprecation::trigger(
-                'doctrine/collections',
-                'https://github.com/doctrine/collections/pull/311',
-                'Passing null as $firstResult to the constructor of %s is deprecated. Pass 0 instead or omit the argument.',
-                self::class
-            );
-        }
-
         $this->setFirstResult($firstResult);
         $this->setMaxResults($maxResults);
 
@@ -93,7 +82,7 @@ class Criteria
     /**
      * Sets the where expression to evaluate when this Criteria is searched for.
      *
-     * @return $this
+     * @return Criteria
      */
     public function where(Expression $expression)
     {
@@ -106,7 +95,7 @@ class Criteria
      * Appends the where expression to evaluate when this Criteria is searched for
      * using an AND with previous expression.
      *
-     * @return $this
+     * @return Criteria
      */
     public function andWhere(Expression $expression)
     {
@@ -126,7 +115,7 @@ class Criteria
      * Appends the where expression to evaluate when this Criteria is searched for
      * using an OR with previous expression.
      *
-     * @return $this
+     * @return Criteria
      */
     public function orWhere(Expression $expression)
     {
@@ -172,7 +161,7 @@ class Criteria
      *
      * @param string[] $orderings
      *
-     * @return $this
+     * @return Criteria
      */
     public function orderBy(array $orderings)
     {
@@ -201,19 +190,10 @@ class Criteria
      *
      * @param int|null $firstResult The value to set.
      *
-     * @return $this
+     * @return Criteria
      */
     public function setFirstResult($firstResult)
     {
-        if ($firstResult === null) {
-            Deprecation::triggerIfCalledFromOutside(
-                'doctrine/collections',
-                'https://github.com/doctrine/collections/pull/311',
-                'Passing null to %s() is deprecated, pass 0 instead.',
-                __METHOD__
-            );
-        }
-
         $this->firstResult = $firstResult;
 
         return $this;
@@ -234,7 +214,7 @@ class Criteria
      *
      * @param int|null $maxResults The value to set.
      *
-     * @return $this
+     * @return Criteria
      */
     public function setMaxResults($maxResults)
     {

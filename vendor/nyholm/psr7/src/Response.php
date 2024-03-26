@@ -67,10 +67,7 @@ class Response implements ResponseInterface
         return $this->reasonPhrase;
     }
 
-    /**
-     * @return static
-     */
-    public function withStatus($code, $reasonPhrase = ''): ResponseInterface
+    public function withStatus($code, $reasonPhrase = ''): self
     {
         if (!\is_int($code) && !\is_string($code)) {
             throw new \InvalidArgumentException('Status code has to be an integer');

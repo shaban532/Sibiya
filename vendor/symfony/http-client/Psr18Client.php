@@ -90,26 +90,17 @@ final class Psr18Client implements ClientInterface, RequestFactoryInterface, Str
                 $body->seek(0);
             }
 
-            $options = [
+            $response = $this->client->request($request->getMethod(), (string) $request->getUri(), [
                 'headers' => $request->getHeaders(),
                 'body' => $body->getContents(),
-            ];
-
-            if ('1.0' === $request->getProtocolVersion()) {
-                $options['http_version'] = '1.0';
-            }
-
-            $response = $this->client->request($request->getMethod(), (string) $request->getUri(), $options);
+                'http_version' => '1.0' === $request->getProtocolVersion() ? '1.0' : null,
+            ]);
 
             $psrResponse = $this->responseFactory->createResponse($response->getStatusCode());
 
             foreach ($response->getHeaders(false) as $name => $values) {
                 foreach ($values as $value) {
-                    try {
-                        $psrResponse = $psrResponse->withAddedHeader($name, $value);
-                    } catch (\InvalidArgumentException $e) {
-                        // ignore invalid header
-                    }
+                    $psrResponse = $psrResponse->withAddedHeader($name, $value);
                 }
             }
 
