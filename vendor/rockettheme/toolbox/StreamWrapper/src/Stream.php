@@ -22,9 +22,6 @@ class Stream implements StreamInterface
     /** @var ResourceLocatorInterface|UniformResourceLocator|null */
     protected static $locator;
 
-    /** @var String|null */
-    public $context;
-
     /**
      * @param ResourceLocatorInterface $locator
      * @return void

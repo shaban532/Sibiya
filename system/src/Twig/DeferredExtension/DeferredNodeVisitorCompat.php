@@ -46,9 +46,8 @@ final class DeferredNodeVisitorCompat implements NodeVisitorInterface
     public function leaveNode(\Twig_NodeInterface $node, Environment $env): ?Node
     {
         if ($this->hasDeferred && $node instanceof ModuleNode) {
-            $node->getNode('constructor_end')->setNode('deferred_initialize', new DeferredInitializeNode());
-            $node->getNode('display_end')->setNode('deferred_resolve', new DeferredResolveNode());
-            $node->getNode('class_end')->setNode('deferred_declare', new DeferredDeclareNode());
+            $node->setNode('constructor_end', new Node([new DeferredExtensionNode(), $node->getNode('constructor_end')]));
+            $node->setNode('display_end', new Node([new DeferredNode(), $node->getNode('display_end')]));
             $this->hasDeferred = false;
         }
 

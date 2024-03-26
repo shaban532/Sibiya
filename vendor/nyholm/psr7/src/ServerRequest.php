@@ -56,7 +56,6 @@ class ServerRequest implements ServerRequestInterface
         $this->uri = $uri;
         $this->setHeaders($headers);
         $this->protocol = $version;
-        \parse_str($uri->getQuery(), $this->queryParams);
 
         if (!$this->hasHeader('Host')) {
             $this->updateHostFromUri();
@@ -81,7 +80,7 @@ class ServerRequest implements ServerRequestInterface
     /**
      * @return static
      */
-    public function withUploadedFiles(array $uploadedFiles): ServerRequestInterface
+    public function withUploadedFiles(array $uploadedFiles)
     {
         $new = clone $this;
         $new->uploadedFiles = $uploadedFiles;
@@ -97,7 +96,7 @@ class ServerRequest implements ServerRequestInterface
     /**
      * @return static
      */
-    public function withCookieParams(array $cookies): ServerRequestInterface
+    public function withCookieParams(array $cookies)
     {
         $new = clone $this;
         $new->cookieParams = $cookies;
@@ -113,7 +112,7 @@ class ServerRequest implements ServerRequestInterface
     /**
      * @return static
      */
-    public function withQueryParams(array $query): ServerRequestInterface
+    public function withQueryParams(array $query)
     {
         $new = clone $this;
         $new->queryParams = $query;
@@ -132,7 +131,7 @@ class ServerRequest implements ServerRequestInterface
     /**
      * @return static
      */
-    public function withParsedBody($data): ServerRequestInterface
+    public function withParsedBody($data)
     {
         if (!\is_array($data) && !\is_object($data) && null !== $data) {
             throw new \InvalidArgumentException('First parameter to withParsedBody MUST be object, array or null');
@@ -154,10 +153,6 @@ class ServerRequest implements ServerRequestInterface
      */
     public function getAttribute($attribute, $default = null)
     {
-        if (!\is_string($attribute)) {
-            throw new \InvalidArgumentException('Attribute name must be a string');
-        }
-
         if (false === \array_key_exists($attribute, $this->attributes)) {
             return $default;
         }
@@ -165,30 +160,16 @@ class ServerRequest implements ServerRequestInterface
         return $this->attributes[$attribute];
     }
 
-    /**
-     * @return static
-     */
-    public function withAttribute($attribute, $value): ServerRequestInterface
+    public function withAttribute($attribute, $value): self
     {
-        if (!\is_string($attribute)) {
-            throw new \InvalidArgumentException('Attribute name must be a string');
-        }
-
         $new = clone $this;
         $new->attributes[$attribute] = $value;
 
         return $new;
     }
 
-    /**
-     * @return static
-     */
-    public function withoutAttribute($attribute): ServerRequestInterface
+    public function withoutAttribute($attribute): self
     {
-        if (!\is_string($attribute)) {
-            throw new \InvalidArgumentException('Attribute name must be a string');
-        }
-
         if (false === \array_key_exists($attribute, $this->attributes)) {
             return $this;
         }

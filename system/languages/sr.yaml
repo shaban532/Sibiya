@@ -104,7 +104,6 @@ GRAV:
     VALIDATION_FAIL: '<b>Провера неуспела:</b>'
     INVALID_INPUT: 'Неисправан унос у'
     MISSING_REQUIRED_FIELD: 'Недостаје обавезн поље:'
-    XSS_ISSUES: "Потенцијална грешка у XSS-у детектована у пољу '%s' "
   MONTHS_OF_THE_YEAR:
     - 'Јануар'
     - 'Фебруар'
@@ -126,8 +125,6 @@ GRAV:
     - 'Петак'
     - 'Субота'
     - 'Недеља'
-  YES: "Да"
-  NO: "Не"
   CRON:
     EVERY: сваки
     EVERY_HOUR: сваки сат

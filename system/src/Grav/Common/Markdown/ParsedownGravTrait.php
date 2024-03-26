@@ -3,7 +3,7 @@
 /**
  * @package    Grav\Common\Markdown
  *
- * @copyright  Copyright (c) 2015 - 2024 Trilby Media, LLC. All rights reserved.
+ * @copyright  Copyright (c) 2015 - 2022 Trilby Media, LLC. All rights reserved.
  * @license    MIT License; see LICENSE file for details.
  */
 
@@ -25,7 +25,6 @@ trait ParsedownGravTrait
     public $completable_blocks = [];
     /** @var array */
     public $continuable_blocks = [];
-    public $plugins = [];
 
     /** @var Excerpts */
     protected $excerpts;
@@ -293,12 +292,7 @@ trait ParsedownGravTrait
     #[\ReturnTypeWillChange]
     public function __call($method, $args)
     {
-
-        if (isset($this->plugins[$method]) === true) {
-            $func = $this->plugins[$method];
-
-            return call_user_func_array($func, $args);
-        } elseif (isset($this->{$method}) === true) {
+        if (isset($this->{$method}) === true) {
             $func = $this->{$method};
 
             return call_user_func_array($func, $args);
@@ -306,14 +300,4 @@ trait ParsedownGravTrait
 
         return null;
     }
-
-    public function __set($name, $value)
-    {
-        if (is_callable($value)) {
-            $this->plugins[$name] = $value;
-        }
-
-    }
-
-
 }

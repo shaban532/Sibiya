@@ -50,11 +50,12 @@ class Event
 	public function run(\Closure $closure)
 	{
 		$this->begin();
-		try {
-			return $closure();
-		} finally {
-			$this->end();
-		}
+
+		$result = $closure();
+
+		$this->end();
+
+		return $result;
 	}
 
 	// Set or retrieve event duration (in ms), event can be defined with both start and end time or just a single time and duration

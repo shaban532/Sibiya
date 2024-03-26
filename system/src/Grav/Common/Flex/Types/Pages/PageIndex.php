@@ -5,7 +5,7 @@ declare(strict_types=1);
 /**
  * @package    Grav\Common\Flex
  *
- * @copyright  Copyright (c) 2015 - 2024 Trilby Media, LLC. All rights reserved.
+ * @copyright  Copyright (c) 2015 - 2022 Trilby Media, LLC. All rights reserved.
  * @license    MIT License; see LICENSE file for details.
  */
 
@@ -1141,7 +1141,7 @@ class PageIndex extends FlexPageIndex implements PageCollectionInterface
      */
     public function ofType($type)
     {
-        $collection = $this->__call('ofType', [$type]);
+        $collection = $this->__call('ofType', []);
 
         return $collection;
     }
@@ -1155,7 +1155,7 @@ class PageIndex extends FlexPageIndex implements PageCollectionInterface
      */
     public function ofOneOfTheseTypes($types)
     {
-        $collection = $this->__call('ofOneOfTheseTypes', [$types]);
+        $collection = $this->__call('ofOneOfTheseTypes', []);
 
         return $collection;
     }
@@ -1169,7 +1169,7 @@ class PageIndex extends FlexPageIndex implements PageCollectionInterface
      */
     public function ofOneOfTheseAccessLevels($accessLevels)
     {
-        $collection = $this->__call('ofOneOfTheseAccessLevels', [$accessLevels]);
+        $collection = $this->__call('ofOneOfTheseAccessLevels', []);
 
         return $collection;
     }

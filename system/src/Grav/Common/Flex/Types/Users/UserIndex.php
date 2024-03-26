@@ -5,7 +5,7 @@ declare(strict_types=1);
 /**
  * @package    Grav\Common\Flex
  *
- * @copyright  Copyright (c) 2015 - 2024 Trilby Media, LLC. All rights reserved.
+ * @copyright  Copyright (c) 2015 - 2022 Trilby Media, LLC. All rights reserved.
  * @license    MIT License; see LICENSE file for details.
  */
 
@@ -30,7 +30,7 @@ use function is_string;
  */
 class UserIndex extends FlexIndex implements UserCollectionInterface
 {
-    public const VERSION = parent::VERSION . '.2';
+    public const VERSION = parent::VERSION . '.1';
 
     /**
      * @param FlexStorageInterface $storage
@@ -50,7 +50,7 @@ class UserIndex extends FlexIndex implements UserCollectionInterface
         //    return $index['index'];
         //}
 
-        // Load up-to-date index.
+        // Load up to date index.
         $entries = parent::loadEntriesFromStorage($storage);
 
         return static::updateIndexFile($storage, $index['index'], $entries, ['force_update' => $force]);
@@ -142,11 +142,9 @@ class UserIndex extends FlexIndex implements UserCollectionInterface
                 } elseif ($field === 'flex_key') {
                     $user = $this->withKeyField('flex_key')->get($query);
                 } elseif ($field === 'email') {
-                    $email = mb_strtolower($query);
-                    $user = $this->withKeyField('email')->get($email);
+                    $user = $this->withKeyField('email')->get(static::filterUsername($query, $this->getFlexDirectory()->getStorage()));
                 } elseif ($field === 'username') {
-                    $username = static::filterUsername($query, $this->getFlexDirectory()->getStorage());
-                    $user = $this->get($username);
+                    $user = $this->get(static::filterUsername($query, $this->getFlexDirectory()->getStorage()));
                 } else {
                     $user = $this->__call('find', [$query, $field]);
                 }

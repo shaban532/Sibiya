@@ -151,15 +151,15 @@ class LaravelNotificationsDataSource extends DataSource
 	// Resolve notification channel specific data
 	protected function resolveChannelSpecific($event)
 	{
-		if ($event->channel == 'mail') {
+		if (method_exists($event->notification, 'toMail')) {
 			$channelSpecific = $this->resolveMailChannelSpecific($event, $event->notification->toMail($event->notifiable));
-		} elseif ($event->channel == 'slack') {
+		} elseif (method_exists($event->notification, 'toSlack')) {
 			$channelSpecific = $this->resolveSlackChannelSpecific($event, $event->notification->toSlack($event->notifiable));
-		} elseif ($event->channel == 'nexmo') {
+		} elseif (method_exists($event->notification, 'toNexmo')) {
 			$channelSpecific = $this->resolveNexmoChannelSpecific($event, $event->notification->toNexmo($event->notifiable));
-		} elseif ($event->channel == 'broadcast') {
+		} elseif (method_exists($event->notification, 'toBroadcast')) {
 			$channelSpecific = [ 'data' => [ 'data' => (new Serializer)->normalize($event->notification->toBroadcast($event->notifiable)) ] ];
-		} elseif ($event->channel == 'database') {
+		} elseif (method_exists($event->notification, 'toArray')) {
 			$channelSpecific = [ 'data' => [ 'data' => (new Serializer)->normalize($event->notification->toArray($event->notifiable)) ] ];
 		} else {
 			$channelSpecific = [];
@@ -188,27 +188,12 @@ class LaravelNotificationsDataSource extends DataSource
 	// Resolve Slack notification channel specific data
 	protected function resolveSlackChannelSpecific($event, $message)
 	{
-		// laravel/slack-notification-channel 2 or earlier
-		if (! ($message instanceof \Illuminate\Notifications\Slack\SlackMessage)) {
-			$data = [
-				'from' => $message->username,
-				'to'   => $message->channel,
-				'data' => [ 'content' => $message->content ]
-			];
-		// laravel/slack-notification-channel 3 or later
-		} else {
-			$message = $message->toArray();
-
-			$data = [
-				'from' => isset($message['username']) ? $message['username'] : null,
-				'to'   => isset($message['channel']) ? $message['channel'] : null,
-				'data' => [ 'content' => $message ]
-			];
-		}
-
-		$data['subject'] = get_class($event->notification);
-
-		return $data;
+		return [
+			'subject' => get_class($event->notification),
+			'from'    => $message->username,
+			'to'      => $message->channel,
+			'content' => $message->content
+		];
 	}
 
 	// Resolve Nexmo notification channel specific data

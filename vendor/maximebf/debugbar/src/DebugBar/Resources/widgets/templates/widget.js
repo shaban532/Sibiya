@@ -19,19 +19,14 @@
                 $('<span />').addClass(csscls('name')).text(tpl.name).appendTo(li);
 
                 if (typeof tpl.xdebug_link !== 'undefined' && tpl.xdebug_link !== null) {
-                    var header = $('<span />').addClass(csscls('filename')).text(tpl.xdebug_link.filename + ( tpl.xdebug_link.line ? "#" + tpl.xdebug_link.line : ''));
-                    if (tpl.xdebug_link) {
-                        if (tpl.xdebug_link.ajax) {
-                            $('<a title="' + tpl.xdebug_link.url + '"></a>').on('click', function () {
-                                $.ajax(tpl.xdebug_link.url);
-                            }).addClass(csscls('editor-link')).appendTo(header);
-                        } else {
-                            $('<a href="' + tpl.xdebug_link.url + '"></a>').addClass(csscls('editor-link')).appendTo(header);
-                        }
+                    if (tpl.xdebug_link.ajax) {
+                        $('<a title="' + tpl.xdebug_link.url + '"></a>').on('click', function () {
+                            $.ajax(tpl.xdebug_link.url);
+                        }).addClass(csscls('editor-link')).appendTo(li);
+                    } else {
+                        $('<a href="' + tpl.xdebug_link.url + '"></a>').addClass(csscls('editor-link')).appendTo(li);
                     }
-                    header.appendTo(li);
                 }
-
                 if (tpl.render_time_str) {
                     $('<span title="Render time" />').addClass(csscls('render-time')).text(tpl.render_time_str).appendTo(li);
                 }
@@ -44,11 +39,6 @@
                 if (typeof(tpl.type) != 'undefined' && tpl.type) {
                     $('<span title="Type" />').addClass(csscls('type')).text(tpl.type).appendTo(li);
                 }
-                if (typeof(tpl.editorLink) != 'undefined' && tpl.editorLink) {
-                    $('<a href="'+ tpl.editorLink +'" />').on('click', function (event) {
-                        event.stopPropagation();
-                    }).addClass(csscls('editor-link')).text('file').appendTo(li);
-                }
                 if (tpl.params && !$.isEmptyObject(tpl.params)) {
                     var table = $('<table><tr><th colspan="2">Params</th></tr></table>').addClass(csscls('params')).appendTo(li);
                     for (var key in tpl.params) {
@@ -58,9 +48,6 @@
                         }
                     }
                     li.css('cursor', 'pointer').click(function() {
-                        if (window.getSelection().type == "Range") {
-                            return''
-                        }
                         if (table.is(':visible')) {
                             table.hide();
                         } else {

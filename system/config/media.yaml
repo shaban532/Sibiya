@@ -216,8 +216,3 @@ types:
     type: file
     thumb: media/thumb-json.png
     mime: application/json
-  vcf:
-    type: file
-    thumb: media/thumb-vcf.png
-    mime: text/x-vcard
-
