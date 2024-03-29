@@ -8,7 +8,7 @@ taxonomy:
     tag: [ خاطره , دل_نوشته , کودکان_فرشته_اند ]
 published: 1
 structure: BlogPosting
-datePublished: 2024-03-30T00:20:46+03:30
+datePublished: 2024-03-30T01:10:00+03:30
 ---
 ![ رسید واریز وجه به حساب خیریه کودکان فرشته‌اند  ](resid.webp?classes=center&loading=lazy)
 <div class="align-center">
