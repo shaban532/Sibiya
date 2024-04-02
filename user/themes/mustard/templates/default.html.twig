@@ -12,7 +12,7 @@
     <div class="panel-body" style=" text-align: justify; text-justify: inter-word;">
         {{ page.content|raw }}
          {% for p in page.taxonomy.tag %}
-            <button class="button-footer button-small"  style="color:white;" onclick="window.location.href='/tags/{{p}}';">{{ p }}</button>
+            <button class="button-brand button-small"  style="color:white;" onclick="window.location.href='/tags/{{p}}';">{{ p }}</button>
          {% endfor %}
     </div>
     <div class="panel-footer align-right ">
