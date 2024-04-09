@@ -4,6 +4,7 @@ metadata:
     description: طراحی قالب نو جدید سایت خیریه کودکان فرشته‌اند koodakancharity.ir
 progress_bar: 1
 pdate: جمعه ۳ فروردین ۱۴۰۳
+edate: سه‌شنبه ۲۱ فروردین ۱۴۰۳
 taxonomy:
     tag: [ گرافیک , هنر , کودکان_فرشته_اند  ]
 published: 1
@@ -160,3 +161,6 @@ GitHub Pages.
 
 > درود بر ایستایی ...
 
+پی‌نوشت: از
+[اینجا](https://github.com/shaban532/koodakancharity.io/)
+می‌توانید وارد مخزن گیت‌هاب مربوط به این پروژه بشوید!
