@@ -8,7 +8,7 @@ taxonomy:
     tag: [ آموزش , تکنولوژی , chatgpt ]
 published: 1
 structure: BlogPosting
-datePublished: 2024-04-12T14:40:00+03:30
+datePublished: 2024-04-14T21:35:00+03:30
 ---
 ![ پسری با یک گل سرخ در دستش که می‌خواهد به دختری بدهد که در نمایشگر کامپویتر است](a_boy_with_flower_and_a_girl_in_computer.webp?classes=center&loading=lazy)
 <div class="align-center">
