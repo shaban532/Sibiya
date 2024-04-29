@@ -1,8 +1,11 @@
 {% extends 'partials/base.html.twig' %}
 {% block content %}
     <h1 class="alert alert-title" style="color:black;"> {{ site.fa_title|e('html') }} </h1>
-    <div class="row" >
-        {% for post in page.collection.order('order', 'date', 'desc').slice(0, 10)%}
+</br>
+    {% for post in page.collection.order('order', 'date', 'desc').slice(0, 100)%}
+
+<a href={{post.url}}><p class="alert alert-success" style="color:black;"> {{ post.title }} </p></a>
+{#
             <div class="col col-md-12">
                 <div class="panel" >
                     <div class="panel-head align-right">
@@ -17,7 +20,7 @@
                         <p class="align-center">
                         <a href="{{post.url}}" class="align-center" aria-label="Read more"><svg alt="readid="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="64px" height="64px"><defs><style>.cls-1,.cls-2,.cls-3{fill-rule:evenodd;isolation:isolate;}.cls-1{opacity:1;}.cls-2{opacity:0.97;}.cls-3{opacity:0.99;}</style></defs><path class="cls-1" d="M511.5,114.5v12a16.16,16.16,0,0,1-9,8.5q-157,1-314,0Q175,127.28,181,112.5a15.43,15.43,0,0,1,7.5-6.5q157-1,314,0A16.16,16.16,0,0,1,511.5,114.5Z"/><path class="cls-2" d="M-.5,261.5v-12a16.1,16.1,0,0,1,9-8.5l148-1A496.21,496.21,0,0,1,120,201.5q-3.75-24.25,20.5-20.5l5,3L206,244.5q7,11,0,22L145.5,327q-11.43,7.19-22.5-.5-7-11,0-22L156.5,271l-148-1A16.1,16.1,0,0,1-.5,261.5Z"/><path class="cls-3" d="M511.5,204.5v12a16.16,16.16,0,0,1-9,8.5q-127,1-254,0Q235,217.27,241,202.5a15.43,15.43,0,0,1,7.5-6.5q127-1,254,0A16.16,16.16,0,0,1,511.5,204.5Z"/><path class="cls-3" d="M511.5,294.5v12a16.16,16.16,0,0,1-9,8.5q-127,1-254,0Q235,307.28,241,292.5a15.43,15.43,0,0,1,7.5-6.5q127-1,254,0A16.16,16.16,0,0,1,511.5,294.5Z"/><path class="cls-1" d="M511.5,384.5v12a16.16,16.16,0,0,1-9,8.5q-157,1-314,0Q175,397.28,181,382.5a15.43,15.43,0,0,1,7.5-6.5q157-1,314,0A16.16,16.16,0,0,1,511.5,384.5Z"/></svg></a>
                         </p>
-                        {#
+                        
                         <div class="align-center">
                             <a href="{{ post.url }}" class="button button-brand">ادامهٔ مطلب ... </a>
                         </div>
@@ -25,7 +28,7 @@
                         {% for tag in post.taxonomy.tag %}
                             <button class="button-footer button-small"  style="color:white;" onclick="window.location.href='/tags/{{ tag }}';">{{ tag }}</button>
                         {% endfor %}
-                        #}
+                        
                     </div>
                     <div class="panel-footer align-right">
 نوشته شده توسط
@@ -46,6 +49,7 @@
                     </div>
                 </div>
             </div>
+#}
         {% endfor %}
 {# pagination plugin #}
 {% set collection = page.collection() %}
@@ -58,10 +62,13 @@
 #}
 {# Render the pagination list #}
 {% if config.plugins.pagination.enabled and collection.params.pagination %}
+
+{#
 <div style="text-align:center;">
     {% include 'partials/pagination.html.twig' with {'base_url':page.url, 'pagination':collection.params.pagination} %}
 </div>
+#}
 {% endif %}
 {# END pagination plugin #}
-    </div>
+ 
 {% endblock %}

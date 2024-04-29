@@ -209,7 +209,7 @@ hr.mima:after {
 
 .section-primary{background: var(--brand-color);}
 .section-secondary{background: var(--background-color);}
-.section-tertiary{background: var(--background-color);}
+.section-tertiary{background: white;}
 .footer,footer{background: var(--footer-color);}
 .alert-title {background: var(--title-color);}
 
@@ -244,7 +244,30 @@ panel-head{display:flex;align-items:center;justify-content:space-between;margin-
 
 /* arze container-small nesbat be male inja (https://rastikerdar.blog.ir/1395/05/22/سریال-های-قدیمی-یا-مدرسه-تربیت-و-اخلاق) bishtar bud. hes kardam kam konam behtar beshe */
 
-.container-small{max-width:568px}
+.container-small{
+	max-width:568px;
+	margin-left:auto;margin-right:auto;padding:15px
+}
+.container-small-white{
+	max-width:568px;
+	background: white;
+	margin-left:auto;margin-right:auto;padding:15px
+}
+
+.section, section{
+	padding-top: 0px;
+}
+/*
+.section-primary{
+	max-width:568px;
+	margin-left:auto;margin-right:auto;
+}
+
+.footer , footer{
+	max-width:568px;
+	margin-left:auto;margin-right:auto;
+}
+*/
 
 /* Progress bar */
 #progress-bar {
