@@ -10,7 +10,7 @@ published: 1
 structure: BlogPosting
 datePublished: 2024-03-17T21:15:46+03:30
 ---
-![ کتاب ارمیا نوشته رضا امیرخانی نشر افق ](ermia.webp?classes=center&loading=lazy)
+![ کتاب ارمیا نوشته رضا امیرخانی نشر افق ](ermia.webp?classes=center)
 <div class="align-center">
 </div>
 
