@@ -163,7 +163,7 @@ images:
   auto_fix_orientation: true                     # Automatically fix the image orientation based on the Exif data
   seofriendly: false                             # SEO-friendly processed image names
   cls:                                           # Cumulative Layout Shift: See https://web.dev/optimize-cls/
-    auto_sizes: false                            # Automatically add height/width to image
+    auto_sizes: true                            # Automatically add height/width to image
     aspect_ratio: false                          # Reserve space with aspect ratio style
     retina_scale: 1                              # scale to adjust auto-sizes for better handling of HiDPI resolutions
   defaults:
