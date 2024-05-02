@@ -9,7 +9,7 @@ taxonomy:
 structure: BlogPosting
 datePublished: 2024-03-14T15:50:46+03:30
 ---
-![ نصب مینی دی ال ان ای MiniDLNA روی یک دستگاه رزبری پای ](2024-03-14-114002_1920x1080_scrot.webp?classes=center&loading=lazy)
+![ نصب مینی دی ال ان ای MiniDLNA روی یک دستگاه رزبری پای ](2024-03-14-114002_1920x1080_scrot.webp?classes=center&loading=lazy&width=500)
 <div class="align-center">
 </div>
 
