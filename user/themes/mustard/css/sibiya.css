@@ -3,6 +3,8 @@
 .align-left{text-align:left}.align-center{text-align:center}.align-right{text-align:right}
 .alert{margin:15px 0;padding:15px;border-radius:5px}
 .footer,footer{padding:30px;background:#757575}
+pre{display:block;margin:15px 0;padding:10px 15px;border-left:4px solid #4caf50;background:#f5f5f5;font-family:Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;font-size:15px;color:#212121;white-space:normal;overflow-x:auto;direction:ltr;}
+code{background:#f5f5f5;color:#212121;font-family:Monaco, 'Courier New', Courier, monospace;white-space:pre}
 
 @font-face {
   font-family: 'Vazir';
