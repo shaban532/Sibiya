@@ -1,10 +1,10 @@
 {% extends 'partials/base.html.twig' %}
 {% block content %}
-    <h1 class="alert alert-title" style="color:black;"> {{ site.fa_title|e('html') }} </h1>
-</br>
+    <h1 class="alert alert-title"> {{ site.fa_title|e('html') }} </h1>
+<hr class="mima">
     {% for post in page.collection.order('order', 'date', 'desc').slice(0, 100)%}
 
-<a href={{post.url}}><p class="alert alert-success" style="color:black;"> {{ post.title }} </p></a>
+<a href={{post.url}}><p class="alert alert-title" > {{ post.title }} </p></a>
 {#
             <div class="col col-md-12">
                 <div class="panel" >
