@@ -1,16 +1,16 @@
 ---
 title: یا رب سبی
 metadata: 
-    description: 
+    description: مردم که خیال کنند دُرّی در کف داری، بیش‌ احترام کنند و این نفعی عظیم باشد. و اگر چه اراده بر فریفتن مردمان را نشاید ولی بی‌مردمان زیستن دشوار آید
 progress_bar: 1
 pdate: شنبه ۱۵ اردیبهشت ۱۴۰۳
 taxonomy:
-    tag: [ خاطره , المپیاد ]
+    tag: [ دل_نوشته , عاشقانه ]
 published: 1
 structure: BlogPosting
-datePublished: 2024-05-04T20:35:00+03:30
+datePublished: 2024-05-04T11:45:00+03:30
 ---
-![ دختری که روی مرز ایستاده است ](mother-holding-baby-mother-s-day-background_23-2148091276.webp?classes=center&loading=lazy)
+![ تصویری از مادری مهربان که فرزند پسرش را در آغوش کشیده است ](mother-holding-baby-mother-s-day-background_23-2148091276.webp?classes=center&loading=lazy)
 <div class="align-center">
 Image by <a href="https://www.freepik.com/free-vector/mother-holding-baby-mother-s-day-background_4048800.htm#fromView=search&page=1&position=34&uuid=8c653ff3-3188-4c7d-81dd-3f5ee0ae75e4">Freepik</a>
 </div>
