@@ -175,10 +175,10 @@ hr.mima:after {
 
 img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto 20px auto;
   max-width: 100%;
-  height: auto
+  height: auto;
+  border-radius:30px;
 }
 
 .container-small{
