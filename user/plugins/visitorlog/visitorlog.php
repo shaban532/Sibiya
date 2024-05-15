@@ -25,17 +25,18 @@ class VisitorlogPlugin extends Plugin
 	$day=  date("Ymd");
 	$address =  $_SERVER['REQUEST_URI'];
 	$log = 'log/' . $day;
+	$referer ="\nSource: ";
+	if ( array_key_exists('HTTP_REFERER', $_SERVER )){
+		$referer = $referer . $_SERVER['HTTP_REFERER'];
+	}
+		
+	$old = '';
 	if ( file_exists($log)){
-		$old = file_get_contents($log);	
+		$old = file_get_contents($log);
+	}		
 		$file = fopen($log, 'w+');
-		fwrite($file,$ip ."\n" . $time . "\n" . $address . "\n\n" . $old);
+		fwrite($file,$ip ."\n" . $time . "\n" . $address . $referer . "\n\n" . $old);
 		fclose($file);
-	}
-	else {	
-		$file = fopen($log, 'w+');
-		fwrite($file,$ip ."\n" . $time . "\n" . $address . "\n\n");
-		fclose($file);
-	}
     }
 
 }
