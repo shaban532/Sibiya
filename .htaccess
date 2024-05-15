@@ -76,3 +76,7 @@ RewriteRule ^(LICENSE\.txt|composer\.lock|composer\.json|\.htaccess)$ error [F]
 Options -Indexes
 DirectoryIndex index.php index.html index.htm
 # End - Prevent Browsing and Set Default Resources
+
+# Redirect http to https
+RewriteCond %{http:X-Forwarded-Proto} =https
+RewriteRule ^(.*)$ http://%{http_HOST}%{REQUEST_URI} [L,R=301]
