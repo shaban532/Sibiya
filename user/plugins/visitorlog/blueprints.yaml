@@ -1,0 +1,27 @@
+name: visitorlog
+version: 1.0.0
+description: Record all visited pages and save them to a file
+icon: edit
+author:
+  name: Mehran Shabani
+  email: shaban532@gmail.com
+  url: https://sibiya.ir
+keywords: plugin, log, visit, visitor, tracking, data
+homepage: https://github.com/shaban532/grav-plugin-visitorlog
+bugs: https://github.com/shaban532/grav-plugin-visitorlog/issues
+license: MIT
+
+form:
+  validation: strict
+  fields:
+
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
