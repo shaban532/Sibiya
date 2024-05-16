@@ -17,6 +17,15 @@ cache:
     method: file
   driver: auto
   prefix: 'g'
+  memcache:
+    server: localhost
+    port: 11211
+  memcached:
+    server: localhost
+    port: 11211
+  redis:
+    server: localhost
+    port: 6379
 
 twig:
   cache: true
