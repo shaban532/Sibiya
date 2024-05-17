@@ -27,7 +27,7 @@ class VisitorlogPlugin extends Plugin
 	$referer ="\nSource: ";
 	if ( array_key_exists('HTTP_REFERER', $_SERVER )){
 		$referer = $referer . $_SERVER['HTTP_REFERER'];
-		
+		/*
 		$log ='log/source/' .  $_SERVER['HTTP_REFERER'];
 		$old = '';
 		if ( file_exists($log)){
@@ -36,7 +36,7 @@ class VisitorlogPlugin extends Plugin
 		$file = fopen($log, 'w+');
 		fwrite($file,$ip ."\n" . $time . "\n" . $address . $referer . "\n\n" . $old);
 		fclose($file);
-		
+		*/
 	}
 
 	$log = 'log/' . $day;	
