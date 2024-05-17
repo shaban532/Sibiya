@@ -28,7 +28,7 @@ class VisitorlogPlugin extends Plugin
 	if ( array_key_exists('HTTP_REFERER', $_SERVER )){
 		$referer = $referer . $_SERVER['HTTP_REFERER'];
 		/*
-		$log ='log/source/' .  $_SERVER['HTTP_REFERER'];
+		$log ='log/source/' .  $_SERVER['HTTP_REFERER'] . '.log';
 		$old = '';
 		if ( file_exists($log)){
 			$old = file_get_contents($log);
@@ -39,7 +39,7 @@ class VisitorlogPlugin extends Plugin
 		*/
 	}
 
-	$log = 'log/' . $day;	
+	$log = 'log/' . $day . '.log';	
 	$old = '';
 	if ( file_exists($log)){
 		$old = file_get_contents($log);
@@ -48,7 +48,7 @@ class VisitorlogPlugin extends Plugin
 		fwrite($file,$ip ."\n" . $time . "\n" . $address . $referer . "\n\n" . $old);
 		fclose($file);
 	
-	$log ='log/ip/' . $_SERVER['REMOTE_ADDR'];
+	$log ='log/ip/' . $_SERVER['REMOTE_ADDR'] . '.log';
 	$old = '';
 	if ( file_exists($log)){
 		$old = file_get_contents($log);
