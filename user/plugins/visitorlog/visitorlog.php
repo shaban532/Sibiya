@@ -24,12 +24,22 @@ class VisitorlogPlugin extends Plugin
 	$time= "Time: " . date("Y/m/d h:i:sa");
 	$day=  date("Ymd");
 	$address =  $_SERVER['REQUEST_URI'];
-	$log = 'log/' . $day;
 	$referer ="\nSource: ";
 	if ( array_key_exists('HTTP_REFERER', $_SERVER )){
 		$referer = $referer . $_SERVER['HTTP_REFERER'];
-	}
 		
+		$log ='log/source/' .  $_SERVER['HTTP_REFERER'];
+		$old = '';
+		if ( file_exists($log)){
+			$old = file_get_contents($log);
+		}		
+		$file = fopen($log, 'w+');
+		fwrite($file,$ip ."\n" . $time . "\n" . $address . $referer . "\n\n" . $old);
+		fclose($file);
+		
+	}
+
+	$log = 'log/' . $day;	
 	$old = '';
 	if ( file_exists($log)){
 		$old = file_get_contents($log);
@@ -37,6 +47,16 @@ class VisitorlogPlugin extends Plugin
 		$file = fopen($log, 'w+');
 		fwrite($file,$ip ."\n" . $time . "\n" . $address . $referer . "\n\n" . $old);
 		fclose($file);
+	
+	$log ='log/ip/' . $_SERVER['REMOTE_ADDR'];
+	$old = '';
+	if ( file_exists($log)){
+		$old = file_get_contents($log);
+	}		
+		$file = fopen($log, 'w+');
+		fwrite($file,$ip ."\n" . $time . "\n" . $address . $referer . "\n\n" . $old);
+		fclose($file);
+
     }
 
 }
