@@ -1,6 +1,6 @@
 {% extends 'partials/base.html.twig' %}
 {% block content %}
-    <h1 class="alert alert-title"> {{ site.fa_title|e('html') }} </h1>
+    <h1 class="alert alert-title"> {{ page.title }} </h1>
 <hr class="mima">
     {% for post in page.collection.order('order', 'date', 'desc').slice(0, 100)%}
 

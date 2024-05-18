@@ -1,5 +1,5 @@
 ---
-title: یادداشت‌ها
+title: همهٔ من
 metadata:
     
 content:
