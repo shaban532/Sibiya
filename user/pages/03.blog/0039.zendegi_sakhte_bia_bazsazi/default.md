@@ -1,7 +1,7 @@
 ---
 title: زندگی سخته؟! بیا بازسازی
 metadata: 
-    description: روایتی خاطره‌انگیز از دو روز دوست داشتنی با بچه‌های تیم بازسازی خیریه کودکان فرشته‌اند
+    description: روایتی خاطره‌انگیز از دو روز دوست داشتنی با بچه‌های تیم بازسازی خیریه کودکان فرشته‌ اند
 progress_bar: 1
 pdate: شنبه ۱۹ اسفند ۱۴۰۲
 edate: یکشنبه ۲۶ فروردین ۱۴۰۳
@@ -11,7 +11,7 @@ taxonomy:
 structure: BlogPosting
 datePublished: 2024-03-09T23:10:00+03:30
 ---
-![ نوشته‌ای برای تیم بازسازی خیریه کودکان فرشته‌اند ](baazsaazi.webp?classes=center&loading=lazy)
+![ نوشته‌ای برای تیم بازسازی خیریه کودکان فرشته‌ اند ](baazsaazi.webp?classes=center&loading=lazy)
 <div class="align-center">
 </div>
 
