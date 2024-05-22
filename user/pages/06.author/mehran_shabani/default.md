@@ -8,10 +8,9 @@ taxonomy:
     tag: [ نویسنده , sibiya , طراح ]
 published: 1
 ---
-<!--
-![ هاست ](parspack.webp?classes=center&loading=lazy)
-<div class="align-center">
-</div>
--->
-مهران شعبانی هستم. نویسنده و طراح 
-Sibiya.ir
+
+![ مهران شعبانی ](mehran.webp)
+
+مهران شعبانی هستم.
+
+همین!
