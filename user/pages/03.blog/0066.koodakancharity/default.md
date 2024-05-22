@@ -6,6 +6,7 @@ progress_bar: 1
 pdate: شنبه ۲۲ اردیبهشت ۱۴۰۳
 taxonomy:
     tag: [ کودکان_فرشته_اند ]
+    category: koodakancharity
 published: 1
 structure: BlogPosting
 datePublished: 2024-05-11T18:00:00+03:30

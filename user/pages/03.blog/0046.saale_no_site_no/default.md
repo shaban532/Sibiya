@@ -7,6 +7,7 @@ pdate: جمعه ۳ فروردین ۱۴۰۳
 edate: سه‌شنبه ۲۱ فروردین ۱۴۰۳
 taxonomy:
     tag: [ گرافیک , هنر , کودکان_فرشته_اند  ]
+    category: koodakancharity
 published: 1
 structure: BlogPosting
 datePublished: 2024-03-22T12:35:46+03:30

@@ -6,6 +6,7 @@ progress_bar: 1
 pdate: سه‌شنبه ۱۴ فروردین ۱۴۰۳
 taxonomy:
     tag: [ هنر , سینما , لیلا_حاتمی , داریوش_مهرجویی ]
+    category: cinema
 published: 1
 structure: BlogPosting
 datePublished: 2024-04-02T15:10:00+03:30

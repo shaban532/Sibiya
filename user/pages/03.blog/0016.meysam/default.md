@@ -7,6 +7,7 @@ pdate: دوشنبه ۱۸ دی ۱۴۰۲
 edate: دوشنبه ۱۸ دی ۱۴۰۲    
 taxonomy:
     tag: [ جنگ , کتاب , شهدا ]
+    category: book
 structure: BlogPosting
 datePublished: 2024-01-08T08:00:00+03:30
 ---

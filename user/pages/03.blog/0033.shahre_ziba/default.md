@@ -6,6 +6,7 @@ progress_bar: 1
 pdate: دوشنبه ۷ اسفند ۱۴۰۲
 taxonomy:
     tag: [  فیلم , هنر , اصغر_فرهادی ]
+    category: cinema
 structure: BlogPosting
 datePublished: 2024-02-26T14:33:00+03:30
 

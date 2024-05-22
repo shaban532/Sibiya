@@ -7,6 +7,7 @@ pdate: دوشنبه ۹ بهمن ۱۴۰۲
 edate: دوشنبه ۹ بهمن ۱۴۰۲    
 taxonomy:
     tag: [ داستان , کتاب , هنر , ادبیات ]
+    category: book
 structure: BlogPosting
 datePublished: 2024-01-30T08:00:00+03:30
 ---

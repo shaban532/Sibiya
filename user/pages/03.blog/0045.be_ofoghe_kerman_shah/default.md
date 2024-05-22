@@ -6,6 +6,7 @@ progress_bar: 1
 pdate: دوشنبه ۲۸ اسفند ۱۴۰۲
 taxonomy:
     tag: [ دل_نوشته , عاشقانه , ادبیات ]
+    category: romance
 published: 1
 structure: BlogPosting
 datePublished: 2024-03-18T22:35:46+03:30

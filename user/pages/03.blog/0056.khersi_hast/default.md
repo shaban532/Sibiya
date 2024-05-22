@@ -6,6 +6,7 @@ progress_bar: 1
 pdate: چهارشنبه ۲۲ فروردین ۱۴۰۳
 taxonomy:
     tag: [ هنر , نقد , ادبیات , فیلم , سینما ]
+    category: cinema
 published: 1
 structure: BlogPosting
 datePublished: 2024-04-10T14:10:00+03:30

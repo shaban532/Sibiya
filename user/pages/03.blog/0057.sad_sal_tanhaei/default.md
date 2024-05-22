@@ -6,6 +6,7 @@ progress_bar: 1
 pdate: پنج‌شنبه ۲۳ فروردین ۱۴۰۳
 taxonomy:
     tag: [ هنر , نقد , ادبیات , ترجمه , کتاب ]
+    category: book
 published: 1
 structure: BlogPosting
 datePublished: 2024-04-11T14:45:00+03:30

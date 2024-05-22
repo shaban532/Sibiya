@@ -8,6 +8,7 @@ edate: یکشنبه ۲۶ فروردین ۱۴۰۳
 author: Sibiāā
 taxonomy:
     tag: [ خیریه , بازسازی , کودکان_فرشته_اند , خاطره   ]
+    category: koodakancharity
 structure: BlogPosting
 datePublished: 2024-03-09T23:10:00+03:30
 ---

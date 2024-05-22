@@ -6,6 +6,7 @@ progress_bar: 1
 pdate: جمعه ۱۱ اسفند ۱۴۰۲
 taxonomy:
     tag: [ کتاب , هنر , داستان , Romain_Gary ]
+    category: book
 structure: BlogPosting
 datePublished: 2024-03-01T19:55:00+03:30
 ---

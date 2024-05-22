@@ -6,6 +6,7 @@ progress_bar: 1
 pdate: شنبه ۱۱ فروردین ۱۴۰۳
 taxonomy:
     tag: [ خاطره , دل_نوشته , کودکان_فرشته_اند ]
+    category: koodakancharity
 published: 1
 structure: BlogPosting
 datePublished: 2024-03-30T01:10:00+03:30

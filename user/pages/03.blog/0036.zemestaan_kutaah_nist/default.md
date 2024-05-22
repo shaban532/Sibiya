@@ -6,6 +6,7 @@ progress_bar: 1
 pdate: دوشنبه ۱۴ اسفند ۱۴۰۲
 taxonomy:
     tag: [ عاشقانه , هنر , داستان  ]
+    category: short_story
 structure: BlogPosting
 datePublished: 2024-03-04T14:20:00+03:30
 ---

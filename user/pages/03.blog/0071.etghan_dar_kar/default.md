@@ -6,6 +6,7 @@ progress_bar: 1
 pdate: سه‌شنبه ۱ خرداد ۱۴۰۳
 taxonomy:
     tag: [ عاشقانه ]
+    category: romance
 published: 1
 structure: BlogPosting
 datePublished: 2024-05-21T22:15:00+03:30

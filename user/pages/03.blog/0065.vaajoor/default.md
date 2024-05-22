@@ -6,6 +6,7 @@ progress_bar: 1
 pdate: جمعه ۲۱ اردیبهشت ۱۴۰۳
 taxonomy:
     tag: [ عاشقانه , بازی ]
+    category: romance
 published: 1
 structure: BlogPosting
 datePublished: 2024-05-10T13:15:00+03:30

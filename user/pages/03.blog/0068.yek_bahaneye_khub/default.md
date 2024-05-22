@@ -6,6 +6,7 @@ progress_bar: 1
 pdate: شنبه ۲۹ اردیبهشت ۱۴۰۳
 taxonomy:
     tag: [ سینما , عاشقانه ]
+    category: [ romance, cinema ]
 published: 1
 structure: BlogPosting
 datePublished: 2024-05-18T20:45:00+03:30

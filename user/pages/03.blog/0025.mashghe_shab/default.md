@@ -7,6 +7,7 @@ pdate: دوشنبه ۱۶ بهمن ۱۴۰۲
 edate: دوشنبه ۱۶ بهمن ۱۴۰۲    
 taxonomy: 
     tag: [ فیلم , مستند , هنر , عباس_کیارستمی , مدرسه ]
+    category: cinema
 structure: BlogPosting
 datePublished: 2024-02-05T08:00:00+03:30
 ---
@@ -51,6 +52,6 @@ datePublished: 2024-02-05T08:00:00+03:30
   
 <div class="align-center">
 <video width="85%" controls>
-<source src="/assets/video/mashghe_shab.mp4" type="video/mp4">
+<source src="/user/pages/03.blog/0025.mashghe_shab/mashghe_shab.mp4" type="video/mp4">
 </video>
 </div>

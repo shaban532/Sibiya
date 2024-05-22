@@ -7,6 +7,7 @@ pdate: جمعه ۴ اسفند ۱۴۰۲
 edate: جمعه ۴ اسفند ۱۴۰۲    
 taxonomy:
     tag: [  داستان , عاشقانه ]
+    category: short_story
 structure: BlogPosting
 datePublished: 2024-02-23T21:55:00+03:30
 published: 1

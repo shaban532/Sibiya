@@ -6,6 +6,7 @@ progress_bar: 1
 pdate: یکشنبه ۲۷ اسفند ۱۴۰۲
 taxonomy:
     tag: [ داستان , رمان , رضا_امیرخانی , ادبیات ]
+    category: book
 published: 1
 structure: BlogPosting
 datePublished: 2024-03-17T21:15:46+03:30

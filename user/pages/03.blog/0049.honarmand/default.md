@@ -1,11 +1,12 @@
 ---
-title: هنرمند
+title: برشی از عقاید یک دلقک
 metadata: 
     description: برشی از کتاب عقاید یک دلقک نوشته هاینریش بل
 progress_bar: 1
 pdate: چهارشنبه ۸ فروردین ۱۴۰۳
 taxonomy:
     tag: [ ادبیات , هنر ]
+    category: book
 published: 1
 structure: BlogPosting
 datePublished: 2024-03-27T17:30:46+03:30

@@ -7,6 +7,7 @@ pdate: جمعه ۲۷ بهمن ۱۴۰۲
 edate: جمعه  ۲۷ بهمن ۱۴۰۲    
 taxonomy: 
     tag: [ دل_نوشته , عاشقانه , داستان , هنر ]
+    category: romance
 structure: BlogPosting
 datePublished: 2024-02-16T08:00:00+03:30
 ---
