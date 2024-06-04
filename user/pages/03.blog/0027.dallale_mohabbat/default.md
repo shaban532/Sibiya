@@ -1,5 +1,5 @@
 ---
-title: دلال محبت
+title: دلال محبت؛ از مجموعه عاشقانه ها
 metadata: 
     description: 
 progress_bar: 1

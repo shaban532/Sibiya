@@ -1,5 +1,5 @@
 ---
-title: صبحونه بخوریم!
+title: صبحونه بخوریم؛ از خاطرات خدمت سربازی
 metadata:
     description: خاطره‌های دوران سربازی یک نیمروی خوشمزه در آخرین روزهای خدمت
 progress_bar: 1
@@ -7,6 +7,7 @@ pdate: دو‌شنبه ۲۵ دی ۱۴۰۲
 edate: سه‌شنبه ۲۶ دی ۱۴۰۲    
 taxonomy:
     tag: [ خاطره , سربازی , خدمت  ]
+    category: conscription
 structure: BlogPosting
 datePublished: 2024-01-16T08:00:00+03:30
 ---

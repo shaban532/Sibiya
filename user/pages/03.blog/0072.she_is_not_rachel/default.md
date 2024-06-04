@@ -1,5 +1,5 @@
 ---
-title: She's not Rachel
+title: She's not Rachel بهترین سکانس سریال فرندز
 metadata: بهترین سکانس سینما سریال فرندز Friends فصل دوم راس Ross ریچل Rachel را دوست دارد
     description: 
 progress_bar: 1

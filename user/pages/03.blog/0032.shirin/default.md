@@ -1,5 +1,5 @@
 ---
-title: شیرین!
+title: شیرین؛ کوتاه اما عاشقانه، داستانی که دوستش دارم
 metadata: داستان کوتاه عاشقانه 
     description: 
 progress_bar: 1

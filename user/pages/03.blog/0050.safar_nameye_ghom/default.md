@@ -1,11 +1,12 @@
 ---
-title: سفرنامهٔ قم
+title: سفرنامهٔ قم؛ یک ماه در قم به برکت خدمت سربازی
 metadata: 
     description: سفرنامه قم روایت سفر من به شهر قم آستان حضرت معصومه  
 progress_bar: 1
 pdate: شنبه ۱۱ فروردین ۱۴۰۳
 taxonomy:
     tag: [ خاطره , سفرنامه , هنر ]
+    category: [conscription]
 published: 1
 structure: BlogPosting
 datePublished: 2024-03-30T00:20:46+03:30

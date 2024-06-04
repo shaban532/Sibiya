@@ -3,8 +3,11 @@
     <h1 class="alert alert-title"> {{ page.title }} </h1>
 <hr class="mima">
     {% for post in page.collection.order('order', 'date', 'desc').slice(0, 100)%}
-
-<a href={{post.url}}><p class="alert alert-title" > {{ post.title }} </p></a>
+<a href={{post.url}}><p class="alert alert-title" style="text-align:right;" > 
+<div style="display:flex; justify-content:space-between; font-size:80%; text-align:right">
+{{ post.title|truncate(400)|raw }}
+</div>
+ </p></a>
 {#
             <div class="col col-md-12">
                 <div class="panel" >

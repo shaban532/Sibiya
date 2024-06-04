@@ -1,5 +1,5 @@
 ---
-title: سرگشاده
+title: سرگشاده؛ مختصری درباره اهدای خون
 metadata: 
     description: 
 progress_bar: 1

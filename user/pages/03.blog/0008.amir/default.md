@@ -1,5 +1,5 @@
 ---
-title: من و امیر
+title: من و امیر؛ از خاطرات خدمت سربازی
 metadata: 
     description: خاطره‌ای از دوستی و رفاقت‌های خاطره‌انگیز در دوران خدمت سربازی
 progress_bar: 1
@@ -7,6 +7,7 @@ pdate: یکشنبه ۲۱ آبان ۱۴۰۲
 edate: یک‌شنبه ۸ بهمن ۱۴۰۲    
 taxonomy:
     tag: [ سربازی , خدمت , خاطره ]
+    category: conscription
 structure: BlogPosting
 datePublished: 2023-11-12T08:00:00+03:30
 ---

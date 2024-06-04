@@ -1,5 +1,5 @@
 ---
-title: فلفل و هویج
+title: فلفل و هویج؛ یک وب کمیک رایگان و منبع باز
 metadata:
     description: کمیک رایگان و منبع‌باز فلفل و هویچ Pepper and Carrot ساخته شده توسط دیوید ریووی David Revoy 
 progress_bar: 1

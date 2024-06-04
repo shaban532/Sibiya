@@ -1,5 +1,5 @@
 ---
-title: یک قدم از من ...
+title: یک قدم از من؛ از خاطرات خدمت سربازی
 metadata:
     description: خاطره‌ای از دوران خدمت سربازی و روز تولد محمدرضا و دوستی ما
 progress_bar: 1
@@ -7,6 +7,7 @@ pdate: پنج شنبه ۷ دی ۱۴۰۲
 edate: شنبه ۹ دی ۱۴۰۲    
 taxonomy:
     tag: [ خدمت , سربازی , تولد , خاطره ]
+    category: conscription
 structure: BlogPosting
 datePublished: 2023-12-31T08:00:00+03:30
 ---

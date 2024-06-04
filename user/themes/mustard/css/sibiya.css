@@ -64,11 +64,13 @@ h4,
 h5,
 h6 {
   font-family: "Lalezar";
-  font-weight: 900;
+  font-weight: 500;
   color: var(--text-color);
   margin: 0 0 10px;
   text-align: center;
   }
+h1 {
+  font-size:1.2em}
  
  navv{
    font-family: "Mikhak";

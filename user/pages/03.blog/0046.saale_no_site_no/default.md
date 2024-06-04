@@ -1,5 +1,5 @@
 ---
-title: سال نو، سایت نو ...
+title: سال نو، سایت نو؛ بازسازی وب سایت کودکان فرشته اند
 metadata: 
     description: طراحی قالب نو جدید سایت خیریه کودکان فرشته‌اند koodakancharity.ir
 progress_bar: 1

@@ -1,5 +1,5 @@
 ---
-title: پدیده‌ای شبیه به شکست
+title: پدیده‌ای شبیه به شکست؛ اندر احوالات نوشتن در Sibiya.ir
 metadata: 
     description:  
 progress_bar: 1

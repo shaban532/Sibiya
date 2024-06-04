@@ -1,5 +1,5 @@
 ---
-title: هاست ارزان
+title: هاست ارزان؛ در ستایش هاست ابری پارس پک
 metadata: 
     description: هاست ارزان با قیمت و پشتیبانی مناسب پارس پک pars pack
 progress_bar: 1

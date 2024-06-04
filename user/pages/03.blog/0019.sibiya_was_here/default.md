@@ -1,5 +1,5 @@
 ---
-title: سیبیا اینجا بود!
+title: سیبیا اینجا بود؛ پایان خدمت سربازی در هوای شاوشنک
 metadata: 
     description: 
 progress_bar: 1
@@ -7,6 +7,7 @@ pdate: سه‌شنبه ۲۶ دی ۱۴۰۲
 edate: سه‌شنبه ۲۶ دی ۱۴۰۲    
 taxonomy:
     tag: [ سربازی , خدمت , فیلم , هنر  , خودکشی , دل_نوشته  ]
+    category: [conscription, cinema]
 structure: BlogPosting
 datePublished: 2024-01-16T08:00:00+03:30
 ---

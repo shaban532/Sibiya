@@ -1,11 +1,12 @@
 ---
-title: سلام عزیزم!
+title: سلام عزیزم؛ از خاطرات خدمت سربازی
 metadata:
     description: خاطره‌ای از روزهای زیبای خدمت سربازی و  احترام نظامی در دوران خدمت
 progress_bar: 1
 pdate: یک شنبه ۳ دی ۱۴۰۲    
 taxonomy:
     tag: [ خدمت , سربازی , خاطره ]
+    category: conscription
 structure: BlogPosting
 datePublished: 2023-12-24T08:00:00+03:30
 ---
