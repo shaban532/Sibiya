@@ -1,9 +1,33 @@
 {% extends 'partials/base.html.twig' %}
 {% block content %}
 <h1 class="alert alert-title" style="color:black;"> {{ page.title }} </h1>
-</br>
+
+<p class="alert alert-background" style="color:black; text-align:right"> دسته‌بندی:
+{% for post in page.taxonomy.category %}
+ <a href="/categories/{{post}}">
+{% for p in page.find('/categories').children  %}
+{% if p.url == '/categories/'~post %}
+{{ p.title }}
+{% endif %}
+{% endfor %}
+</a>
+{% endfor %}
+ </p>
+
  <div style=" text-align: justify; text-justify: inter-word;">
         {{ page.content|raw }}
+
+<p class="alert alert-background" style="color:black; text-align:right"> دسته‌بندی:
+{% for post in page.taxonomy.category %}
+ <a href="/categories/{{post}}">
+{% for p in page.find('/categories').children  %}
+{% if p.url == '/categories/'~post %}
+{{ p.title }}
+{% endif %}
+{% endfor %}
+</a>
+{% endfor %}
+ </p>
 <p class="alert alert-title" style="color:black;"> نوشته شده 
 در
          {{page.header.pdate|e}} </p>
