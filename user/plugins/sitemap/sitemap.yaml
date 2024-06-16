@@ -1,4 +1,4 @@
-enabled: false
+enabled: true
 route: '/sitemap'
 ignore_external: true
 ignore_protected: true
