@@ -13,6 +13,7 @@ ignores:
   - /typography/.*
   - /books
   - /books/.*
+
 include_news_tags: false
 standalone_sitemap_news: false
 sitemap_news_path: '/sitemap-news.xml'
