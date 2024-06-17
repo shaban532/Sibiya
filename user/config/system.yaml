@@ -52,3 +52,7 @@ debugger:
     close_connection: true
 gpm:
   verify_peer: true
+
+images:
+  cls:
+    auto_sizes: true                            # Automatically add height/width to image
