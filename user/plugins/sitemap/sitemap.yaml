@@ -1,4 +1,4 @@
-enabled: false
+enabled: true
 route: '/sitemap'
 ignore_external: true
 ignore_protected: true
@@ -6,8 +6,6 @@ ignore_redirect: true
 ignores:
   - /blog/blog-post-to-ignore
   - /ignore-this-route
-  - /05.unpublished/.*
-  - /unpublished/.*
 include_news_tags: false
 standalone_sitemap_news: false
 sitemap_news_path: '/sitemap-news.xml'
