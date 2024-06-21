@@ -2,6 +2,6 @@ enabled: true
 limit: 20
 title: 'مهران شعبانی'
 description: 'یادداشت‌های مهران شعبانی'
-length: 50000
+length: 500
 enable_json_feed: false
 show_last_modified: false
