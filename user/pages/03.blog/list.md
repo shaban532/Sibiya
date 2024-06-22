@@ -1,5 +1,5 @@
 ---
-title: همهٔ من
+title: یادداشت‌های مهران شعبانی
 metadata:
     
 content:

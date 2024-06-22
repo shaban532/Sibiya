@@ -9,7 +9,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
-    <title>{% if page.title %}{{ page.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
+    <title>{% if page.title %}{{ page.title|e('html') }} {% else %}{{ site.title|e('html') }} {% endif %}</title>
 
 {% for meta in page.metadata %}
     <meta {% if meta.name %}name="{{ meta.name|e }}" {% endif %}{% if meta.http_equiv %}http-equiv="{{ meta.http_equiv|e }}" {% endif %}{% if meta.charset %}charset="{{ meta.charset|e }}" {% endif %}{% if meta.property %}property="{{ meta.property|e }}" {% endif %}{% if meta.content %}content="{{ meta.content|raw }}" {% endif %}>
