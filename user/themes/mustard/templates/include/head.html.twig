@@ -75,8 +75,8 @@ MathJax = {
 </script>
 
 {% block javascripts %}
-        {%  do assets.addJs('theme://js/polyfill.min' , { group: 'bottom' }) %}
-        {%  do assets.addJs('theme://js/tex-mml-chtml.js' , { group: 'mathjax' }) %}
+        {%  do assets.addJs('theme://js/polyfill.min.js' , { group: 'bottom' }) %}
+        {%  do assets.addJs('theme://js/tex-mml-chtml.js' , { group: 'bottom' }) %}
         {%  do assets.addJs('theme://js/progress-bar.js' , { group: 'bottom' }) %}
 {% endblock %}
 
