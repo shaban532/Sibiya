@@ -42,6 +42,18 @@
 {% endif %}
 
 
+{% if page.header.structure == "WebSite" %}
+<script type="application/ld+json">
+    {
+      "@context" : "https://schema.org",
+      "@type" : "WebSite",
+      "name" : "یادداشت‌های مهران شعبانی",
+      "alternateName" : "sibiya.ir",
+      "url" : "https://sibiya.ir/"
+    }
+  </script>
+{% endif %}
+
 {% block stylesheets %}
 {% do assets.addCss('theme://css/sibiya.css?=106') %}
 {% endblock %}

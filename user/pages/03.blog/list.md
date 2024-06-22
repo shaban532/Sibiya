@@ -12,4 +12,5 @@ content:
 twig_first: true
 process:
 	twig: true
+structure: WebSite
 ---
