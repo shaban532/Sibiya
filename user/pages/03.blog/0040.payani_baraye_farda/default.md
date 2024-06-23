@@ -11,10 +11,8 @@ taxonomy:
 structure: BlogPosting
 datePublished: 2024-03-11T11:50:00+03:30
 ---
-![ تصویری از یک جاده ](payani_baraye_farda.webp?classes=center&loading=lazy)
-<div class="align-center">
-<a href="https://www.freepik.com/free-photo/shot-highway-road-surrounded-by-dried-grass-fields-sky-during-sunset_9932294.htm#fromView=search&page=1&position=9&uuid=7dc0a2ba-c623-4ef8-be37-be0691ad6356">Image by wirestock</a> on Freepik
-</div>
+![ تصویر فرشته در فیلم تا فردا وقتی فرزندش را در آغوش گرفته است ](ut1.webp?classes=center)
+
 وقتی جوابم را نداد حساب کار دستم آمد. همان جا روی پله نشستم. ناهید رفت داخل خانه. چند دقیقهٔ بعد خیلی به هم ریخته بیرون آمد:
 
 > بیا بریم.
