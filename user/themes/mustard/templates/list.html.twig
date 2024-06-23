@@ -9,7 +9,7 @@
 {{ post.title|truncate(400)|raw }}
 </div>
 {% set blog_image = post.media.images|first %}
-<img src="{{blog_image.url|e}}"/>
+{#<img src="{{blog_image.url|e}}"/>#}
 <p class="alert alert-title" style="text-align:right;" > 
  </p>
 <div style="display:flex; justify-content:space-between; font-size:80%; text-align:right">
