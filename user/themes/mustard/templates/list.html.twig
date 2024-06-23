@@ -3,21 +3,21 @@
 <div class="container container-small-white">
     <h1 class="alert alert-title"> {{ page.title }} </h1>
 <hr class="mima">
-</div>
 </br>
+<ol>
     {% for post in page.collection.order('order', 'date', 'desc').slice(0, 100)%}
-<div class="container container-small-white">
 <a href={{post.url}}>
-<div style="display:flex; justify-content:space-between; font-size:80%; text-align:right">
+<li style="display:flex; justify-content:space-between; font-size:100%; font-weight:200; text-align:right">
 {{ post.title|truncate(400)|raw }}
-</div>
+</li>
 {% set blog_image = post.media.images|first %}
-{#<img src="{{blog_image.url|e}}"/>#}
+{#<img src="{{blog_image.url|e}}"/>
 <p class="alert alert-title" style="text-align:right;" > 
  </p>
 <div style="display:flex; justify-content:space-between; font-size:80%; text-align:right">
 {{post.header.pdate|e}}
 </div>
+#}
 </a>
 {#
             <div class="col col-md-12">
@@ -64,9 +64,8 @@
                 </div>
             </div>
 #}
-</div>
-</br>
         {% endfor %}
+<ol>
 {# pagination plugin #}
 {% set collection = page.collection() %}
 
@@ -85,5 +84,7 @@
 
 {% endif %}
 {# END pagination plugin #}
- 
+ </div>
+</div>
 {% endblock %}
+
