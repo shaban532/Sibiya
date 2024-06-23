@@ -1,7 +1,10 @@
 {% extends 'partials/base.html.twig' %}
 {% block content %}
+<div class="container container-small-white">
     <h1 class="alert alert-title"> {{ page.title }} </h1>
 <hr class="mima">
+</div>
+</br>
     {% for post in page.collection.order('order', 'date', 'desc').slice(0, 100)%}
 <div class="container container-small-white">
 <a href={{post.url}}>
@@ -76,11 +79,10 @@
 {# Render the pagination list #}
 {% if config.plugins.pagination.enabled and collection.params.pagination %}
 
-{#
-<div style="text-align:center;">
+
     {% include 'partials/pagination.html.twig' with {'base_url':page.url, 'pagination':collection.params.pagination} %}
-</div>
-#}
+
+
 {% endif %}
 {# END pagination plugin #}
  
