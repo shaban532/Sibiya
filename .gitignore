@@ -14,3 +14,4 @@ vendor/.DS_Store
 /log
 /admin
 images
+logs/
