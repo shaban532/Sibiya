@@ -1,13 +1,13 @@
 ---
 title: یادداشت‌های مهران شعبانی
 metadata:
-    
+  description:
 content:
   items: '@self.children'
   order:
     by: header.date
     dir: desc
-  pagination: true
+  pagination: false
   limit: 100
 twig_first: true
 process:
