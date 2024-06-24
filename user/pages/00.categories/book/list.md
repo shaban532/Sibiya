@@ -1,5 +1,5 @@
 ---
-title: معرفی و نقد کتاب
+title: کتاب
 content:
     items: 
         '@taxonomy.category': [book]

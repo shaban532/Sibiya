@@ -3,6 +3,7 @@
 <div class="container container-small-white">
 <h1 class="alert alert-title" style="color:black;"> {{ page.title }} </h1>
 
+{% if page.taxonomy.category %}
 <p class="alert alert-background" style="color:black; text-align:right"> دسته‌بندی:
 {% for post in page.taxonomy.category %}
  <a href="/categories/{{post}}">
@@ -14,10 +15,11 @@
 </a>
 {% endfor %}
  </p>
+{% endif %}
 
  <div style=" text-align: justify; text-justify: inter-word;">
         {{ page.content|raw }}
-
+{% if page.taxonomy.category %}
 <p class="alert alert-background" style="color:black; text-align:right"> دسته‌بندی:
 {% for post in page.taxonomy.category %}
  <a href="/categories/{{post}}">
@@ -29,11 +31,12 @@
 </a>
 {% endfor %}
  </p>
+{% endif %}
+{% if page.header.pdate %}
 <p class="alert alert-title" style="color:black;"> نوشته شده 
-در
-         {{page.header.pdate|e}} </p>
+در {{page.header.pdate|e}} </p>
+{% endif %}
 </div>
-
 {#
 <div class="panel">
 
