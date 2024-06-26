@@ -11,7 +11,8 @@ user/themes/mustard/.DS_Store
 user/themes/mustard/templates/.DS_Store
 user/themes/quark/.DS_Store
 vendor/.DS_Store
-/log
+log
 /admin
 images
 logs/
+user/pages/unpublished/
