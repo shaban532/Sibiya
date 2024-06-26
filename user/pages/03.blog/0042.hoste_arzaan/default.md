@@ -1,5 +1,5 @@
 ---
-title: هاست ارزان؛ در ستایش هاست ابری پارس پک
+title: هاست ابری پارس پک؛ آیا ارزش خریدن دارد؟
 metadata: 
     description: هاست ارزان با قیمت و پشتیبانی مناسب پارس پک pars pack
 progress_bar: 1
@@ -10,7 +10,7 @@ published: 1
 structure: BlogPosting
 datePublished: 2024-03-14T21:05:46+03:30
 ---
-![ هاست ](parspack.webp?classes=center&loading=lazy)
+![ هاست ](parspack.webp)
 <div class="align-center">
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: سلطان؛ داستان کوتاه
+title: داستان کوتاه؛ سلطان
 metadata:
     description: داستان کوتاه سلطان
 progress_bar: 1

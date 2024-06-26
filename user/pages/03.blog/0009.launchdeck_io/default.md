@@ -1,5 +1,5 @@
 ---
-title: از گیت‌هاب به سرور شخصی: معرفی launchdeck.io
+title: launchdeck.io لانچ دک؛ چگونه فایل ها را از گیت هاب به سرور شخصی منتقل کنم؟
 metadata:
     description: استفاده از لانچدک launchdeck برای انتقال فایل‌ها از سرور گیت Git به سرور یا هاست شخصی
 progress_bar: 1
