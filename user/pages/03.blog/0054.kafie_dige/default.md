@@ -1,5 +1,5 @@
 ---
-title: کافیه دیگه؛ در ستایش uBlock Origin
+title: uBlock Origin افزونه‌ای برای خلاص شدن از شر تبلیغات
 metadata: 
     description: استفاده بی‌رویه بعضی از سایت‌های ایرانی از تبلیغات یکتانت و استفاده از افزونه‌های مسدود کننده adblock plus و uBlock Origin
 progress_bar: 1
