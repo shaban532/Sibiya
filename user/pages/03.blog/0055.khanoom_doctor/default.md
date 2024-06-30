@@ -11,10 +11,8 @@ published: 1
 structure: BlogPosting
 datePublished: 2024-04-06T22:10:00+03:30
 ---
-![ خانم دکتر در حال تدریس درس ادبیات فارسی در دانشگاه شریف ](khanoom_doctor.webp?classes=center&loading=lazy)
-<div class="align-center">
-Image by <a href="https://www.freepik.com/premium-ai-image/happy-teacher-day-concept-watercolor-illustration_92339707.htm#fromView=search&page=1&position=36&uuid=8ed8c4af-6921-4cdd-bb29-f88a976355ea">Revelation17</a>
-</div>
+![ ترجمه های متعدد کتاب عقاید یک دلقک هاینریش بل از نشرهای مختلف ](the-clown.webp)
+
 
 یکی از جلسات مریض بودم و سر کلاس نرفتم. دقیق‌تر آنکه آن روز اصلاً به دانشگاه نرفتم و گزارش هفتهٔ قبل را هم تحویل ندادم. چند روزی از جلسه‌ای که در آن غیبت کرده بودم گذشته بود که استاد را دیدم: 
 

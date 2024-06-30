@@ -11,9 +11,8 @@ taxonomy:
 structure: BlogPosting
 datePublished: 2024-01-30T08:00:00+03:30
 ---
-![ شوالیهٔ ناموجود ](hand-drawn-knight-cartoon-illustration_52683-118933.webp?classes=center&loading=lazy)
-<div class="align-center">
-<a href="https://www.freepik.com/free-vector/hand-drawn-knight-cartoon-illustration_45156998.htm#query=The%20Nonexistent%20Knight&position=1&from_view=search&track=ais&uuid=05ebf83d-1900-4beb-ba45-ec3df54d246c">Image by pikisuperstar</a> on Freepik</div>
+![ کتاب شوالیهٔ ناموجود ایتالو کالوینو ترجمه پرویز شهدی نشر چشمه ](the-nonexistent-knight.webp)
+
 
 گوردولو ضمن آواز خواندن آماده می‌شود قبر مرده‌اش را حفر کند. آن را روی زمین می‌خواباند تا اندازه‌اش را تعیین کند. با نوک بیل حدود را تعیین می‌کند، مرده را کمی کنار می‌کشد،‌ و با قدرت شروع می‌کند به کندن زمین:
 

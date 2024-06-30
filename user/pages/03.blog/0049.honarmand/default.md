@@ -11,10 +11,8 @@ published: 1
 structure: BlogPosting
 datePublished: 2024-03-27T17:30:46+03:30
 ---
-![ عقاید یک دلقگ هاینریش بل ](fun-carnival-mask_23-2147852291.webp?classes=center&loading=lazy)
-<div class="align-center">
-Image by <a href="https://www.freepik.com/free-photo/fun-carnival-mask_3356565.htm#fromView=search&page=1&position=16&uuid=db7535fe-8d68-4934-ae96-506790478831">Freepik</a>
-</div>
+![ کتاب عقاید یک دلقک هاینریش بل ترجمه سارنگ ملکوتی نشر نگاه ](the-clown.webp)
+
 
 
 شیر آب را بسته و شلوار و پیراهن و زیرپیراهنم را از تن در آورده و به گوشه‌ای پرت کردم، تازه می‌خواستم وارد وان شوم که تلفن زنگ خورد. 
