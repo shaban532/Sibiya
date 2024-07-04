@@ -1,7 +1,7 @@
 enabled: true
-limit: 20
-title: 'مهران شعبانی'
+limit: 1000
+title: 'یادداشت‌های مهران شعبانی'
 description: 'یادداشت‌های مهران شعبانی'
-length: 500
+length: 100
 enable_json_feed: false
 show_last_modified: false

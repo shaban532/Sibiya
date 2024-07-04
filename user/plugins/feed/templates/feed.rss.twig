@@ -8,6 +8,7 @@
     {%- endif %}
 {% endfor %}
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xml" href="/feed.xsl" ?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>{{ collection.params.title }}</title>
@@ -22,7 +23,7 @@
             <title>{{ item.title|e }}</title>
             <link>{{ item.url(true) }}</link>
             <guid>{{ item.url(true) }}</guid>
-            <pubDate>{{ item.date|date('D, d M Y H:i:s O') }}</pubDate>
+            <pubDate>{{ item.header.datePublished|date('D, d M Y H:i:s O') }}</pubDate>
             <description>
                 <![CDATA[
                 {% if banner %}

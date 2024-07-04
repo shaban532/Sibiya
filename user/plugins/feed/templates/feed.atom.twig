@@ -8,6 +8,7 @@
     {%- endif %}
 {% endfor %}
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xml" href="/feed.xsl" ?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>{{ collection.params.title }}</title>
     <link href="{{ uri.rootUrl(true)~uri.uri() }}" rel="self" />
@@ -18,7 +19,8 @@
     </author>
     <id>{{ page.url(true) }}</id>
     {% for item in collection %}
-    {% set banner = item.media.images|first %}
+{#
+    {% set banner = item.media.images|first %}#}
     <entry>
         <title>{{ item.title|e }}</title>
         <id>{{ item.url(true) }}</id>
@@ -27,7 +29,7 @@
         {% else %}
         <updated>{{ item.date|date("Y-m-d\\TH:i:sP") }}</updated>
         {% endif %}
-        <published>{{ item.date|date("Y-m-d\\TH:i:sP") }}</published>
+        <published>{{ item.header.datePublished|date("Y-m-d\\TH:i:sP") }}</published>
         <link href="{{ item.url(true) }}"/>
         {% for tag in item.taxonomy.tag %}
         <category term="{{ tag|e }}" />
