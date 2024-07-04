@@ -16,7 +16,7 @@ datePublished: 2024-06-26T18:00:00+03:30
 
 
 <p class="alert alert-background" style="color:black; text-align:right">
- <a href="/user/pages/03.blog/0082.the-battle-of-algiers/The.Battle.Of.Algiers.1966.1080p.BluRay.x264.AAC-[YTS.MX].srt">دانلود زیرنویس فارسی هماهنگ با نسخه YTS</a></p>
+ <a href="/user/pages/03.blog/0082.the-battle-of-algiers-1966/The.Battle.Of.Algiers.1966.1080p.BluRay.x264.AAC-[YTS.MX].srt">دانلود زیرنویس فارسی هماهنگ با نسخه YTS</a></p>
 
 
 در فضای سرد انتخابات تلویزیون را خاموش می‌کنم و در عوض تماشای مناظره به تماشای فیلمی می‌نشینم که در سال ۱۹۶۶ یعنی ۱۳ سال پیش از انقلاب اسلامی ایران ساخته شد.
