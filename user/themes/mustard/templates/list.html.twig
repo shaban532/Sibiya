@@ -6,10 +6,11 @@
 </br>
 <ol>
     {% for post in page.collection.order('order', 'date', 'desc').slice(0, 100)%}
+<p>
 <a href={{post.url}}>
-<li style="display:flex; justify-content:space-between; font-size:100%; font-weight:200; text-align:right">
+<p style="display:flex; justify-content:space-between; font-size:95%; font-weight:100; text-align:right">
 {{ post.title|truncate(400)|raw }}
-</li>
+</p>
 {% set blog_image = post.media.images|first %}
 {#<img src="{{blog_image.url|e}}"/>
 <p class="alert alert-title" style="text-align:right;" > 
@@ -19,6 +20,7 @@
 </div>
 #}
 </a>
+</p>
 {#
             <div class="col col-md-12">
                 <div class="panel" >
