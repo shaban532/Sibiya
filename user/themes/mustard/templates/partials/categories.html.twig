@@ -1,0 +1,13 @@
+{% if page.taxonomy.category %}
+<p class="alert alert-background"> دسته‌بندی:
+{% for post in page.taxonomy.category %}
+ <a href="/categories/{{post}}">
+{% for p in page.find('/categories').children  %}
+{% if p.url == '/categories/'~post %}
+{{ p.title }}
+{% endif %}
+{% endfor %}
+</a>
+{% endfor %}
+ </p>
+{% endif %}

@@ -7,7 +7,7 @@ pdate: دوشنبه ۳۰ بهمن ۱۴۰۲
 edate: دوشنبه  ۳۰ بهمن ۱۴۰۲    
 taxonomy: 
     tag: [ ریاضی , المپیاد ]
-mathjax: 
+mathjax: 1
 structure: BlogPosting
 datePublished: 2024-02-19T13:48:00+03:30
 

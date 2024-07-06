@@ -1,0 +1,42 @@
+{% if page.header.structure == "BlogPosting" %}
+{% set blog_image = page.media.images|first %}
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "{{ page.title|e('html') }}",
+      "image": [
+	"{{blog_image.url|e}}"
+{% if page.header.image2 %},"{{ page.url }}/{{page.header.image2}}",{% endif %}
+{% if page.header.image3 %},"{{ page.url }}/{{page.header.image3}}",{% endif %}
+{% if page.header.image4 %},"{{ page.url }}/{{page.header.image4}}",{% endif %}
+       ],
+      {% if page.header.datePublished %} "datePublished": "{{page.header.datePublished| date("c")}}", {% endif %}
+	{% if page.header.dateModified %} "dateModified": "{{page.header.dateModified| date("c")}}", {% endif %}      
+      "author": [{
+          "@type": "Person",
+          "name": "{% if page.header.author.name %}{{page.header.author.name|e}}{% else %}{{site.author.name|e}}{% endif %}",
+          "url": "{% if page.header.author.url %}{{page.header.author.url|e}}{% else %}{{site.author.url|e}}{% endif %}"
+        }]
+    }
+</script>
+{% endif %}
+{% if page.header.structure == "WebSite" %}
+<script type="application/ld+json">
+    {
+      "@context" : "https://schema.org",
+      "@type" : "WebSite",
+      "name" : "یادداشت های مهران شعبانی",
+      "alternateName" : "Sibiya.ir",
+      "url" : "https://sibiya.ir/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://sibiya.ir/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+</script>
+{% endif %}

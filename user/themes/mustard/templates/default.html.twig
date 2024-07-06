@@ -1,108 +1,14 @@
 {% extends 'partials/base.html.twig' %}
 {% block content %}
-<div class="container container-small-white">
-<h1 class="alert alert-title" style="color:black;"> {{ page.title }} </h1>
+<h1 class="alert alert-title"> {{ page.title }} </h1>
+{% include 'partials/categories.html.twig' %}
+{{ page.content|raw }}
+{% include 'partials/categories.html.twig' %}
 
-{% if page.taxonomy.category %}
-<p class="alert alert-background" style="color:black; text-align:right"> دسته‌بندی:
-{% for post in page.taxonomy.category %}
- <a href="/categories/{{post}}">
-{% for p in page.find('/categories').children  %}
-{% if p.url == '/categories/'~post %}
-{{ p.title }}
-{% endif %}
-{% endfor %}
-</a>
-{% endfor %}
- </p>
-{% endif %}
-
- <div style=" text-align: justify; text-justify: inter-word;">
-        {{ page.content|raw }}
-{% if page.taxonomy.category %}
-<p class="alert alert-background" style="color:black; text-align:right"> دسته‌بندی:
-{% for post in page.taxonomy.category %}
- <a href="/categories/{{post}}">
-{% for p in page.find('/categories').children  %}
-{% if p.url == '/categories/'~post %}
-{{ p.title }}
-{% endif %}
-{% endfor %}
-</a>
-{% endfor %}
- </p>
-{% endif %}
 {% if page.header.pdate %}
-<p class="alert alert-title" style="color:black;"> نوشته شده 
-در {{page.header.pdate|e}} </p>
+{#<p class="alert alert-title"> نوشته شده در {{page.header.datePublished|hijri}} </p>#}
+<p class="alert alert-title"> نوشته شده در {{page.header.pdate|e}} </p>
 {% endif %}
-</div>
-{#
-<div class="panel">
 
-    <div class="panel-head align-right">
-         <h1 class="alert alert-title" style="color:black;"> {{ page.title }} </h1>
-زمان مطالعه: 
-{{ page.content|readingtime({'format': '{minutes_short_count} {minutes_text} و {seconds_short_count} {seconds_text}', 'minutes_label': 'دقیقه', 'minute_label': 'دقیقه', 'seconds_label': 'ثانیه', 'second_label': 'ثانیه',  }) }}
-
-     </div>
-
-
-    <div class="panel-body" style=" text-align: justify; text-justify: inter-word;">
-
-         {% for p in page.taxonomy.tag %}
-            <button class="button-brand button-small"  style="color:white;" onclick="window.location.href='/tags/{{p}}';">{{ p }}</button>
-         {% endfor %}
-    </div>
-    <div class="panel-footer align-right ">
-        نوشته شده توسط
-         {% if page.header.author.name %}
-                            <a href="{{page.header.author.url|e}}">{{page.header.author.name|e}}</a>
-                        {% else %}
-			    <a href="{{site.author.url|e}}">{{site.author.name|e}}</a>
-                        {% endif %}
-در
-         {{page.header.pdate|e}}
-         </br>
-          ویرایش شده در
-         {% if page.header.edate %}
-         {{page.header.edate|e}}
-         {% else %}
-         {{page.header.pdate|e}}
-         {% endif %}
-
-    </div>
-</div>
-#}
-{#
-<h3> مطالب برگزیده </h3>
-<div class="row">
-
-    <div class="col col-sm12 col-md-6">
-<a href="/blog/shirin">
-<div class="panel">
-    <div class="panel-head align-right">
-         <h3 class="alert alert-title" style="color:black;"> شیرین! </h3>
-     </div>
-    <div class="panel-body" style=" text-align: justify; text-justify: inter-word;">
-        <p><img loading="lazy" alt=" یک جفت کفش قدیمی بندی ساخته شده با هوش مصنوعی " class="center" src="/user/pages/03.blog/0032.shirin/hand-drawn-couple-silhouette-illustration_23-2149840571.webp" /></p>
-    </div>
-</div>
-</a>
-</div>
-    <div class="col col-sm12 col-md-6">
-<a href="/blog/zendegi_sakhte_bia_bazsazi">
-<div class="panel">
-    <div class="panel-head align-right">
-         <h3 class="alert alert-title" style="color:black;"> زندگی سخته؟! بیا بازسازی </h3>
-     </div>
-    <div class="panel-body" style=" text-align: justify; text-justify: inter-word;">
-        <p><img loading="lazy" alt=" یک جفت کفش قدیمی بندی ساخته شده با هوش مصنوعی " class="center" src="/user/pages/03.blog/0039.zendegi_sakhte_bia_bazsazi/baazsaazi.webp" /></p>
-    </div>
-</div>
-</a>
-    </div>
-</div>
-#}
-</div>
+{# {% include 'partials/readingtime.html.twig' %} #}
 {% endblock %}

@@ -1,5 +1,4 @@
 <head>
-
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,92 +8,16 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
-    <title>{% if page.title %}{{ page.title|e('html') }} {% else %}{{ site.title|e('html') }} {% endif %}</title>
-
 {% for meta in page.metadata %}
-    <meta {% if meta.name %}name="{{ meta.name|e }}" {% endif %}{% if meta.http_equiv %}http-equiv="{{ meta.http_equiv|e }}" {% endif %}{% if meta.charset %}charset="{{ meta.charset|e }}" {% endif %}{% if meta.property %}property="{{ meta.property|e }}" {% endif %}{% if meta.content %}content="{{ meta.content|raw }}" {% endif %}>
+<meta {% if meta.name %}name="{{ meta.name|e }}" {% endif %}{% if meta.http_equiv %}http-equiv="{{ meta.http_equiv|e }}" {% endif %}{% if meta.charset %}charset="{{ meta.charset|e }}" {% endif %}{% if meta.property %}property="{{ meta.property|e }}" {% endif %}{% if meta.content %}content="{{ meta.content|raw }}" {% endif %}>
 {% endfor %}
-
-{% if page.header.structure == "BlogPosting" %}
-
-{% set blog_image = page.media.images|first %}
-
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "headline": "{{ page.title|e('html') }}",
-      "image": [
-	"{{blog_image.url|e}}"
-{% if page.header.image2 %},"{{ page.url }}/{{page.header.image2}}",{% endif %}
-{% if page.header.image3 %},"{{ page.url }}/{{page.header.image3}}",{% endif %}
-{% if page.header.image4 %},"{{ page.url }}/{{page.header.image4}}",{% endif %}
-       ],
-      {% if page.header.datePublished %} "datePublished": "{{page.header.datePublished| date("c")}}", {% endif %}
-	{% if page.header.dateModified %} "dateModified": "{{page.header.dateModified| date("c")}}", {% endif %}      
-      "author": [{
-          "@type": "Person",
-          "name": "{% if page.header.author.name %}{{page.header.author.name|e}}{% else %}{{site.author.name|e}}{% endif %}",
-          "url": "{% if page.header.author.url %}{{page.header.author.url|e}}{% else %}{{site.author.url|e}}{% endif %}"
-        }]
-    }
-    </script>
-{% endif %}
-
-
-{% if page.header.structure == "WebSite" %}
-<script type="application/ld+json">
-    {
-      "@context" : "https://schema.org",
-      "@type" : "WebSite",
-      "name" : "یادداشت های مهران شعبانی",
-      "alternateName" : "Sibiya.ir",
-      "url" : "https://sibiya.ir/",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://sibiya.ir/search?q={search_term_string}"
-        },
-        "query-input": "required name=search_term_string"
-      }
-    }
-  </script>
-{% endif %}
-
+<title>{% if page.title %}{{ page.title|e('html') }} {% else %}{{ site.title|e('html') }} {% endif %}</title>
 {% block stylesheets %}
-{% do assets.addCss('theme://css/sibiya.css?=106') %}
+{% do assets.addCss('theme://css/sibiya.css?=107') %}
 {% endblock %}
-
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-
-{% block javascripts %}
-        {%  do assets.addJs('theme://js/polyfill.min.js' , { group: 'bottom' }) %}
-        {%  do assets.addJs('theme://js/tex-mml-chtml.js' , { group: 'bottom' }) %}
-        {%  do assets.addJs('theme://js/progress-bar.js' , { group: 'bottom' }) %}
-{% endblock %}
-
-<!--
-        % do assets.addJs('jquery', 101) %
-        % do assets.addJs('theme://js/matomo.js') %
-        {%  do assets.addJs('theme://js/lazysizes.min.js' , { group: 'bottom' }) %}
--->
-
-<!--
-<link rel="stylesheet" href="/assets/css/custom.css">
-<link rel="stylesheet" href="/assets/css/poem.css">
-<link rel="stylesheet" href="/assets/webfonts/fontawesome-free-5.15.2-web/css/all.css?ver=103" >
--->
 {% block assets deferred %}
-        {{ assets.css()|raw }}
-        {{ assets.js()|raw }}
+{{ assets.css()|raw }}
+{{ assets.js()|raw }}
 {% endblock %}
-
-
+{% include 'partials/schema.html.twig' %}
 </head>
