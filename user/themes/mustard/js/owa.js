@@ -1,5 +1,5 @@
 <!-- Start Open Web Analytics Tracker -->
-<script type="text/javascript">
+<script>
 //<![CDATA[
 var owa_baseUrl = 'https://sibiya.ir/owa/';
 var owa_cmds = owa_cmds || [];
