@@ -1,5 +1,5 @@
 ---
-title: کلٌّ من عنده
+title: کلٌّ من عنده؛ یادداشت‌های توحیدیه
 metadata:
     description:
 progress_bar: 1
