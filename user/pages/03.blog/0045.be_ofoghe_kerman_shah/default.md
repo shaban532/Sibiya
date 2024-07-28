@@ -11,7 +11,7 @@ published: 1
 structure: BlogPosting
 datePublished: 2024-03-18T22:35:46+03:30
 ---
-![ تصویر ساعت ](clock_144627-22249.webp?classes=center&loading=lazy)
+![ تصویر ساعت ](clock_144627-22249.webp)
 <div class="align-center">
 <a href="https://www.freepik.com/free-photo/clock_7460577.htm#fromView=search&page=1&position=31&uuid=e81422ec-ef6b-42f9-97a8-b940b6915d8c">Image by Racool_studio</a> on Freepik
 </div>
