@@ -5,13 +5,17 @@
 {{ site.full_description }}
 <p>
 #}
-
-<p class="align-center footer-text" > Made by Me. </p>
-
 {% include 'partials/icons.html.twig' %}
+<p class="align-center footer-text" > Made by Me & Powered by <a href="https://getgrav.org/">Grav</a>. </p>
+
+
+
 
 {% block javascripts %}
     {%  do assets.addJs('theme://js/lazysizes.min.js') %}
 {% endblock %}
 
 </div>
+{#
+<p class="align-center footer-text" > Powered by <a href="https://getgrav.org/">Grav CMS</a>. </p>
+#}
