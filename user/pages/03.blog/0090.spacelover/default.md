@@ -1,5 +1,5 @@
 ---
-title: نویسنده آزاد
+title: نویسنده آزاد؛ چرا متفاوت می اندیشیم؟
 metadata:
     description:
 progress_bar: 1
