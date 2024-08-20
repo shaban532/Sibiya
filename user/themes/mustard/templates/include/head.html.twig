@@ -13,7 +13,7 @@
 {% endfor %}
 <title>{% if page.title %}{{ page.title|e('html') }} {% else %}{{ site.title|e('html') }} {% endif %}</title>
 {% block stylesheets %}
-{% do assets.addCss('theme://css/sibiya.css?=107') %}
+{% do assets.addCss('theme://css/sibiya.css?=108') %}
 {% endblock %}
 {% block assets deferred %}
 {{ assets.css()|raw }}
