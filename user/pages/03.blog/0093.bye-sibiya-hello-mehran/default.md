@@ -3,13 +3,13 @@ title: خداحافظ سیبیا؛ سلام مهران!
 metadata:
     description:
 progress_bar: 1
-pdate: شنبه ۲۷ مرداد ۱۴۰۳
+pdate: سه‌شنبه ۳۰ مرداد ۱۴۰۳
 taxonomy:
     tag: [  ]
     category: 
 published: 1
 structure: BlogPosting
-datePublished: 2024-08-17T18:40:00+03:30
+datePublished: 2024-08-20T23:30:00+03:30
 ---
 
 ![ تصویر وب سایت جدید من با آدرس mehran.blog ](mehran.blog.webp)
