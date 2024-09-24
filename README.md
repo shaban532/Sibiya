@@ -2,7 +2,7 @@ sibiya.ir
 =========
 ![](assets/img/frontpage.webp)
 
-This is the source code of my personal Persian [website](http://sibiya.ir). Persian aka Farsi is written right-to-left, however some people use Roman script to write Persian language in messaging applications and social networks.
+This is the source code of my personal Persian [website](https://mehran.blog). Persian aka Farsi is written right-to-left, however some people use Roman script to write Persian language in messaging applications and social networks.
 
 This repository can be of use to anybody willing to build a new right to left website. I gradually fix issues which I came across while writing new posts in my website. This website is produced using [Grav](https://getgrav.org/) flat file cms.
 
