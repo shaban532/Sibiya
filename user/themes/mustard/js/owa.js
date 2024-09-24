@@ -1,4 +1,4 @@
-var owa_baseUrl = 'https://sibiya.ir/owa/';
+var owa_baseUrl = 'https://mehran.blog/owa/';
 var owa_cmds = owa_cmds || [];
 owa_cmds.push(['setSiteId', 'd47b2cc4d440993b569afd6a6e93e289']);
 owa_cmds.push(['trackPageView']);
