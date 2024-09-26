@@ -1,7 +1,6 @@
 ---
 title: یادداشت‌های مهران شعبانی
 metadata:
-  description:
 content:
   items: '@self.children'
   order:
