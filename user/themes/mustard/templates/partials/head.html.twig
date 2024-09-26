@@ -6,11 +6,13 @@
 <meta name="copyright" content="2024, Mehran Shabani" />#}
 <meta property="og:title" content={% if page.title %}"{{ page.title|e('html') }}" {% else %}"{{ site.title|e('html') }}" {% endif %} />
 <meta property="og:type" content="article" />
-{#<meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />#}
+<meta property="og:url" content="{{ page.url }}" />
 <meta property="og:site_name" content="یادداشت‌های مهران شعبانی" />
 {% set blog_image = page.media.images|first %}
-{% if blog_image %} <meta property="og:image" content="{{blog_image.url|e}}" /> {% endif %}
+{% if blog_image %}<meta property="og:image" content="{{blog_image.url|e}}" /> {% endif %}
 
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content={% if page.title %}"{{ page.title|e('html') }}" {% else %}"{{ site.title|e('html') }}" {% endif %} />
 <link rel="alternate" type="application/atom+xml" href="/blog.atom/">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
