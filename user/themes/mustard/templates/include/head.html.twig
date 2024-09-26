@@ -2,6 +2,12 @@
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{#<meta name="author" content="{% if page.header.author.name %}{{page.header.author.name|e}}{% else %}{{site.author.name|e}}{% endif %}" />
+<meta name="copyright" content="2024, Mehran Shabani" />#}
+<meta property="og:title" content={% if page.title %}"{{ page.title|e('html') }}" {% else %}"{{ site.title|e('html') }}" {% endif %} />
+<meta property="og:type" content="article" />
+{#<meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />#}
+<meta property="og:site_name" content="یادداشت‌های مهران شعبانی" />
 <link rel="alternate" type="application/atom+xml" href="/blog.atom/">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
