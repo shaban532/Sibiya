@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html dir="rtl" lang="fa">
-{% include 'include/head.html.twig' %}
+{% include 'partials/head.html.twig' %}
 
 <body>
 <div class="main">
@@ -9,14 +9,14 @@
 {% endif %}
 
 <div class="base">
-{% include 'include/nav.html.twig' %}
+{% include 'partials/nav.html.twig' %}
 
 {# {% include 'partials/breadcrumbs.html.twig' %} #}
 
 <div class="content">
 {% block content %}{% endblock %}
 </div>
-{% include 'include/footer.html.twig' %}
+{% include 'partials/footer.html.twig' %}
 </div>
 
 
