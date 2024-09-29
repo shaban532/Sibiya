@@ -34,9 +34,10 @@
         <div class="buttons align-left" style="padding-top:15px">
         {% for button in grav.config.plugins.comments.form.buttons %}
             <button class="button-title g-recaptcha"
-	    data-sitekey="6Lc41FIqAAAAAIsR9oivl1dIFxaJHmeARHQu0crh" 
+
             data-callback='onSubmit' 
-            data-action='submit' type="{{ button.type|default('submit') }}">{{ button.value|t|default('Submit') }}</button>
+            data-action='submit' 
+	    type="{{ button.type|default('submit') }}">{{ button.value|t|default('Submit') }}</button>
         {% endfor %}
         </div>
 
