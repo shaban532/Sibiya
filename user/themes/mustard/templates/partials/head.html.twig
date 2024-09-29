@@ -26,6 +26,12 @@
 {% do assets.addCss('theme://css/mustard-ui.min.css') %}
 {% do assets.addCss('theme://css/sibiya.css?=109') %}
 {% endblock %}
+ <script src="https://www.google.com/recaptcha/api.js"></script>
+<script>
+   function onSubmit(token) {
+     document.getElementById("demo-form").submit();
+   }
+ </script>
 {% block assets deferred %}
 {{ assets.css()|raw }}
 {{ assets.js()|raw }}
