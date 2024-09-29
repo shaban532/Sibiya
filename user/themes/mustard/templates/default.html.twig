@@ -9,6 +9,8 @@
 {#<p class="alert alert-title"> نوشته شده در {{page.header.datePublished|hijri}} </p>#}
 <p class="alert alert-title"> نوشته شده در {{page.header.pdate|e}} </p>
 {% endif %}
-
 {# {% include 'partials/readingtime.html.twig' %} #}
+</br>
+<hr/>
+{% include 'partials/comments.html.twig' with {'page': page} %}
 {% endblock %}

@@ -1,0 +1,67 @@
+{% if enable_comments_plugin %}
+    {% set scope = scope ?: 'data.' %}
+
+    <h3 class="alert alert-title">{{'PLUGIN_COMMENTS.ADD_COMMENT'|t}}</h3>
+<p class="alert alert-background"> دوست خوبم سلام! 
+</br>
+پیام شما در این صفحه منتشر نمی‌شه برای همین اگه دوست داری جواب پیامی که برام می‌نویسی رو بگیری حواست باشه که ایمیل معتبری وارد کنی. تنها راه ارتباطی من با شما همین ایمیلیه که اینجا وارد می‌کنی. پیشاپیش ممنونم که نظرت رو می‌گی. </p>
+    <form name="{{ grav.config.plugins.comments.form.name }}"
+          action="{{ grav.config.plugins.comments.form.action ?  base_url ~ grav.config.plugins.comments.form.action : page.url }}"
+          method="{{ grav.config.plugins.comments.form.method|upper|default('POST') }}">
+
+        {% for field in grav.config.plugins.comments.form.fields %}
+            {% set value = form.value(field.name) %}
+            {% if field.evaluateDefault %}
+                {% set value = evaluate(field.evaluateDefault) %}
+            {% endif %}
+            {% if config.plugins.login.enabled and grav.user.authenticated %}
+                {% if field.name == 'name' %}
+                    <input type="hidden" name="{{ (scope ~ field.name)|fieldName }}" value="{{grav.user.fullname}}">
+                {% elseif field.name == 'email' %}
+                    <input type="hidden" name="{{ (scope ~ field.name)|fieldName }}" value="{{grav.user.email}}">
+                {% else %}
+                    <div>
+                        {% include "forms/fields/#{field.type}/#{field.type}.html.twig" %}
+                    </div>
+                {% endif %}
+            {% else %}
+                <div>
+                    {% include "forms/fields/#{field.type}/#{field.type}.html.twig" %}
+                </div>
+            {% endif %}
+        {% endfor %}
+        {% include "forms/fields/formname/formname.html.twig" %}
+        <div class="buttons align-left" style="padding-top:15px">
+        {% for button in grav.config.plugins.comments.form.buttons %}
+            <button class="button-title g-recaptcha"
+	    data-sitekey="reCAPTCHA_site_key" 
+            data-callback='onSubmit' 
+            data-action='submit' type="{{ button.type|default('submit') }}">{{ button.value|t|default('Submit') }}</button>
+        {% endfor %}
+        </div>
+
+        {{ nonce_field('form', 'form-nonce')|raw }}
+    </form>
+
+    <div class="alert">{{ form.message }}</div>
+
+    {% if grav.twig.comments|length %}
+
+{#
+        <h3>{{'PLUGIN_COMMENTS.COMMENTS'|t}}</h3>
+
+        <table>
+            {% for comment in comments|array_reverse %}
+            <tr>
+                <td>
+<hr />
+                    {{comment.text}}
+                    <br />
+                    {{'PLUGIN_COMMENTS.WRITTEN_ON'|t}} {{comment.date|e}} {{'PLUGIN_COMMENTS.BY'|t}} {{comment.author}}
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+#}
+    {% endif %}
+{% endif %}
