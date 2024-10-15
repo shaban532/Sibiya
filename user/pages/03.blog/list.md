@@ -7,7 +7,7 @@ content:
     by: header.date
     dir: desc
   pagination: false
-  limit: 100
+  limit: 200
 twig_first: true
 process:
 	twig: true
